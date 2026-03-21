@@ -20,6 +20,8 @@ import { golfTipArticles } from "./golf-tips";
 import { launchMonitorArticles } from "./launch-monitors";
 import { smallSpacesArticle } from "./small-spaces";
 import { budgetSimulatorsArticle } from "./budget-simulators";
+import { portableLaunchMonitorsArticle } from "./portable-monitors";
+import { overheadLaunchMonitorsArticle } from "./overhead-monitors";
 
 const coreArticles: Article[] = [
   {
@@ -726,6 +728,8 @@ export const articles: Article[] = [
   ...launchMonitorArticles,
   smallSpacesArticle,
   budgetSimulatorsArticle,
+  portableLaunchMonitorsArticle,
+  overheadLaunchMonitorsArticle,
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
