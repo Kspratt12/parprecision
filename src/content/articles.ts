@@ -22,6 +22,7 @@ import { smallSpacesArticle } from "./small-spaces";
 import { budgetSimulatorsArticle } from "./budget-simulators";
 import { portableLaunchMonitorsArticle } from "./portable-monitors";
 import { overheadLaunchMonitorsArticle } from "./overhead-monitors";
+import { buildGuideArticle } from "./build-guide";
 
 const coreArticles: Article[] = [
   {
@@ -730,6 +731,7 @@ export const articles: Article[] = [
   budgetSimulatorsArticle,
   portableLaunchMonitorsArticle,
   overheadLaunchMonitorsArticle,
+  buildGuideArticle,
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
