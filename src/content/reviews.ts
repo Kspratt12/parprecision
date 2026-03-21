@@ -18,7 +18,7 @@ export const reviewArticles: Article[] = [
       "skytrak accuracy",
     ],
     readingTime: "14 min read",
-    coverImage: "https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?w=1200&h=630&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1621005570352-6418df03796b?w=1200&h=630&fit=crop",
     coverImageAlt: "SkyTrak+ launch monitor setup for golf simulator",
     featured: true,
     content: `
@@ -136,7 +136,7 @@ export const reviewArticles: Article[] = [
       "garmin r10 golf simulator",
     ],
     readingTime: "12 min read",
-    coverImage: "https://images.unsplash.com/photo-1560089000-7433a4ebbd64?w=1200&h=630&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1708906439816-7c06e4bf822c?w=1200&h=630&fit=crop",
     coverImageAlt: "Garmin Approach R10 portable golf launch monitor",
     featured: true,
     content: `
@@ -276,7 +276,7 @@ export const reviewArticles: Article[] = [
       "bushnell launch pro golf simulator",
     ],
     readingTime: "11 min read",
-    coverImage: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=1200&h=630&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1693163637018-cec278130a11?w=1200&h=630&fit=crop",
     coverImageAlt: "Bushnell Launch Pro launch monitor for golf",
     content: `
 <p>The Bushnell Launch Pro is one of the most interesting products in the launch monitor market. Under the hood, it uses the same tri-camera photometric technology as the Foresight GC3 — one of the most accurate launch monitors ever made. But it comes at a lower entry price with a different subscription model.</p>
@@ -386,7 +386,7 @@ export const reviewArticles: Article[] = [
       "flightscope mevo plus accuracy",
     ],
     readingTime: "10 min read",
-    coverImage: "https://images.unsplash.com/photo-1632932693472-e3afb9c9b21e?w=1200&h=630&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1674884070794-b61d85f9adf8?w=1200&h=630&fit=crop",
     coverImageAlt: "FlightScope Mevo Plus portable launch monitor",
     content: `
 <p>The FlightScope Mevo Plus (commonly called the Mevo+) occupies an interesting space in the launch monitor market. At $2,199, it sits between the budget Garmin R10 and the premium SkyTrak+. Its unique selling point? True hybrid radar + camera technology that works both indoors and outdoors without compromise.</p>

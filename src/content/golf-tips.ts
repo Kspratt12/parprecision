@@ -190,7 +190,7 @@ export const golfTipArticles: Article[] = [
       "increase driver distance",
     ],
     readingTime: "11 min read",
-    coverImage: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=1200&h=630&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1693163637018-cec278130a11?w=1200&h=630&fit=crop",
     coverImageAlt: "Golfer swinging driver at maximum speed",
     content: `
 <p>Every 1 mph of additional clubhead speed adds roughly 2.5 yards of distance. Add 10 mph, and you're looking at 25 extra yards off the tee. That's a full club shorter into every green. Here's how to get there.</p>

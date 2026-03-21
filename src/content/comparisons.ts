@@ -17,7 +17,7 @@ export const comparisonArticles: Article[] = [
       "best launch monitor comparison",
     ],
     readingTime: "15 min read",
-    coverImage: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=1200&h=630&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=1200&h=630&fit=crop",
     coverImageAlt: "Garmin R10 and SkyTrak+ launch monitors compared side by side",
     content: `
 <p>The Garmin Approach R10 ($599) and SkyTrak+ ($2,995) are the two most popular launch monitors for home golf simulators. They're also the two we get asked about most: "Is the SkyTrak+ worth 5x the price?" After running both simultaneously for three months, we can finally give you a definitive answer.</p>

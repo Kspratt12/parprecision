@@ -36,7 +36,7 @@ export default function AboutPage() {
 
       <div className="relative aspect-[3/1] rounded-2xl overflow-hidden mb-10 shadow-lg">
         <Image
-          src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=1200&h=400&fit=crop"
+          src="https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=1200&h=400&fit=crop"
           alt="Golf simulator testing setup"
           fill
           className="object-cover"

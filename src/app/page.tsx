@@ -27,7 +27,7 @@ const featuredReviews = [
     title: "Best Launch Monitors 2026",
     description: "Radar vs camera-based — we break down accuracy, features, and value for every budget.",
     href: "/best-launch-monitors",
-    image: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=600&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1693163637018-cec278130a11?w=600&h=400&fit=crop",
     tag: "Most Popular",
     rating: 5,
   },
@@ -35,7 +35,7 @@ const featuredReviews = [
     title: "SkyTrak+ In-Depth Review",
     description: "After 6 months of daily use, here is everything you need to know about the SkyTrak+.",
     href: "/reviews/skytrak-plus",
-    image: "https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?w=600&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1621005570352-6418df03796b?w=600&h=400&fit=crop",
     tag: "Deep Dive",
     rating: 4,
   },
@@ -48,7 +48,7 @@ const latestArticles = [
     href: "/guides/golf-simulator-room-dimensions",
     category: "Setup Guide",
     readTime: "8 min read",
-    image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=400&h=250&fit=crop",
+    image: "https://images.unsplash.com/photo-1696104470342-b1ed3afe8381?w=400&h=250&fit=crop",
   },
   {
     title: "How Much Does a Golf Simulator Cost in 2026?",
@@ -56,7 +56,7 @@ const latestArticles = [
     href: "/guides/golf-simulator-cost",
     category: "Buying Guide",
     readTime: "10 min read",
-    image: "https://images.unsplash.com/photo-1611374243147-44a702c2d44c?w=400&h=250&fit=crop",
+    image: "https://images.unsplash.com/photo-1515358204547-8689c79d6991?w=400&h=250&fit=crop",
   },
   {
     title: "Garmin R10 vs SkyTrak+: Which Should You Buy?",
@@ -64,7 +64,7 @@ const latestArticles = [
     href: "/comparisons/garmin-r10-vs-skytrak-plus",
     category: "Comparison",
     readTime: "12 min read",
-    image: "https://images.unsplash.com/photo-1560089000-7433a4ebbd64?w=400&h=250&fit=crop",
+    image: "https://images.unsplash.com/photo-1708906439816-7c06e4bf822c?w=400&h=250&fit=crop",
   },
   {
     title: "How to Fix a Slice: 5 Drills That Actually Work",
@@ -72,7 +72,7 @@ const latestArticles = [
     href: "/golf-tips/how-to-fix-a-slice",
     category: "Golf Tips",
     readTime: "6 min read",
-    image: "https://images.unsplash.com/photo-1632932693472-e3afb9c9b21e?w=400&h=250&fit=crop",
+    image: "https://images.unsplash.com/photo-1674884070794-b61d85f9adf8?w=400&h=250&fit=crop",
   },
 ];
 
@@ -119,7 +119,7 @@ export default function HomePage() {
         {/* Background image */}
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1614728263202-8b1e5e3e5b1a?w=1920&h=1080&fit=crop"
+            src="https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=1920&h=1080&fit=crop"
             alt="Premium home golf simulator setup with impact screen and projector"
             fill
             className="object-cover"
@@ -299,7 +299,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="relative aspect-square rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?w=800&h=800&fit=crop"
+                  src="https://images.unsplash.com/photo-1621005570352-6418df03796b?w=800&h=800&fit=crop"
                   alt="Golf launch monitor testing setup"
                   fill
                   className="object-cover"

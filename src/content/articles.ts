@@ -17,6 +17,7 @@ export interface Article {
 import { reviewArticles } from "./reviews";
 import { comparisonArticles } from "./comparisons";
 import { golfTipArticles } from "./golf-tips";
+import { launchMonitorArticles } from "./launch-monitors";
 
 const coreArticles: Article[] = [
   {
@@ -40,7 +41,7 @@ const coreArticles: Article[] = [
       "SwingBay golf simulator",
     ],
     readingTime: "22 min read",
-    coverImage: "https://images.unsplash.com/photo-1614728263202-8b1e5e3e5b1a?w=1200&h=630&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=1200&h=630&fit=crop",
     coverImageAlt: "Premium home golf simulator package with enclosure, projector, and impact screen",
     featured: true,
     content: `
@@ -472,7 +473,7 @@ const coreArticles: Article[] = [
       "golf simulator space requirements",
     ],
     readingTime: "8 min read",
-    coverImage: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&h=630&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1696104470342-b1ed3afe8381?w=1200&h=630&fit=crop",
     coverImageAlt: "Room being measured for golf simulator installation",
     featured: true,
     content: `
@@ -594,7 +595,7 @@ const coreArticles: Article[] = [
       "home golf simulator cost",
     ],
     readingTime: "10 min read",
-    coverImage: "https://images.unsplash.com/photo-1611374243147-44a702c2d44c?w=1200&h=630&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1515358204547-8689c79d6991?w=1200&h=630&fit=crop",
     coverImageAlt: "Golf simulator components and pricing",
     content: `
 <p>The #1 question we get: "How much does a golf simulator actually cost?" The answer: anywhere from $500 for a basic net setup to $50,000+ for a commercial-grade installation. Here's exactly where every dollar goes.</p>
@@ -706,6 +707,7 @@ export const articles: Article[] = [
   ...reviewArticles,
   ...comparisonArticles,
   ...golfTipArticles,
+  ...launchMonitorArticles,
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
