@@ -109,6 +109,8 @@ export const launchMonitorArticles: Article[] = [
 
 <h2>1. SkyTrak MAX — Best Overall Launch Monitor</h2>
 
+<img src="https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=800&h=450&fit=crop" alt="SkyTrak MAX launch monitor setup for golf simulator testing" />
+
 <p><strong>Price: $2,995</strong> | <strong>Technology:</strong> Dual Doppler Radar + Photometric Camera</p>
 
 <p>The SkyTrak MAX is the evolution of the SkyTrak+ that dominated the market. It combines dual Doppler radar with a high-speed photometric camera to deliver data that rivals systems costing 3-4x more.</p>
@@ -150,6 +152,8 @@ export const launchMonitorArticles: Article[] = [
 <p><a href="/reviews/skytrak-plus">Read our full SkyTrak review →</a></p>
 
 <h2>2. Garmin Approach R10 — Best Launch Monitor Under $1,000</h2>
+
+<img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&h=450&fit=crop" alt="Garmin Approach R10 portable golf launch monitor at driving range" />
 
 <p><strong>Price: $599</strong> | <strong>Technology:</strong> Doppler Radar</p>
 
@@ -194,6 +198,8 @@ export const launchMonitorArticles: Article[] = [
 
 <h2>3. Foresight GC3 — Best Accuracy (Tour-Level)</h2>
 
+<img src="https://images.unsplash.com/photo-1696104470342-b1ed3afe8381?w=800&h=450&fit=crop" alt="Foresight GC3 tri-camera launch monitor — tour-level accuracy" />
+
 <p><strong>Price: $7,500</strong> | <strong>Technology:</strong> Tri-Camera Photometric</p>
 
 <p>The Foresight GC3 is the launch monitor that PGA Tour club fitters trust. Its tri-camera photometric system captures ball data with precision that only TrackMan can match — and in some cases, exceeds it.</p>
@@ -237,6 +243,8 @@ export const launchMonitorArticles: Article[] = [
 
 <h2>4. FlightScope Mevo Gen2 — Best Portable Launch Monitor</h2>
 
+<img src="https://images.unsplash.com/photo-1693163637018-cec278130a11?w=800&h=450&fit=crop" alt="FlightScope Mevo Gen2 portable launch monitor for range and simulator" />
+
 <p><strong>Price: $2,199</strong> | <strong>Technology:</strong> 3D Doppler Radar + Fusion Tracking Camera</p>
 
 <p>The Mevo Gen2 is the updated version of the Mevo+ that earned a reputation as the most versatile launch monitor in its class. If you split time between range practice and indoor simulator use, nothing else handles both as well.</p>
@@ -264,6 +272,8 @@ export const launchMonitorArticles: Article[] = [
 <p><a href="/reviews/flightscope-mevo-plus">Read our full Mevo+ review →</a></p>
 
 <h2>5. Bushnell Launch Pro — Best Foresight Alternative</h2>
+
+<img src="https://images.unsplash.com/photo-1708906439816-7c06e4bf822c?w=800&h=450&fit=crop" alt="Bushnell Launch Pro golf launch monitor — GC3 technology at lower price" />
 
 <p><strong>Price: $3,000</strong> | <strong>Technology:</strong> Tri-Camera Photometric (Foresight GC3 hardware)</p>
 
@@ -293,6 +303,8 @@ export const launchMonitorArticles: Article[] = [
 
 <h2>6. Garmin Approach R50 — Best Mid-Range</h2>
 
+<img src="https://images.unsplash.com/photo-1621005570352-6418df03796b?w=800&h=450&fit=crop" alt="Garmin Approach R50 advanced radar launch monitor" />
+
 <p><strong>Price: ~$3,500</strong> | <strong>Technology:</strong> Advanced Radar</p>
 
 <p>Garmin's R50 is the step-up from the R10, closing the accuracy gap with photometric systems while maintaining Garmin's hallmark ease of use and zero-subscription model.</p>
@@ -317,6 +329,8 @@ export const launchMonitorArticles: Article[] = [
 <p><strong>Bottom line:</strong> If you love Garmin's ecosystem and hate subscriptions, the R50 is a strong choice. Also available as a <a href="https://shopindoorgolf.com/products/garmin-approach-r50-sig10-golf-simulator-package" target="_blank" rel="nofollow noopener">complete SIG10 simulator package ($7,200+)</a>.</p>
 
 <h2>7. Uneekor EYE MINI LITE — Best Overhead Launch Monitor</h2>
+
+<img src="https://images.unsplash.com/photo-1674884070794-b61d85f9adf8?w=800&h=450&fit=crop" alt="Uneekor EYE MINI LITE overhead ceiling-mounted golf launch monitor" />
 
 <p><strong>Price: ~$3,200</strong> | <strong>Technology:</strong> Overhead High-Speed Camera</p>
 

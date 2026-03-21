@@ -129,6 +129,8 @@ const coreArticles: Article[] = [
 
 <h2>1. SkyTrak MAX SIG10 Golf Simulator Package — Best Overall</h2>
 
+<img src="https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=800&h=450&fit=crop" alt="SkyTrak MAX SIG10 golf simulator package setup in home garage" />
+
 <p><strong>Price: $4,645 – $7,700</strong> (depending on mat/flooring configuration)<br/>
 <strong>Available at:</strong> <a href="https://shopindoorgolf.com/products/skytrak-max-sig10-golf-simulator-package" target="_blank" rel="nofollow noopener">Shop Indoor Golf</a></p>
 
@@ -168,6 +170,8 @@ const coreArticles: Article[] = [
 
 <h2>2. Garmin Approach R50 SIG10 Golf Simulator Package — Best Mid-Range</h2>
 
+<img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&h=450&fit=crop" alt="Garmin Approach R50 launch monitor with SIG10 simulator enclosure" />
+
 <p><strong>Price: $7,200 – $10,200</strong><br/>
 <strong>Available at:</strong> <a href="https://shopindoorgolf.com/products/garmin-approach-r50-sig10-golf-simulator-package" target="_blank" rel="nofollow noopener">Shop Indoor Golf</a></p>
 
@@ -205,6 +209,8 @@ const coreArticles: Article[] = [
 <p>If you want no-subscription-fee data and Garmin's polished ecosystem, the R50 SIG10 package is worth the premium over the SkyTrak MAX. The improved radar technology makes the spin accuracy gap much smaller than the R10 days.</p>
 
 <h2>3. Uneekor EYE MINI LITE SIG8 Package — Best Value Overhead System</h2>
+
+<img src="https://images.unsplash.com/photo-1696104470342-b1ed3afe8381?w=800&h=450&fit=crop" alt="Uneekor EYE MINI LITE overhead-mounted golf simulator in dedicated room" />
 
 <p><strong>Price: $4,800 – $9,300</strong><br/>
 <strong>Available at:</strong> <a href="https://shopindoorgolf.com/products/uneekor-eye-mini-lite-sig8-golf-simulator-package" target="_blank" rel="nofollow noopener">Shop Indoor Golf</a></p>
@@ -244,6 +250,8 @@ const coreArticles: Article[] = [
 
 <h2>4. FlightScope Mevo Gen2 SwingBay Package — Best Portable Setup</h2>
 
+<img src="https://images.unsplash.com/photo-1693163637018-cec278130a11?w=800&h=450&fit=crop" alt="FlightScope Mevo Gen2 portable golf simulator with SwingBay enclosure" />
+
 <p><strong>Price: $5,099</strong><br/>
 <strong>Available at:</strong> <a href="https://rainorshinegolf.com/products/flightscope-mevo-2-swingbay-golf-simulator-package" target="_blank" rel="nofollow noopener">Rain or Shine Golf</a></p>
 
@@ -280,6 +288,8 @@ const coreArticles: Article[] = [
 <p>At $5,099 for a complete package, this is the best option for golfers who don't want to choose between indoor sim and outdoor range use. The Mevo Gen2 does both well.</p>
 
 <h2>5. Uneekor EYE XO SwingBay Package — Best Overhead Premium</h2>
+
+<img src="https://images.unsplash.com/photo-1621005570352-6418df03796b?w=800&h=450&fit=crop" alt="Uneekor EYE XO overhead golf simulator premium setup" />
 
 <p><strong>Price: $10,420</strong><br/>
 <strong>Available at:</strong> <a href="https://rainorshinegolf.com/products/uneekor-eye-xo-swingbay-golf-simulator-package" target="_blank" rel="nofollow noopener">Rain or Shine Golf</a></p>
@@ -318,6 +328,8 @@ const coreArticles: Article[] = [
 
 <h2>6. Foresight GC3 SwingBay Package — Best Tour-Level Accuracy</h2>
 
+<img src="https://images.unsplash.com/photo-1708906439816-7c06e4bf822c?w=800&h=450&fit=crop" alt="Foresight GC3 launch monitor with SwingBay golf simulator package" />
+
 <p><strong>Price: $10,049</strong><br/>
 <strong>Available at:</strong> <a href="https://rainorshinegolf.com/products/foresight-gc3-swingbay-golf-simulator-package" target="_blank" rel="nofollow noopener">Rain or Shine Golf</a></p>
 
@@ -354,6 +366,8 @@ const coreArticles: Article[] = [
 <p>If you want the most accurate data possible in a home simulator and you also want to use it at the range or for club fitting, the GC3 SwingBay package is the move. The accuracy is essentially indistinguishable from $20,000+ tour systems.</p>
 
 <h2>7. TrackMan iO SIG10 Package — Best Money-No-Object Simulator</h2>
+
+<img src="https://images.unsplash.com/photo-1674884070794-b61d85f9adf8?w=800&h=450&fit=crop" alt="TrackMan iO ceiling-mounted golf simulator — the PGA Tour standard" />
 
 <p><strong>Price: $17,690 – $30,500</strong> (Home Edition vs Complete Edition)<br/>
 <strong>Available at:</strong> <a href="https://shopindoorgolf.com/products/trackman-io-sig10-golf-simulator-package" target="_blank" rel="nofollow noopener">Shop Indoor Golf</a></p>
