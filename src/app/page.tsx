@@ -114,54 +114,63 @@ export default function HomePage() {
         }}
       />
 
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-accent to-white overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-primary text-sm font-medium mb-6">
-                <Star className="w-4 h-4 fill-current" />
-                Trusted by 10,000+ golfers
-              </div>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
-                Find Your Perfect{" "}
-                <span className="text-primary">Golf Simulator</span> Setup
-              </h1>
-              <p className="text-lg md:text-xl text-muted leading-relaxed mb-8 max-w-xl">
-                Expert reviews, head-to-head comparisons, and honest buying guides.
-                We test every simulator and launch monitor so you don&apos;t have to.
-              </p>
-              <NewsletterForm variant="hero" />
-              <p className="text-sm text-muted mt-4">
-                Join 2,000+ golfers. Get our free Simulator Buying Guide instantly.
-              </p>
+      {/* Hero Section — Full-width simulator image */}
+      <section className="relative overflow-hidden">
+        {/* Background image */}
+        <div className="absolute inset-0">
+          <Image
+            src="https://images.unsplash.com/photo-1614728263202-8b1e5e3e5b1a?w=1920&h=1080&fit=crop"
+            alt="Premium home golf simulator setup with impact screen and projector"
+            fill
+            className="object-cover"
+            priority
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-white/40" />
+        </div>
+
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
+          <div className="max-w-2xl">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 backdrop-blur-sm rounded-full text-primary text-sm font-medium mb-6">
+              <Star className="w-4 h-4 fill-current" />
+              Updated March 2026
             </div>
-            <div className="relative hidden lg:block">
-              <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
-                <Image
-                  src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&h=600&fit=crop"
-                  alt="Professional golf simulator setup in a home"
-                  fill
-                  className="object-cover"
-                  priority
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-              </div>
-              {/* Floating review card */}
-              <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-lg p-4 border border-border max-w-xs">
-                <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-                    <Trophy className="w-6 h-6 text-primary" />
-                  </div>
-                  <div>
-                    <p className="font-bold text-sm text-foreground">#1 Pick: SkyTrak+</p>
-                    <div className="flex items-center gap-1">
-                      <StarRating rating={5} size={14} />
-                      <span className="text-xs text-muted ml-1">Best Overall 2026</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-[1.1] mb-6">
+              The Best <span className="text-primary">Golf Simulators</span> &amp; Launch Monitors for Your Home
+            </h1>
+            <p className="text-lg md:text-xl text-muted leading-relaxed mb-8">
+              Complete simulator packages reviewed and compared. Real accuracy data, real pricing, real recommendations — from $4,600 to $30,000+.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link
+                href="/best-golf-simulators"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white font-bold rounded-full hover:bg-primary-dark transition-all shadow-lg hover:shadow-xl text-base"
+              >
+                See Our Top Picks <ArrowRight className="w-5 h-5" />
+              </Link>
+              <Link
+                href="/guides/golf-simulator-cost"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/80 backdrop-blur-sm text-foreground font-semibold rounded-full border border-border hover:bg-white transition-all text-base"
+              >
+                Cost Breakdown Guide
+              </Link>
+            </div>
+            {/* Quick picks */}
+            <div className="flex flex-wrap gap-3 mt-8">
+              {[
+                { label: "#1 SkyTrak MAX SIG10 — $4,645", href: "/best-golf-simulators" },
+                { label: "Best Premium: TrackMan iO — $17,690", href: "/best-golf-simulators" },
+                { label: "Best Value: Uneekor EYE MINI LITE — $4,800", href: "/best-golf-simulators" },
+              ].map((pick) => (
+                <Link
+                  key={pick.label}
+                  href={pick.href}
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white/70 backdrop-blur-sm rounded-full text-sm text-foreground border border-border/50 hover:border-primary/30 hover:bg-white transition-all"
+                >
+                  <Trophy className="w-3.5 h-3.5 text-primary" />
+                  {pick.label}
+                </Link>
+              ))}
             </div>
           </div>
         </div>
