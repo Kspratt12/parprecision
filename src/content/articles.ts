@@ -14,7 +14,11 @@ export interface Article {
   featured?: boolean;
 }
 
-export const articles: Article[] = [
+import { reviewArticles } from "./reviews";
+import { comparisonArticles } from "./comparisons";
+import { golfTipArticles } from "./golf-tips";
+
+const coreArticles: Article[] = [
   {
     slug: "best-golf-simulators",
     title: "Best Golf Simulators 2026: Our Top 7 Picks After Testing 15+ Models",
@@ -482,6 +486,13 @@ export const articles: Article[] = [
 <p>You don't need $20,000 to enjoy a home golf simulator. Our $5,000 "sweet spot" build delivers 90% of the experience of setups costing three times as much. Start with what you can afford and upgrade components over time.</p>
 `,
   },
+];
+
+export const articles: Article[] = [
+  ...coreArticles,
+  ...reviewArticles,
+  ...comparisonArticles,
+  ...golfTipArticles,
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
