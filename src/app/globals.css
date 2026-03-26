@@ -10,7 +10,7 @@
   --color-muted: #6b7280;
   --color-border: #e5e7eb;
   --color-surface: #f9fafb;
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-inter);
   --font-mono: var(--font-geist-mono);
   --font-heading: var(--font-playfair);
 }

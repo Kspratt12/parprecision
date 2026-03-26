@@ -23,6 +23,11 @@ import { budgetSimulatorsArticle } from "./budget-simulators";
 import { portableLaunchMonitorsArticle } from "./portable-monitors";
 import { overheadLaunchMonitorsArticle } from "./overhead-monitors";
 import { buildGuideArticle } from "./build-guide";
+import { wpReviewArticles } from "./wp-reviews";
+import { wpComparisonArticles } from "./wp-comparisons";
+import { wpSimulatorArticles } from "./wp-simulators";
+import { wpGolfTipArticles } from "./wp-golf-tips";
+import { wpGuideArticles } from "./wp-guides";
 
 const coreArticles: Article[] = [
   {
@@ -732,6 +737,11 @@ export const articles: Article[] = [
   portableLaunchMonitorsArticle,
   overheadLaunchMonitorsArticle,
   buildGuideArticle,
+  ...wpReviewArticles,
+  ...wpComparisonArticles,
+  ...wpSimulatorArticles,
+  ...wpGolfTipArticles,
+  ...wpGuideArticles,
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
