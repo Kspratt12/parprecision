@@ -12,7 +12,7 @@ export const wpGuideArticles: Article[] = [
     categoryLabel: "Guide",
     keywords: ["golf simulator turf", "golf simulator turf"],
     readingTime: "9 min read",
-    coverImage: "https://images.unsplash.com/photo-1600783245777-080fd7ff9253?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/02/gasdfsd-scaled-1.webp",
     coverImageAlt: "Golf Simulator Turf",
     content: `
 <p>Choosing the right golf simulator turf is just as important as selecting a launch monitor or impact screen. </p>
@@ -205,7 +205,7 @@ $
     categoryLabel: "Guide",
     keywords: ["how profitable are indoor golf simulators", "how profitable are golf simulators"],
     readingTime: "8 min read",
-    coverImage: "https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/02/9550f324-b51d-40f4-b036-f10b54cfeaeb-XGolf1-scaled.webp",
     coverImageAlt: "How Profitable Are Golf Simulators",
     content: `
 <p>Indoor golf simulators have transformed how golfers practice and play, creating a growing market for businesses looking to tap into the demand for year-round golf. </p>
@@ -384,7 +384,7 @@ https://www.youtube.com/watch?v=DIAbgqyhrAI
     categoryLabel: "Guide",
     keywords: ["Best Golf Simulator Software", "best golf simulator software"],
     readingTime: "9 min read",
-    coverImage: "https://images.unsplash.com/photo-1472745433479-4556f22e32c2?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/02/TGC2019-4.webp",
     coverImageAlt: "Best Golf Simulator Software",
     content: `
 <p>Finding the best golf simulator software for home use is just as important as choosing the right launch monitor. The software determines course realism, shot tracking, practice modes, and multiplayer features, all of which impact how immersive and effective your simulator setup will be. </p>
@@ -639,7 +639,7 @@ https://www.youtube.com/watch?v=YXv2xklh2A8
     categoryLabel: "Guide",
     keywords: ["basement golf simulator", "basement golf simulator"],
     readingTime: "6 min read",
-    coverImage: "https://images.unsplash.com/photo-1622398925373-3f91b1e275f5?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/02/home-golf-simulator-44-web-1.webp",
     coverImageAlt: "Basement Golf Simulator",
     content: `
 <p>Transforming your basement into a golf simulator space is one of the best ways to practice year-round, improve your game, and enjoy playing on world-class courses from the comfort of home. </p>
@@ -760,7 +760,7 @@ $
     categoryLabel: "Guide",
     keywords: ["How Much Space Is Needed for a Golf Simulator", "how much space is needed for a golf simulator"],
     readingTime: "8 min read",
-    coverImage: "https://images.unsplash.com/photo-1611374243147-44a702c2d44c?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/02/64b85bc637c2d5bffbb57e8b_4.26.2023-PDC-Ballard-Residence-Golf-Simulator-2-Medium-1536x1024-1.jpg",
     coverImageAlt: "How Much Space Is Needed For A Golf Simulator",
     content: `
 <p>One of the biggest mistakes golfers make when setting up a simulator is not having enough space. A cramped setup can affect swing comfort, limit shot tracking accuracy, and even cause equipment damage. Whether you’re installing a simulator in your home, garage, or business, knowing the exact space requirements ensures you get the best experience without limitations.</p>
@@ -931,7 +931,7 @@ https://www.youtube.com/watch?v=2A80NoFg-Fw&amp;t=2s
     categoryLabel: "Guide",
     keywords: ["what is the best golf simulator", "what is the best golf simulator"],
     readingTime: "13 min read",
-    coverImage: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/Golfsimulator-67-1.webp",
     coverImageAlt: "What Is The Best Golf Simulator",
     content: `
 <p>A golf simulator can completely transform the way you practice and play. Whether you want to sharpen your swing, play world-class courses from home, or analyze your game with pro-level data, choosing the right simulator is crucial. But with so many options available, which one is actually the best?</p>
@@ -1244,7 +1244,7 @@ https://www.youtube.com/watch?v=2A80NoFg-Fw&amp;t=2s
     categoryLabel: "Guide",
     keywords: ["golf simulator cost", "golf simulator cost 2026"],
     readingTime: "9 min read",
-    coverImage: "https://images.unsplash.com/photo-1621005570352-6418df03796b?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/11/SimIntRoom_V11_45deg.webp",
     coverImageAlt: "Golf Simulator Cost 2026",
     content: `
 <p>Trying to figure out the real cost of a golf simulator in 2026 can feel confusing because the numbers swing wildly depending on what you build. </p>
@@ -1385,7 +1385,7 @@ https://www.youtube.com/watch?v=2A80NoFg-Fw&amp;t=2s
     categoryLabel: "Guide",
     keywords: ["why are golf simulators so expensive", "why are golf simulators so expensive"],
     readingTime: "6 min read",
-    coverImage: "https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/02/4_SIM_006_SimSpace_GardenRoom-scaled.webp",
     coverImageAlt: "Why Are Golf Simulators So Expensive",
     content: `
 <p>Golf simulators have transformed the way players practice and play, offering year-round access to the game regardless of weather or time constraints. However, one of the biggest barriers for many golfers is the cost. A complete golf simulator setup can range anywhere from a few thousand dollars to well over $50,000. But what exactly makes them so expensive?</p>
@@ -1510,7 +1510,7 @@ $
     categoryLabel: "Guide",
     keywords: ["What Is the Most Accurate Golf Launch Monitor", "what is the most accurate launch monitor"],
     readingTime: "16 min read",
-    coverImage: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/02/Garmin-Approach-R10-Featured.webp",
     coverImageAlt: "What Is The Most Accurate Launch Monitor",
     content: `
 <p>When it comes to launch monitors, accuracy is everything. If the data isn’t precise, it’s not helping you improve your game. So, what is the most accurate golf launch monitor?</p>
@@ -1789,7 +1789,7 @@ https://www.youtube.com/watch?v=D_nDst3hw1g
     categoryLabel: "Guide",
     keywords: ["how accurate is the SkyTrak Plus", "how accurate is the skytrak plus"],
     readingTime: "5 min read",
-    coverImage: "https://images.unsplash.com/photo-1592919505780-303950717480?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/11/AP22141717673800-e1655312228565.webp",
     coverImageAlt: "How Accurate Is The Skytrak Plus",
     content: `
 <p>The SkyTrak+ is known for being surprisingly accurate for a <strong><a href="https://shopindoorgolf.com/products/skytrak-plus-launch-monitor?aff=356&amp;utm_source=affiliate&amp;utm_medium=https://fairwayelite.com/" target="_blank" rel="nofollow sponsored noreferrer noopener">$1,995</a></strong> launch monitor, usually landing within about 5 percent of premium units like the GCQuad on ball data and within a couple MPH or degrees on key metrics. Once the alignment and ball placement are set right, the numbers settle in and feel consistent swing after swing.</p>
@@ -1874,7 +1874,7 @@ https://www.youtube.com/watch?v=D_nDst3hw1g
     categoryLabel: "Guide",
     keywords: ["Is It Worth Buying a Golf Launch Monitor?", "is it worth buying a golf launch monitor"],
     readingTime: "8 min read",
-    coverImage: "https://images.unsplash.com/photo-1600783245777-080fd7ff9253?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/02/man-swinging-golf-course.jpg",
     coverImageAlt: "Is It Worth Buying A Golf Launch Monitor",
     content: `
 <p>If you’ve ever struggled with inconsistent distances, mis-hit shots, or guessing your swing speed, you’ve probably asked yourself: Is it worth buying a golf launch monitor? </p>
@@ -2029,7 +2029,7 @@ https://www.youtube.com/watch?v=W_CIAaUShD0&amp;t=11s
     categoryLabel: "Guide",
     keywords: ["How Much Does a Golf Launch Monitor Cost", "how much does a golf launch monitor cost find out here"],
     readingTime: "8 min read",
-    coverImage: "https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/02/tiger-woods-celebrates-587657b23df78c17b6107c69.jpg",
     coverImageAlt: "How Much Does A Golf Launch Monitor Cost Find Out Here",
     content: `
 <p>Golf launch monitors range in price from $279 to nearly $20,000, depending on accuracy, technology, features, and brand reputation. </p>
@@ -2220,7 +2220,7 @@ https://www.youtube.com/watch?v=hEw57--nf70
     categoryLabel: "Guide",
     keywords: ["how to build a golf simulator", "how to build a golf simulator 2"],
     readingTime: "6 min read",
-    coverImage: "https://images.unsplash.com/photo-1472745433479-4556f22e32c2?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/02/3.jpg",
     coverImageAlt: "How To Build A Golf Simulator 2",
     content: `
 <p>A home golf simulator is one of the best ways to practice consistently, improve ball striking, and play world-class courses without leaving home. While high-end setups can cost over $50,000, you can build a realistic and high-performing golf simulator for under $8,000 with the right components.</p>
@@ -2323,7 +2323,7 @@ https://www.youtube.com/watch?v=_pJBQmVArII&amp;t=2s
     categoryLabel: "Guide",
     keywords: ["Do golf simulators improve your game", "do golf simulators improve your game"],
     readingTime: "7 min read",
-    coverImage: "https://images.unsplash.com/photo-1622398925373-3f91b1e275f5?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/02/golf-simulator-guide-12.webp",
     coverImageAlt: "Do Golf Simulators Improve Your Game",
     content: `
 <p>Golf simulators have transformed the way players practice, offering a high-tech alternative to the driving range and allowing golfers to train year-round from the comfort of their homes. But the big question remains: Do golf simulators actually improve your game, or are they just an expensive gadget?</p>
@@ -2428,7 +2428,7 @@ https://www.youtube.com/watch?v=_pJBQmVArII&amp;t=2s
     categoryLabel: "Guide",
     keywords: ["Golf Simulator Room Setup", "golf simulator setup"],
     readingTime: "7 min read",
-    coverImage: "https://images.unsplash.com/photo-1611374243147-44a702c2d44c?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/02/1738260919616.avif",
     coverImageAlt: "Golf Simulator Setup",
     content: `
 <p>Setting up a golf simulator at home is one of the best ways to practice consistently, refine your swing, and enjoy the game year-round. But creating the right setup requires more than just placing a launch monitor in a room and hitting balls into a net. </p>
@@ -2517,7 +2517,7 @@ https://www.youtube.com/watch?v=_pJBQmVArII&amp;t=2s
     categoryLabel: "Guide",
     keywords: ["How to Build a Golf Simulator", "how to build a golf simulator mancave"],
     readingTime: "8 min read",
-    coverImage: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/CineID_2382F_FL.webp",
     coverImageAlt: "How To Build A Golf Simulator Mancave",
     content: `
 <p>Turning your mancave into a golf simulator paradise is one of the best investments you can make. Whether you want to practice year-round, play iconic courses, or just have fun with friends, a home golf simulator delivers the ultimate indoor golf experience.</p>
@@ -2628,7 +2628,7 @@ https://www.youtube.com/watch?v=_pJBQmVArII&amp;t=2s
     categoryLabel: "Guide",
     keywords: ["How to Set Up a Golf Simulator in a Small Room", "how to set up a golf simulator in a small room"],
     readingTime: "8 min read",
-    coverImage: "https://images.unsplash.com/photo-1621005570352-6418df03796b?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/Golf-Simulator-in-Basement.webp",
     coverImageAlt: "How To Set Up A Golf Simulator In A Small Room",
     content: `
 <p>Setting up a golf simulator in a small room may seem challenging, but with the right approach, you can create a top-tier golf experience without needing a massive space. Whether you’re working with a basement, garage, or spare bedroom, the key is choosing space-efficient equipment and making smart adjustments to optimize your setup.</p>

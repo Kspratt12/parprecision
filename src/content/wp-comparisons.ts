@@ -12,7 +12,7 @@ export const wpComparisonArticles: Article[] = [
     categoryLabel: "Comparison",
     keywords: ["TrackMan iO vs TrackMan 4", "trackman io vs trackman 4"],
     readingTime: "6 min read",
-    coverImage: "https://images.unsplash.com/photo-1472745433479-4556f22e32c2?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/brysonft-scaled-1.avif",
     coverImageAlt: "Trackman Io Vs Trackman 4",
     content: `
 <p>If you’re comparing TrackMan iO vs TrackMan 4, you’re not trying to decide which system is more accurate. Both deliver elite, tour-trusted ball data. </p>
@@ -127,7 +127,7 @@ export const wpComparisonArticles: Article[] = [
     categoryLabel: "Comparison",
     keywords: ["foresight sports gc3s", "foresight sports gc3s vs gc3"],
     readingTime: "7 min read",
-    coverImage: "https://images.unsplash.com/photo-1622398925373-3f91b1e275f5?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/lifestyle-gc3s-on-course.webp",
     coverImageAlt: "Foresight Sports Gc3s Vs Gc3",
     content: `
 <p>Trying to decide between the <strong><p><a href="https://rainorshinegolf.com/products/foresight-gc3s-launch-monitor?sca_ref=8031687.nzZhLVQgAaWc"><strong>Pros:</strong></a></p><a href="https://parpercision.com/foresight-sports-gc3s/" target="_blank" rel="nofollow sponsored noreferrer noopener">3S</a> maintains the same hardware and performance standards as the <a href="https://parpercision.com/foresight-sports-gc3/">GC</a><a href="https://parpercision.com/foresight-sports-gc3/" target="_blank" rel="nofollow sponsored noreferrer noopener">3</a>, providing precise ball and club tracking. It delivers accurate data for launch conditions, spin rates, and carry distance, making it one of the most reliable launch monitors available. However, the subscription model changes how users access key features.</p>
@@ -254,7 +254,7 @@ $6,999
     categoryLabel: "Comparison",
     keywords: ["Trackman iO Home vs Complete", "trackman io home vs complete"],
     readingTime: "4 min read",
-    coverImage: "https://images.unsplash.com/photo-1611374243147-44a702c2d44c?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/11/123.jpg",
     coverImageAlt: "Trackman Io Home Vs Complete",
     content: `
 <p>The Trackman iO doesn’t change based on the version you buy. The ceiling unit stays the same, the accuracy stays the same, and the tracking system never changes. </p>
@@ -361,7 +361,7 @@ $6,999
     categoryLabel: "Comparison",
     keywords: ["Garmin R50 vs GC3", "garmin r50 vs gc3"],
     readingTime: "8 min read",
-    coverImage: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/11/ebdd65c784c84d8d92acf55431f347d1.thumbnail.0000000000-scaled.webp",
     coverImageAlt: "Garmin R50 Vs Gc3",
     content: `
 <p>Trying to choose between the Garmin R50 and the Foresight GC3 feels like picking between two completely different ways to practice.</p>
@@ -562,7 +562,7 @@ $</span></span>
     categoryLabel: "Comparison",
     keywords: ["Difference Between SkyTrak and SkyTrak Plus", "skytrak vs skytrak plus differences"],
     readingTime: "5 min read",
-    coverImage: "https://images.unsplash.com/photo-1621005570352-6418df03796b?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/11/XM-Newsletter.webp",
     coverImageAlt: "Skytrak Vs Skytrak Plus Differences",
     content: `
 <p>The difference between the SkyTrak and SkyTrak Plus comes down to how each one tracks the ball, how much swing data you get, and how well they perform outside, but the real gap shows up once you test them side by side in an actual hitting bay.</p>
@@ -631,7 +631,7 @@ $</span></span>
     categoryLabel: "Comparison",
     keywords: ["launch monitor vs golf simulator", "launch monitor vs golf simulator"],
     readingTime: "8 min read",
-    coverImage: "https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/launch-monitors-hero-v3-scaled.webp",
     coverImageAlt: "Launch Monitor Vs Golf Simulator",
     content: `
 <p>If you're looking to improve your golf game at home, you've likely come across launch monitors and golf simulators. While they might seem similar, they serve different purposes, and choosing the right one depends on your goals, budget, and available space.</p>
@@ -772,7 +772,7 @@ https://www.youtube.com/watch?v=vmUWvp12xn0&amp;t=5s
     categoryLabel: "Comparison",
     keywords: ["Bushnell Launch Pro vs SkyTrak+", "bushnell launch pro vs skytrak plus"],
     readingTime: "6 min read",
-    coverImage: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/11/downl3333oad.avif",
     coverImageAlt: "Bushnell Launch Pro Vs Skytrak Plus",
     content: `
 <p>The gap between the Bushnell Launch Pro and the SkyTrak+ becomes clear once you hit on both. The Launch Pro pulls ahead in accuracy, short-game consistency, and how dependable the numbers feel from swing to swing. SkyTrak+ shines with easier setup, a wider hitting zone, and smoother software that feels built for everyday practice.</p>

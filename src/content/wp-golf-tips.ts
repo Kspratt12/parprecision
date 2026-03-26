@@ -12,7 +12,7 @@ export const wpGolfTipArticles: Article[] = [
     categoryLabel: "Golf Tips",
     keywords: ["golf swing drills", "golf swing drills"],
     readingTime: "8 min read",
-    coverImage: "https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/10/womens-golf-blog.webp",
     coverImageAlt: "Golf Swing Drills",
     content: `
 <p>Every golfer’s been there. One drive feels like you’re ready for the Tour, and the next one makes you want to quit.</p>
@@ -235,7 +235,7 @@ export const wpGolfTipArticles: Article[] = [
     categoryLabel: "Golf Tips",
     keywords: ["best swingbay golf simulators", "best swingbay golf simulators"],
     readingTime: "11 min read",
-    coverImage: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/7c17ed_7c8bc731b5394c76939d90d75ca6a518mv2.jpeg",
     coverImageAlt: "Best Swingbay Golf Simulators",
     content: `
 <p>If you're looking for a high-quality golf simulator that delivers a true-to-life experience, SwingBay golf simulators are among the best options available. Known for their durable enclosures, crisp impact screens, and seamless compatibility with top launch monitors, they provide an immersive and realistic practice environment right at home.</p>
@@ -464,7 +464,7 @@ https://www.youtube.com/watch?v=1nkUvZa54ts
     categoryLabel: "Golf Tips",
     keywords: ["golf swing drills for beginners", "golf swing drill for beginners"],
     readingTime: "7 min read",
-    coverImage: "https://images.unsplash.com/photo-1592919505780-303950717480?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/10/ratio3x2_1920.jpg",
     coverImageAlt: "Golf Swing Drill For Beginners",
     content: `
 <p>Some days your swing feels automatic. Other days, it’s like your body forgot everything it learned.</p>

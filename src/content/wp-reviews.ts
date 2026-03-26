@@ -12,7 +12,7 @@ export const wpReviewArticles: Article[] = [
     categoryLabel: "Launch Monitors",
     keywords: ["what launch monitor does bryson dechambeau use", "what launch monitor does bryson dechambeau use"],
     readingTime: "5 min read",
-    coverImage: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/brysonft-scaled-1.avif",
     coverImageAlt: "What Launch Monitor Does Bryson Dechambeau Use",
     content: `
 <p>Bryson DeChambeau is one of the most detail-oriented golfers on tour. He breaks down every aspect of his swing with data-driven precision. To achieve this, he relies on high-end launch monitors to measure his ball speed, spin rate, and launch angle.</p>
@@ -93,7 +93,7 @@ export const wpReviewArticles: Article[] = [
     categoryLabel: "Launch Monitor Review",
     keywords: ["gchawk", "foresight sports gchawk"],
     readingTime: "7 min read",
-    coverImage: "https://images.unsplash.com/photo-1621005570352-6418df03796b?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/0E7A9652-01-jpg.webp",
     coverImageAlt: "Foresight Sports Gchawk",
     content: `
 <p>The GCHawk sits in a weird spot in 2025. It’s still one of the most accurate overhead launch monitors you can buy, but the Falcon dropped to $14,999 and changed the entire equation. </p>
@@ -242,7 +242,7 @@ $
     categoryLabel: "Launch Monitor Review",
     keywords: ["trackman io review", "trackman io review"],
     readingTime: "21 min read",
-    coverImage: "https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/Family-playing-bullseye_72-dpi-1024x683-1.jpg",
     coverImageAlt: "Trackman Io Review",
     content: `
 <p>Once you start looking at a system like the TrackMan iO, the questions change. You’re no longer worried about basic features or surface-level accuracy. You’re thinking about ceiling height, tee-to-screen distance, wiring, software access, and whether the system will still feel right after months of regular use.</p>
@@ -637,7 +637,7 @@ $
     categoryLabel: "Launch Monitor Review",
     keywords: ["protee vx review", "protee vx review"],
     readingTime: "20 min read",
-    coverImage: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/24693_7445531131993_f0caad0c_b49b_414e_943e_0d213aff05c4.webp",
     coverImageAlt: "Protee Vx Review",
     content: `
 <p>Permanent simulator builds force different decisions than casual setups. Once a bay is framed, the screen is fixed, and the ceiling height is locked in, priorities change. That is where the ProTee VX starts to make sense. It is a ceiling mounted launch monitor designed for dedicated spaces where nothing gets moved between sessions and performance stays consistent from the first swing to the last.</p>
@@ -908,7 +908,7 @@ $
     categoryLabel: "Launch Monitor Review",
     keywords: ["uneekor eye mini lite", "uneekor eye mini lite"],
     readingTime: "9 min read",
-    coverImage: "https://images.unsplash.com/photo-1592919505780-303950717480?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/41-1-scaled.jpeg",
     coverImageAlt: "Uneekor Eye Mini Lite",
     content: `
 <p>If you’re in the market for an accurate and budget-friendly launch monitor, the <strong><a href="https://shopindoorgolf.com/products/uneekor-eye-mini-lite-launch-monitor?aff=356&amp;utm_source=affiliate&amp;utm_medium=https%3A%2F%2Ffairwayelite.com%2F" target="_blank" rel="nofollow sponsored noreferrer noopener">Uneekor EYE MINI Lite</a></strong> is worth considering. </p>
@@ -1113,7 +1113,7 @@ https://www.youtube.com/watch?v=Pa3SGDExXhY&amp;t=9s
     categoryLabel: "Launch Monitor Review",
     keywords: ["uneekor eye xo2", "uneekor eye xo2"],
     readingTime: "7 min read",
-    coverImage: "https://images.unsplash.com/photo-1600783245777-080fd7ff9253?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/8059f01a16624d5cb06ef1b319940a1c.thumbnail.0000000000_1024x1024.webp",
     coverImageAlt: "Uneekor Eye Xo2",
     content: `
 <p>The Uneekor EYE XO2 is one of the most talked-about overhead launch monitors for indoor golf simulators right now. A lot of golfers see it as the “premium step-up move” when they want high-end accuracy, a larger hitting zone, and more advanced club and ball data than the first EYE XO. But here’s the real question:</p>
@@ -1308,7 +1308,7 @@ $
     categoryLabel: "Launch Monitor Review",
     keywords: ["HD Golf Simulator Ultimate Entertainment Package Review", "hd golf simulator ultimate entertainment package review"],
     readingTime: "16 min read",
-    coverImage: "https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/02/Banner-Golf-simulator.jpg",
     coverImageAlt: "Hd Golf Simulator Ultimate Entertainment Package Review",
     content: `
 <p>High-definition golf simulators sit in a completely different category than portable launch monitors or DIY home builds. The HD Golf Simulator Ultimate Entertainment Package is designed as a permanent, commercial-grade system that blends photorealistic golf, advanced camera tracking, and full entertainment capability into one turnkey installation.</p>
@@ -1555,7 +1555,7 @@ $
     categoryLabel: "Launch Monitors",
     keywords: ["Best Budget Golf Launch Monitors Under 1000", "best golf launch monitors under 1000"],
     readingTime: "7 min read",
-    coverImage: "https://images.unsplash.com/photo-1472745433479-4556f22e32c2?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/02/NCG-Landscape-4.png",
     coverImageAlt: "Best Golf Launch Monitors Under 1000",
     content: `
 <p>Finding a high-quality golf launch monitor on a budget can be tough. With so many options ranging from $500 to $25,000, it’s easy to assume that affordable models lack accuracy and features. </p>
@@ -1808,7 +1808,7 @@ $
     categoryLabel: "Launch Monitor Review",
     keywords: ["uneekor qed", "uneekor qed"],
     readingTime: "8 min read",
-    coverImage: "https://images.unsplash.com/photo-1622398925373-3f91b1e275f5?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/uneekor_qed_hitting_area.jpg",
     coverImageAlt: "Uneekor Qed",
     content: `
 <p>Most golfers looking at the Uneekor QED want one honest answer. Does this ceiling mounted launch monitor still deliver a high-quality indoor golf simulator experience in 2025, or has it been passed by newer models like the EYE XO, EYE XO2, and ProTee VX?</p>
@@ -2007,7 +2007,7 @@ $
     categoryLabel: "Launch Monitor Review",
     keywords: ["foresight falcon", "foresight falcon review"],
     readingTime: "14 min read",
-    coverImage: "https://images.unsplash.com/photo-1611374243147-44a702c2d44c?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/AW1A9067-01-1024x683-1.png",
     coverImageAlt: "Foresight Falcon Review",
     content: `
 <p>I knew the Foresight Falcon was a serious investment the moment it arrived because nothing about it felt temporary. From the weight of the unit to the way it’s designed to live on the ceiling instead of the floor, everything about it signals permanence. This is not a launch monitor you reposition, tweak, or babysit. It’s designed to become part of the room.</p>
@@ -2210,7 +2210,7 @@ $
     categoryLabel: "Launch Monitor Review",
     keywords: ["uneekor eye mini", "uneekor eye mini"],
     readingTime: "8 min read",
-    coverImage: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/rain-or-shine-golf-uneekor-eye-mini-launch-monitor-portable-launch-monitor-31209204777033-469490.webp",
     coverImageAlt: "Uneekor Eye Mini",
     content: `
 <p>The <strong><a href="https://shopindoorgolf.com/products/uneekor-eye-mini-launch-monitor?aff=356&amp;utm_source=affiliate&amp;utm_medium=https%3A%2F%2Ffairwayelite.com%2F" target="_blank" rel="nofollow sponsored noreferrer noopener">Uneekor EYE MINI</a></strong> stands out as a launch monitor designed for golfers who demand detailed insights, premium build quality, and exceptional flexibility. </p>
@@ -2361,7 +2361,7 @@ https://www.youtube.com/watch?v=yqdP27l-uoE
     categoryLabel: "Launch Monitor Review",
     keywords: ["foresight sports gc3s", "foresight sports gc3s"],
     readingTime: "7 min read",
-    coverImage: "https://images.unsplash.com/photo-1621005570352-6418df03796b?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/GC3S-Lifestyle_foresight-sports-pic-e1736535647642.webp",
     coverImageAlt: "Foresight Sports Gc3s",
     content: `
 <p>When Foresight Sports quietly dropped the GC3S, I knew I had to test it. I got mine the week it launched and spent time using it both indoors in a garage simulator and outdoors at the range.</p>
@@ -2492,7 +2492,7 @@ https://www.youtube.com/watch?v=yqdP27l-uoE
     categoryLabel: "Launch Monitor Review",
     keywords: ["garmin approach r50", "garmin approach r50"],
     readingTime: "8 min read",
-    coverImage: "https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/3tmqivPQEMoVYnrooWWgVk.jpg",
     coverImageAlt: "Garmin Approach R50",
     content: `
 <p>The <strong><a href="https://rainorshinegolf.com/products/garmin-r50-launch-monitor-and-golf-simulator?sca_ref=8031687.nzZhLVQgAaWc" target="_blank" rel="nofollow sponsored noreferrer noopener">Garmin Approach R50</a></strong> isn’t just an upgrade from the R10, it’s the first launch monitor that eliminates the need for a gaming PC or projector.</p>
@@ -2629,7 +2629,7 @@ $
     categoryLabel: "Launch Monitor Review",
     keywords: ["gcquad", "foresight sports gcquad"],
     readingTime: "12 min read",
-    coverImage: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/image-155.png",
     coverImageAlt: "Foresight Sports Gcquad",
     content: `
 <p>The GCQuad has a reputation that follows it everywhere. It’s the launch monitor you see lined up on Tour ranges, trusted by players who make a living off precise numbers. That alone tells you this isn’t just another premium device. It’s the <strong>most accurate launch monitor</strong> built for golfers who want the same data the pros rely on to shape shots and score low.</p>
@@ -2836,7 +2836,7 @@ $
     categoryLabel: "Launch Monitor Review",
     keywords: ["foresight sports gc3", "foresight sports gc3"],
     readingTime: "8 min read",
-    coverImage: "https://images.unsplash.com/photo-1592919505780-303950717480?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/gc3-2_1024x.webp",
     coverImageAlt: "Foresight Sports Gc3",
     content: `
 <p>After months of testing different launch monitors, I decided to purchase the <a href="https://rainorshinegolf.com/products/foresight-sports-gc3-launch-monitor?ref=848" target="_blank" rel="nofollow sponsored noreferrer noopener">Foresight Sports GC3</a> from Rain or Shine Golf for $6,999. Unlike other devices that rely on estimations or require expensive subscriptions, the GC3 provides directly measured ball and club data, a built-in touchscreen, and the flexibility to perform both indoors and outdoors without compromise.</p>
@@ -2997,7 +2997,7 @@ $
     categoryLabel: "Launch Monitor Review",
     keywords: ["trugolf apogee review", "trugolf apogee review"],
     readingTime: "18 min read",
-    coverImage: "https://images.unsplash.com/photo-1600783245777-080fd7ff9253?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/MAX_Hero.webp",
     coverImageAlt: "Trugolf Apogee Review",
     content: `
 <p>I remember the exact moment the TruGolf Apogee stopped feeling optional. I was standing in my room looking at a floor unit that worked fine on paper but never felt settled in real life. Ball placement mattered too much. Lefty and righty swaps broke the flow. One small bump and the whole session felt off. That’s when I knew I didn’t want another portable solution. I wanted a ceiling mounted launch monitor that stayed put and let the room do the work.</p>
@@ -3174,7 +3174,7 @@ $
     categoryLabel: "Launch Monitor Review",
     keywords: ["full swing kit", "full swing kit review"],
     readingTime: "12 min read",
-    coverImage: "https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/tiger-woods-oneill2jpg.jpg",
     coverImageAlt: "Full Swing Kit Review",
     content: `
 <p>When Tiger Woods puts his name on a launch monitor, you want to know if it is the real deal or just marketing.</p>
@@ -3361,7 +3361,7 @@ $
     categoryLabel: "Launch Monitor Review",
     keywords: ["bushnell lpi", "bushnell lpi"],
     readingTime: "10 min read",
-    coverImage: "https://images.unsplash.com/photo-1472745433479-4556f22e32c2?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/Background-LPi.jpg",
     coverImageAlt: "Bushnell Lpi",
     content: `
 <p>The <strong><a href="https://rainorshinegolf.com/products/bushnell-lpi-launch-monitor?sca_ref=8031687.nzZhLVQgAaWc" target="_blank" rel="nofollow sponsored noreferrer noopener">Bushnell LPi Launch Monitor</a></strong> is a precision-engineered device designed exclusively for indoor golfers who demand accuracy, reliability, and immersive simulation.</p>
@@ -3518,7 +3518,7 @@ https://www.youtube.com/watch?v=vmUWvp12xn0&amp;t=90s
     categoryLabel: "Launch Monitor Review",
     keywords: ["foresight quadmax review", "foresight quadmax review"],
     readingTime: "25 min read",
-    coverImage: "https://images.unsplash.com/photo-1622398925373-3f91b1e275f5?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/GC7UktAagAANxpX-scaled.jpg",
     coverImageAlt: "Foresight Quadmax Review",
     content: `
 <p>I never questioned whether I wanted the Foresight QuadMAX. The only hesitation was when I was willing to spend <strong><a href="https://shopindoorgolf.com/products/foresight-sports-quadmax-launch-monitor?aff=356&amp;utm_source=affiliate&amp;utm_medium=https://fairwayelite.com/" target="_blank" rel="nofollow sponsored noreferrer noopener">$19,999</a></strong> on a launch monitor, knowing full well that this wasn’t an impulse buy or a casual upgrade. I already trusted Foresight’s data. I already knew what the GCQuad could do. The real question was whether QuadMAX actually earned its place above it.</p>
@@ -3771,7 +3771,7 @@ https://www.youtube.com/watch?v=vmUWvp12xn0&amp;t=90s
     categoryLabel: "Launch Monitor Review",
     keywords: ["HD Golf Simulator", "hd golf simulator"],
     readingTime: "7 min read",
-    coverImage: "https://images.unsplash.com/photo-1611374243147-44a702c2d44c?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/02/Banner-Golf-simulator.jpg",
     coverImageAlt: "Hd Golf Simulator",
     content: `
 <p>When I started looking into ways to grow my business, I knew I needed something that would attract more customers, keep them engaged, and generate multiple revenue streams. </p>
@@ -3924,7 +3924,7 @@ $
     categoryLabel: "Launch Monitors",
     keywords: ["best golf launch monitors", "best golf launch monitors"],
     readingTime: "22 min read",
-    coverImage: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/02/GolfboyMain1_27c5571306.png",
     coverImageAlt: "Best Golf Launch Monitors",
     content: `
 <p>Want to hit longer, straighter, and more consistent shots? I’ve found that the secret isn’t just more practice—it’s better data. The best golf launch monitors give you the same analytics the pros use to fine-tune their swings, measure club performance, and track progress over time.</p>
@@ -4365,7 +4365,7 @@ https://www.youtube.com/watch?v=W_CIAaUShD0&amp;t=7s
     categoryLabel: "Launch Monitors",
     keywords: ["what launch monitor do pros use", "what launch monitor do pros use"],
     readingTime: "7 min read",
-    coverImage: "https://images.unsplash.com/photo-1621005570352-6418df03796b?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/02/rain-or-shine-golf-full-swing-kit-practice-package-golf-simulator-practice-31137563607113-675765_1600x_8ae64a0e-74f7-416b-9bb8-635ee01ad9ba.webp",
     coverImageAlt: "What Launch Monitor Do Pros Use",
     content: `
 <p>If you’ve ever watched a PGA Tour event and wondered how the pros hit the ball with such precision, a big part of the answer lies in launch monitors. These high-tech devices track everything from ball speed to spin rate, giving players real-time feedback to fine-tune their swings.</p>
@@ -4484,7 +4484,7 @@ $
     categoryLabel: "Launch Monitors",
     keywords: ["best portable golf launch monitors", "best portable golf launch monitors"],
     readingTime: "15 min read",
-    coverImage: "https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/02/GBN-1-1-1024x576-1.jpg",
     coverImageAlt: "Best Portable Golf Launch Monitors",
     content: `
 <p>Not too long ago, getting reliable shot data required a trip to a high-end fitting studio or a serious investment in bulky, stationary equipment. But with advances in technology, portable golf launch monitors have changed the game. </p>
@@ -4773,7 +4773,7 @@ https://www.youtube.com/watch?v=I_vrYm5phq4
     categoryLabel: "Launch Monitors",
     keywords: ["what launch monitor does tiger woods use", "what launch monitor does tiger woods use"],
     readingTime: "7 min read",
-    coverImage: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/02/112185834_original-scaled.jpg",
     coverImageAlt: "What Launch Monitor Does Tiger Woods Use",
     content: `
 <p>Golfers often ask, 'What launch monitor does Tiger Woods use? The answer is the <strong><a href="https://rainorshinegolf.com/products/full-swing-kit-launch-monitor?sca_ref=8031687.nzZhLVQgAaWc" target="_blank" rel="nofollow sponsored noreferrer noopener">Full Swing KIT</a></strong> Launch Monitor, a system he trusts for elite training. Every swing, every shot, and every adjustment he makes is backed by precise data, which is why he continues using the KIT in 2025.</p>
@@ -4904,7 +4904,7 @@ $
     categoryLabel: "Launch Monitor Review",
     keywords: ["Is SkyTrak+ Suitable for Beginners", "skytrak plus for beginners"],
     readingTime: "6 min read",
-    coverImage: "https://images.unsplash.com/photo-1592919505780-303950717480?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/11/9182KTYiP8L.jpg",
     coverImageAlt: "Skytrak Plus For Beginners",
     content: `
 <p>Yes, the SkyTrak+ is absolutely suitable for beginners because it gives clear feedback, simple ball placement, and an easy layout that never overwhelms you.</p>
@@ -4997,7 +4997,7 @@ $
     categoryLabel: "Launch Monitors",
     keywords: ["which launch monitor do the pros use", "launch monitor pros use"],
     readingTime: "5 min read",
-    coverImage: "https://images.unsplash.com/photo-1600783245777-080fd7ff9253?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/11/image-1.png",
     coverImageAlt: "Launch Monitor Pros Use",
     content: `
 <p>When you watch how the best players in the world practice, you start to notice a pattern. Pros don’t use one launch monitor for everything. They switch tools based on where they’re practicing, the type of work they’re doing, and how much detail they want from each swing.</p>
@@ -5116,7 +5116,7 @@ $
     categoryLabel: "Launch Monitor Review",
     keywords: ["best overhead launch monitors", "best overhead launch monitors review"],
     readingTime: "11 min read",
-    coverImage: "https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?w=1200&h=630&fit=crop",
+    coverImage: "/wp-content/uploads/2025/01/image-255.png",
     coverImageAlt: "Best Overhead Launch Monitors Review",
     content: `
 <p>Not every golfer has the space or patience to deal with a launch monitor sitting on the floor. If you’ve ever tried using a radar unit in a tight garage or had to move your monitor back and forth for left- and right-handed players, you know how frustrating it can get.</p>
