@@ -9,22 +9,22 @@ const navigation = [
   { name: "Home", href: "/" },
   {
     name: "Simulators",
-    href: "/best-golf-simulators",
+    href: "/best-golf-simulators-for-home",
     children: [
-      { name: "Best Golf Simulators 2026", href: "/best-golf-simulators" },
-      { name: "Best for Small Spaces", href: "/best-golf-simulators-small-spaces" },
-      { name: "Best Budget Simulators", href: "/best-budget-golf-simulators" },
-      { name: "Simulator Setup Guide", href: "/guides/how-to-build-golf-simulator" },
-      { name: "Room Dimensions Guide", href: "/guides/golf-simulator-room-dimensions" },
+      { name: "Best Golf Simulators 2026", href: "/best-golf-simulators-for-home" },
+      { name: "Best for Small Spaces", href: "/best-golf-simulators-for-small-spaces" },
+      { name: "Best Budget Simulators", href: "/best-golf-simulators-for-the-money" },
+      { name: "Simulator Setup Guide", href: "/how-to-build-a-golf-simulator-2" },
+      { name: "Room Dimensions Guide", href: "/how-much-space-is-needed-for-a-golf-simulator" },
     ],
   },
   {
     name: "Launch Monitors",
-    href: "/best-launch-monitors",
+    href: "/best-golf-launch-monitors",
     children: [
-      { name: "Best Launch Monitors 2026", href: "/best-launch-monitors" },
-      { name: "Best Portable Launch Monitors", href: "/best-portable-launch-monitors" },
-      { name: "Best Overhead Launch Monitors", href: "/best-overhead-launch-monitors" },
+      { name: "Best Launch Monitors 2026", href: "/best-golf-launch-monitors" },
+      { name: "Best Portable Launch Monitors", href: "/best-portable-golf-launch-monitors" },
+      { name: "Best Overhead Launch Monitors", href: "/best-overhead-launch-monitors-review" },
     ],
   },
   {

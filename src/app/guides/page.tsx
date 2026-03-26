@@ -33,7 +33,7 @@ export default function GuidesIndexPage() {
         {guides.map((guide) => (
           <Link
             key={guide.slug}
-            href={`/guides/${guide.slug}`}
+            href={`/${guide.slug}`}
             className="group flex gap-6 bg-white rounded-xl border border-border p-6 hover:shadow-lg hover:border-primary/20 transition-all duration-300"
           >
             <div className="relative w-48 h-32 flex-shrink-0 rounded-lg overflow-hidden hidden sm:block">

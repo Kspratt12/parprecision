@@ -3,21 +3,21 @@ import Image from "next/image";
 
 const footerLinks = {
   "Golf Simulators": [
-    { name: "Best Golf Simulators 2026", href: "/best-golf-simulators" },
-    { name: "Best for Small Spaces", href: "/best-golf-simulators-small-spaces" },
-    { name: "Best Budget Simulators", href: "/best-budget-golf-simulators" },
-    { name: "Golf Simulator Cost Guide", href: "/guides/golf-simulator-cost" },
-    { name: "Room Dimensions Guide", href: "/guides/golf-simulator-room-dimensions" },
+    { name: "Best Golf Simulators 2026", href: "/best-golf-simulators-for-home" },
+    { name: "Best for Small Spaces", href: "/best-golf-simulators-for-small-spaces" },
+    { name: "Best Budget Simulators", href: "/best-golf-simulators-for-the-money" },
+    { name: "Golf Simulator Cost Guide", href: "/golf-simulator-cost-2026" },
+    { name: "Room Dimensions Guide", href: "/how-much-space-is-needed-for-a-golf-simulator" },
   ],
   "Launch Monitors": [
-    { name: "Best Launch Monitors 2026", href: "/best-launch-monitors" },
-    { name: "Best Portable Options", href: "/best-portable-launch-monitors" },
-    { name: "Best Overhead Monitors", href: "/best-overhead-launch-monitors" },
+    { name: "Best Launch Monitors 2026", href: "/best-golf-launch-monitors" },
+    { name: "Best Portable Options", href: "/best-portable-golf-launch-monitors" },
+    { name: "Best Overhead Monitors", href: "/best-overhead-launch-monitors-review" },
     { name: "SkyTrak+ Review", href: "/skytrak-plus-for-beginners" },
     { name: "Garmin R50 Review", href: "/garmin-approach-r50" },
   ],
   "Guides & Tips": [
-    { name: "How to Build a Simulator", href: "/guides/how-to-build-golf-simulator" },
+    { name: "How to Build a Simulator", href: "/how-to-build-a-golf-simulator-2" },
     { name: "Golf Tips", href: "/golf-tips" },
     { name: "All Guides", href: "/guides" },
     { name: "All Reviews", href: "/reviews" },

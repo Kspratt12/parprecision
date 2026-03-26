@@ -59,7 +59,7 @@ export default function GolfTipsIndexPage() {
         {tips.map((tip) => (
           <Link
             key={tip.slug}
-            href={`/golf-tips/${tip.slug}`}
+            href={`/${tip.slug}`}
             className="group bg-white rounded-2xl border border-border overflow-hidden hover:shadow-xl hover:border-primary/20 transition-all duration-300"
           >
             <div className="relative aspect-[3/2] overflow-hidden">

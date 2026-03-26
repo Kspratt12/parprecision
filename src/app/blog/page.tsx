@@ -12,10 +12,10 @@ export const metadata: Metadata = {
 };
 
 const categoryConfig: Record<string, { label: string; icon: typeof BookOpen; href: string }> = {
-  simulators: { label: "Simulators", icon: Star, href: "/best-golf-simulators" },
+  simulators: { label: "Simulators", icon: Star, href: "/best-golf-simulators-for-home" },
   "launch-monitors": { label: "Launch Monitors", icon: Star, href: "/reviews" },
   guides: { label: "Guides", icon: BookOpen, href: "/guides" },
-  comparisons: { label: "Comparisons", icon: GitCompareArrows, href: "/comparisons" },
+  comparisons: { label: "Comparisons", icon: GitCompareArrows, href: "/blog" },
   "golf-tips": { label: "Golf Tips", icon: Lightbulb, href: "/golf-tips" },
 };
 
@@ -31,11 +31,7 @@ export default function BlogIndexPage() {
   const rest = sorted.filter((a) => a !== featured);
 
   function getArticleHref(article: (typeof articles)[number]) {
-    if (article.category === "simulators") return `/${article.slug}`;
-    if (article.category === "launch-monitors") return `/reviews/${article.slug}`;
-    if (article.category === "guides") return `/guides/${article.slug}`;
-    if (article.category === "comparisons") return `/comparisons/${article.slug}`;
-    if (article.category === "golf-tips") return `/golf-tips/${article.slug}`;
+    // All WP articles are served at flat URLs via [slug] catch-all
     return `/${article.slug}`;
   }
 

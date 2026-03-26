@@ -7,14 +7,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Static pages
   const staticPages: MetadataRoute.Sitemap = [
     { url: baseUrl, lastModified: new Date(), changeFrequency: "weekly", priority: 1.0 },
-    // Pillar pages — highest priority
-    { url: `${baseUrl}/best-golf-simulators`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.95 },
-    { url: `${baseUrl}/best-launch-monitors`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.95 },
-    // Category pages — high priority
-    { url: `${baseUrl}/best-golf-simulators-small-spaces`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
-    { url: `${baseUrl}/best-budget-golf-simulators`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
-    { url: `${baseUrl}/best-portable-launch-monitors`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
-    { url: `${baseUrl}/best-overhead-launch-monitors`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     // Index pages
     { url: `${baseUrl}/reviews`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
     { url: `${baseUrl}/guides`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
@@ -27,26 +19,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/privacy`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
     { url: `${baseUrl}/terms`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
   ];
-
-  // Original Next.js review pages removed — redirects handle old URLs
-  const reviewPages: MetadataRoute.Sitemap = [];
-
-  // Original guides
-  const guideSlugs = [
-    "golf-simulator-room-dimensions", "golf-simulator-cost", "how-to-build-golf-simulator",
-  ];
-  const guidePages: MetadataRoute.Sitemap = guideSlugs.map((slug) => ({
-    url: `${baseUrl}/guides/${slug}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly",
-    priority: 0.85,
-  }));
-
-  // Original Next.js comparison pages removed — redirects handle old URLs
-  const comparisonPages: MetadataRoute.Sitemap = [];
-
-  // Original Next.js golf tip pages removed — redirects handle old URLs
-  const tipPages: MetadataRoute.Sitemap = [];
 
   // All migrated WordPress articles (flat URLs at /)
   const allArticles = getAllArticles();
@@ -93,10 +65,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     ...staticPages,
-    ...reviewPages,
-    ...guidePages,
-    ...comparisonPages,
-    ...tipPages,
     ...wpPages,
   ];
 }

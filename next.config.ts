@@ -17,17 +17,21 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
-      // WordPress URL pattern changes — 301 redirects to preserve SEO equity
-      // Old WordPress had trailing slashes, Next.js doesn't — Vercel handles this automatically
+      // === Post-Vercel articles removed — redirect to WP equivalents ===
+      { source: "/best-golf-simulators", destination: "/best-golf-simulators-for-home", permanent: true },
+      { source: "/best-golf-simulators-small-spaces", destination: "/best-golf-simulators-for-small-spaces", permanent: true },
+      { source: "/best-budget-golf-simulators", destination: "/best-golf-simulators-for-the-money", permanent: true },
+      { source: "/best-launch-monitors", destination: "/best-golf-launch-monitors", permanent: true },
+      { source: "/best-portable-launch-monitors", destination: "/best-portable-golf-launch-monitors", permanent: true },
+      { source: "/best-overhead-launch-monitors", destination: "/best-overhead-launch-monitors-review", permanent: true },
+      { source: "/guides/golf-simulator-cost", destination: "/golf-simulator-cost-2026", permanent: true },
+      { source: "/guides/golf-simulator-room-dimensions", destination: "/how-much-space-is-needed-for-a-golf-simulator", permanent: true },
+      { source: "/guides/how-to-build-golf-simulator", destination: "/how-to-build-a-golf-simulator-2", permanent: true },
 
-      // URLs that changed structure in the Next.js revamp
-      { source: "/best-golf-simulators-for-small-spaces", destination: "/best-golf-simulators-small-spaces", permanent: true },
-      { source: "/best-golf-simulators-for-small-spaces/:path*", destination: "/best-golf-simulators-small-spaces", permanent: true },
-
-      // WordPress category pages → Next.js equivalents
-      { source: "/category/best-golf-simulators", destination: "/best-golf-simulators", permanent: true },
-      { source: "/category/best-portable-launch-monitor", destination: "/best-portable-launch-monitors", permanent: true },
-      { source: "/category/best-overhead-launch-monitors", destination: "/best-overhead-launch-monitors", permanent: true },
+      // === WordPress category pages ===
+      { source: "/category/best-golf-simulators", destination: "/best-golf-simulators-for-home", permanent: true },
+      { source: "/category/best-portable-launch-monitor", destination: "/best-portable-golf-launch-monitors", permanent: true },
+      { source: "/category/best-overhead-launch-monitors", destination: "/best-overhead-launch-monitors-review", permanent: true },
       { source: "/category/golf/:path*", destination: "/blog", permanent: true },
 
       // WordPress pagination pages
@@ -36,17 +40,13 @@ const nextConfig: NextConfig = {
       // WordPress author pages
       { source: "/author/:slug", destination: "/about", permanent: true },
 
-      // Old WordPress uploads (images) — keep serving from Hostinger for now
-      // { source: "/wp-content/uploads/:path*", destination: "https://your-hostinger-temp-url/wp-content/uploads/:path*", permanent: false },
-
       // Old about/contact URLs
       { source: "/about-us", destination: "/about", permanent: true },
       { source: "/contact-us", destination: "/contact", permanent: true },
 
       // Duplicate content redirects
-      { source: "/best-golf-simulators-for-small-spaces-5", destination: "/best-golf-simulators-small-spaces", permanent: true },
-      { source: "/best-overhead-launch-monitors-8", destination: "/best-overhead-launch-monitors", permanent: true },
-      { source: "/best-overhead-launch-monitors-review", destination: "/best-overhead-launch-monitors", permanent: true },
+      { source: "/best-golf-simulators-for-small-spaces-5", destination: "/best-golf-simulators-for-small-spaces", permanent: true },
+      { source: "/best-overhead-launch-monitors-8", destination: "/best-overhead-launch-monitors-review", permanent: true },
 
       // Removed corny Next.js review articles — redirect to WP equivalents
       { source: "/reviews/skytrak-plus", destination: "/skytrak-plus-for-beginners", permanent: true },

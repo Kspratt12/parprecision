@@ -18,7 +18,7 @@ const featuredReviews = [
   {
     title: "Best Golf Simulators 2026",
     description: "Our top picks after testing 15+ simulators side-by-side. From budget to premium.",
-    href: "/best-golf-simulators",
+    href: "/best-golf-simulators-for-home",
     image: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=600&h=400&fit=crop",
     tag: "Editor's Choice",
     rating: 5,
@@ -26,7 +26,7 @@ const featuredReviews = [
   {
     title: "Best Launch Monitors 2026",
     description: "Radar vs camera-based - we break down accuracy, features, and value for every budget.",
-    href: "/best-launch-monitors",
+    href: "/best-golf-launch-monitors",
     image: "https://images.unsplash.com/photo-1693163637018-cec278130a11?w=600&h=400&fit=crop",
     tag: "Most Popular",
     rating: 5,
@@ -45,7 +45,7 @@ const latestArticles = [
   {
     title: "Golf Simulator Room Dimensions: Complete Guide",
     description: "Minimum ceiling height, width, and depth requirements for every simulator type.",
-    href: "/guides/golf-simulator-room-dimensions",
+    href: "/how-much-space-is-needed-for-a-golf-simulator",
     category: "Setup Guide",
     readTime: "8 min read",
     image: "https://images.unsplash.com/photo-1696104470342-b1ed3afe8381?w=400&h=250&fit=crop",
@@ -53,7 +53,7 @@ const latestArticles = [
   {
     title: "How Much Does a Golf Simulator Cost in 2026?",
     description: "Full breakdown from $500 budget setups to $50,000+ premium installations.",
-    href: "/guides/golf-simulator-cost",
+    href: "/golf-simulator-cost-2026",
     category: "Buying Guide",
     readTime: "10 min read",
     image: "https://images.unsplash.com/photo-1515358204547-8689c79d6991?w=400&h=250&fit=crop",
@@ -143,13 +143,13 @@ export default function HomePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href="/best-golf-simulators"
+                href="/best-golf-simulators-for-home"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white font-bold rounded-full hover:bg-primary-dark transition-all shadow-lg hover:shadow-xl text-base"
               >
                 See Our Top Picks <ArrowRight className="w-5 h-5" />
               </Link>
               <Link
-                href="/guides/golf-simulator-cost"
+                href="/golf-simulator-cost-2026"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/80 backdrop-blur-sm text-foreground font-semibold rounded-full border border-border hover:bg-white transition-all text-base"
               >
                 Cost Breakdown Guide
@@ -158,9 +158,9 @@ export default function HomePage() {
             {/* Quick picks */}
             <div className="flex flex-wrap gap-3 mt-8">
               {[
-                { label: "#1 SkyTrak MAX SIG10 - $4,645", href: "/best-golf-simulators" },
-                { label: "Best Premium: TrackMan iO - $17,690", href: "/best-golf-simulators" },
-                { label: "Best Value: Uneekor EYE MINI LITE - $4,800", href: "/best-golf-simulators" },
+                { label: "#1 SkyTrak MAX SIG10 - $4,645", href: "/best-golf-simulators-for-home" },
+                { label: "Best Premium: TrackMan iO - $17,690", href: "/best-golf-simulators-for-home" },
+                { label: "Best Value: Uneekor EYE MINI LITE - $4,800", href: "/best-golf-simulators-for-home" },
               ].map((pick) => (
                 <Link
                   key={pick.label}
