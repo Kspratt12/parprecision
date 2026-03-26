@@ -198,11 +198,6 @@ html {
   color: #ffffff !important;
 }
 
-.article-content figcaption a::before,
-.article-content figcaption strong a::before {
-  content: "🛒 ";
-}
-
 .article-content figcaption a::after,
 .article-content figcaption strong a::after {
   content: " →";
