@@ -19,7 +19,7 @@ const featuredReviews = [
     title: "Best Golf Simulators 2026",
     description: "Our top picks after comparing the best simulators side-by-side. From budget to premium.",
     href: "/best-golf-simulators-for-home",
-    image: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=600&h=400&fit=crop",
+    image: "/wp-content/uploads/2025/02/homecourse-golfsimulator-vooraanzicht.webp",
     tag: "Editor's Choice",
     rating: 5,
   },
@@ -27,7 +27,7 @@ const featuredReviews = [
     title: "Best Launch Monitors 2026",
     description: "Radar vs camera-based - we break down accuracy, features, and value for every budget.",
     href: "/best-golf-launch-monitors",
-    image: "https://images.unsplash.com/photo-1693163637018-cec278130a11?w=600&h=400&fit=crop",
+    image: "/wp-content/uploads/2025/02/GolfboyMain1_27c5571306.png",
     tag: "Most Popular",
     rating: 5,
   },
@@ -35,7 +35,7 @@ const featuredReviews = [
     title: "TrackMan iO vs TrackMan 4",
     description: "Same accuracy, very different ownership. We break down what actually matters between these two.",
     href: "/trackman-io-vs-trackman-4",
-    image: "https://images.unsplash.com/photo-1621005570352-6418df03796b?w=600&h=400&fit=crop",
+    image: "/wp-content/uploads/2025/01/Family-playing-bullseye_72-dpi-1024x683-1.jpg",
     tag: "Top Comparison",
     rating: 5,
   },
@@ -43,36 +43,36 @@ const featuredReviews = [
 
 const latestArticles = [
   {
-    title: "Golf Simulator Room Dimensions: Complete Guide",
+    title: "Golf Simulator Room Dimensions Guide",
     description: "Minimum ceiling height, width, and depth requirements for every simulator type.",
     href: "/how-much-space-is-needed-for-a-golf-simulator",
     category: "Setup Guide",
     readTime: "8 min read",
-    image: "https://images.unsplash.com/photo-1696104470342-b1ed3afe8381?w=400&h=250&fit=crop",
+    image: "/wp-content/uploads/2025/02/64b85bc637c2d5bffbb57e8b_4.26.2023-PDC-Ballard-Residence-Golf-Simulator-2-Medium-1536x1024-1.jpg",
   },
   {
-    title: "How Much Does a Golf Simulator Cost in 2026?",
-    description: "Full breakdown from $500 budget setups to $50,000+ premium installations.",
+    title: "Golf Simulator Costs Explained",
+    description: "Full breakdown from budget setups to premium installations. What you'll really spend.",
     href: "/golf-simulator-cost-2026",
     category: "Buying Guide",
-    readTime: "10 min read",
-    image: "https://images.unsplash.com/photo-1515358204547-8689c79d6991?w=400&h=250&fit=crop",
+    readTime: "9 min read",
+    image: "/wp-content/uploads/2025/11/SimIntRoom_V11_45deg.webp",
   },
   {
-    title: "Bushnell Launch Pro vs SkyTrak+: Which Should You Buy?",
-    description: "Two of the most popular launch monitors compared on accuracy, features, and value.",
+    title: "Bushnell Launch Pro vs SkyTrak+",
+    description: "The differences that actually matter between these two popular launch monitors.",
     href: "/bushnell-launch-pro-vs-skytrak-plus",
     category: "Comparison",
-    readTime: "12 min read",
-    image: "https://images.unsplash.com/photo-1708906439816-7c06e4bf822c?w=400&h=250&fit=crop",
+    readTime: "6 min read",
+    image: "/wp-content/uploads/2025/11/downl3333oad.avif",
   },
   {
-    title: "Golf Swing Drills to Improve Your Game",
-    description: "Practice these drills at home with your simulator and see results on the course.",
-    href: "/golf-swing-drills",
-    category: "Golf Tips",
-    readTime: "6 min read",
-    image: "https://images.unsplash.com/photo-1674884070794-b61d85f9adf8?w=400&h=250&fit=crop",
+    title: "GCHawk Review: Worth $19,999?",
+    description: "Everything you need to know before spending on this ceiling-mounted simulator.",
+    href: "/foresight-sports-gchawk",
+    category: "Review",
+    readTime: "7 min read",
+    image: "/wp-content/uploads/2025/01/0E7A9652-01-jpg.webp",
   },
 ];
 
@@ -259,7 +259,7 @@ export default function HomePage() {
                 Why Par Precision
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                Real Testing. Honest Reviews. Better Decisions.
+                Deep Research. Honest Reviews. Better Decisions.
               </h2>
               <p className="text-muted text-lg leading-relaxed mb-8">
                 We don&apos;t just read spec sheets. We dig into the real data, compare products
@@ -298,8 +298,8 @@ export default function HomePage() {
             <div className="relative">
               <div className="relative aspect-square rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1621005570352-6418df03796b?w=800&h=800&fit=crop"
-                  alt="Golf launch monitor testing setup"
+                  src="/wp-content/uploads/2025/01/Golf-Simulator-in-Basement.webp"
+                  alt="Home golf simulator setup in a basement"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
