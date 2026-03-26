@@ -342,16 +342,15 @@ html {
   background: none !important;
 }
 
-/* Links inside paragraphs with other text - stay inline subtle */
-.article-content p a[href*="shopindoorgolf"]:not(:only-child),
-.article-content p a[href*="rainorshinegolf"]:not(:only-child),
-.article-content p strong a[href*="shopindoorgolf"],
-.article-content p strong a[href*="rainorshinegolf"] {
-  display: inline !important;
-  padding: 0.1rem 0.4rem !important;
-  border-radius: 0.25rem !important;
-  box-shadow: none !important;
-  font-size: inherit !important;
+/* Links inside paragraphs mixed with other text - stay inline but still branded */
+.article-content p a[href*="shopindoorgolf"],
+.article-content p a[href*="rainorshinegolf"],
+.article-content p a[href*="phigolfstore"] {
+  display: inline-flex !important;
+  padding: 0.35rem 0.75rem !important;
+  border-radius: 0.375rem !important;
+  font-size: 0.875rem !important;
+  vertical-align: baseline;
 }
 
 /* ── Brand-Colored CTA Buttons (figcaption) ── */
