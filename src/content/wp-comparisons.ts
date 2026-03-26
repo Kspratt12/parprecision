@@ -3,7 +3,7 @@ import type { Article } from "./articles";
 export const wpComparisonArticles: Article[] = [
   {
     slug: "trackman-io-vs-trackman-4",
-    title: "TrackMan iO vs TrackMan 4: Core Differences at a Glance",
+    title: "TrackMan iO vs TrackMan 4: Same Accuracy, Very Different Ownership",
     description:
       "If you’re comparing TrackMan iO vs TrackMan 4, you’re not trying to decide which system is more accurate. Both deliver elite, tour-trusted ball data.",
     date: "2026-02-02",
@@ -352,7 +352,7 @@ $6,999
   },
   {
     slug: "garmin-r50-vs-gc3",
-    title: "Garmin R50 vs GC3: Key Differences At A Glance",
+    title: "Garmin R50 vs Foresight GC3: What Golfers Should Know",
     description:
       "A clear 2025 breakdown of the Garmin R50 vs GC3. Compare accuracy, software, indoor use, and pricing to see which one fits your game.",
     date: "2025-11-15",

@@ -2988,7 +2988,7 @@ $
   },
   {
     slug: "trugolf-apogee-review",
-    title: "What Is the TruGolf Apogee",
+    title: "TruGolf Apogee Review: Inside a $7,995 Ceiling-Mounted Golf Simulator",
     description:
       "The TruGolf Apogee is a ceiling-mounted golf simulator built for accuracy, instant feedback, setup clarity, and long-term ownership.",
     date: "2025-01-20",
