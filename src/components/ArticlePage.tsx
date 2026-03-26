@@ -4,9 +4,32 @@ import { Calendar, Clock, ArrowLeft, Share2 } from "lucide-react";
 import { NewsletterForm } from "@/components/NewsletterForm";
 import type { Article } from "@/content/articles";
 
+function stripHtmlTags(html: string): string {
+  return html.replace(/<[^>]*>/g, "").trim();
+}
+
+function makeId(text: string): string {
+  return stripHtmlTags(text)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+}
+
 function TableOfContents({ content }: { content: string }) {
-  const headings = content.match(/<h2>(.*?)<\/h2>/g);
-  if (!headings || headings.length < 3) return null;
+  // Match h2 tags with any attributes or nested HTML (like <strong>)
+  const headingRegex = /<h2[^>]*>([\s\S]*?)<\/h2>/gi;
+  const headings: { text: string; id: string }[] = [];
+  let match;
+
+  while ((match = headingRegex.exec(content)) !== null) {
+    const rawText = match[1];
+    const cleanText = stripHtmlTags(rawText);
+    if (cleanText.length > 0) {
+      headings.push({ text: cleanText, id: makeId(rawText) });
+    }
+  }
+
+  if (headings.length < 2) return null;
 
   return (
     <nav className="bg-surface border border-border rounded-xl p-6 mb-8">
@@ -14,35 +37,25 @@ function TableOfContents({ content }: { content: string }) {
         Table of Contents
       </h2>
       <ul className="space-y-2">
-        {headings.map((h, i) => {
-          const text = h.replace(/<\/?h2>/g, "");
-          const id = text
-            .toLowerCase()
-            .replace(/[^a-z0-9]+/g, "-")
-            .replace(/(^-|-$)/g, "");
-          return (
-            <li key={i}>
-              <a
-                href={`#${id}`}
-                className="text-sm text-muted hover:text-primary transition-colors"
-              >
-                {text}
-              </a>
-            </li>
-          );
-        })}
+        {headings.map((h, i) => (
+          <li key={i}>
+            <a
+              href={`#${h.id}`}
+              className="text-sm text-muted hover:text-primary transition-colors"
+            >
+              {h.text}
+            </a>
+          </li>
+        ))}
       </ul>
     </nav>
   );
 }
 
 function addHeadingIds(content: string): string {
-  return content.replace(/<h2>(.*?)<\/h2>/g, (_, text) => {
-    const id = text
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, "-")
-      .replace(/(^-|-$)/g, "");
-    return `<h2 id="${id}">${text}</h2>`;
+  return content.replace(/<h2([^>]*)>([\s\S]*?)<\/h2>/gi, (_, attrs, text) => {
+    const id = makeId(text);
+    return `<h2 id="${id}"${attrs}>${text}</h2>`;
   });
 }
 
