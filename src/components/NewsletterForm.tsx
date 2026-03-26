@@ -11,8 +11,22 @@ export function NewsletterForm({ variant = "inline" }: { variant?: "inline" | "h
     e.preventDefault();
     if (!email) return;
     setStatus("loading");
-    // TODO: Connect to email service (ConvertKit, Mailchimp, etc.)
-    setTimeout(() => setStatus("success"), 1000);
+
+    try {
+      const res = await fetch("https://formspree.io/f/xpwrawvy", {
+        method: "POST",
+        headers: { Accept: "application/json", "Content-Type": "application/json" },
+        body: JSON.stringify({ email, _subject: "New Newsletter Subscriber — Par Precision" }),
+      });
+
+      if (res.ok) {
+        setStatus("success");
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
   };
 
   if (status === "success") {

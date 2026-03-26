@@ -4,13 +4,30 @@ import { useState } from "react";
 import { Mail, MessageSquare, Send, CheckCircle } from "lucide-react";
 
 export default function ContactPage() {
-  const [status, setStatus] = useState<"idle" | "sending" | "sent">("idle");
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setStatus("sending");
-    // TODO: Connect to form service (Formspree, etc.)
-    setTimeout(() => setStatus("sent"), 1000);
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    try {
+      const res = await fetch("https://formspree.io/f/xpwrawvy", {
+        method: "POST",
+        body: formData,
+        headers: { Accept: "application/json" },
+      });
+
+      if (res.ok) {
+        setStatus("sent");
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
   };
 
   return (
@@ -73,6 +90,7 @@ export default function ContactPage() {
               </label>
               <input
                 id="name"
+                name="name"
                 type="text"
                 required
                 className="w-full px-4 py-3 rounded-lg border border-border bg-white text-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary"
@@ -85,6 +103,7 @@ export default function ContactPage() {
               </label>
               <input
                 id="email"
+                name="email"
                 type="email"
                 required
                 className="w-full px-4 py-3 rounded-lg border border-border bg-white text-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary"
@@ -98,6 +117,7 @@ export default function ContactPage() {
             </label>
             <select
               id="subject"
+              name="subject"
               className="w-full px-4 py-3 rounded-lg border border-border bg-white text-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary"
             >
               <option>General Question</option>
@@ -113,12 +133,18 @@ export default function ContactPage() {
             </label>
             <textarea
               id="message"
+              name="message"
               required
               rows={5}
               className="w-full px-4 py-3 rounded-lg border border-border bg-white text-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary resize-none"
               placeholder="How can we help?"
             />
           </div>
+
+          {status === "error" && (
+            <p className="text-sm text-red-600">Something went wrong. Please try again or email us directly.</p>
+          )}
+
           <button
             type="submit"
             disabled={status === "sending"}
