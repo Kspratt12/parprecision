@@ -25,7 +25,7 @@ export const wpGolfTipArticles: Article[] = [
 
 <p>If you want a swing that holds up under pressure, these are the drills that actually move the needle.</p>
 
-<img src="https://images.unsplash.com/photo-1600783245777-080fd7ff9253?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-4349"/>
+<img src="/wp-content/uploads/2025/10/image-1024x576.png" alt="Golf equipment" class="wp-image-4349"/>
 
 <h2>Why Golf Swing Drills Matter</h2>
 
@@ -47,7 +47,7 @@ export const wpGolfTipArticles: Article[] = [
 
 <p>Just ten minutes of focused drill work can do more for your golf swing than two hours of random range practice.</p>
 
-<img src="https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?w=800&h=500&fit=crop" alt="Golf Swing Fundamentals" class="wp-image-4360"/>
+<img src="/wp-content/uploads/2025/10/image-11-1024x576.png" alt="Golf Swing Fundamentals" class="wp-image-4360"/>
 
 <h2>Golf Swing Fundamentals Worth Locking In</h2>
 
@@ -73,7 +73,7 @@ export const wpGolfTipArticles: Article[] = [
 
 <h3>1. Tee Peg Drill – Improve Center Contact</h3>
 
-<img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&h=500&fit=crop" alt="Tee Peg Drill" class="wp-image-4350"/>
+<img src="/wp-content/uploads/2025/10/image-1-1024x576.png" alt="Tee Peg Drill" class="wp-image-4350"/>
 
 <p>Stick a tee just outside your ball and make smooth swings without clipping it. It sounds simple, but it instantly teaches clubface control. If you hit the tee, your path’s too steep or too far inside.</p>
 
@@ -81,7 +81,7 @@ export const wpGolfTipArticles: Article[] = [
 
 <h3>2. Slice Fix Drill – Straighten Out Your Path</h3>
 
-<img src="https://images.unsplash.com/photo-1621005570352-6418df03796b?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-4351"/>
+<img src="https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-4351"/>
 
 <p>Set an alignment stick outside your target line and swing so your club comes from inside to out, avoiding the stick completely. You’ll feel your trail elbow drop naturally, guiding the club on plane.</p>
 
@@ -89,7 +89,7 @@ export const wpGolfTipArticles: Article[] = [
 
 <h3>3. Rhythm and Tempo Drill – Build a Repeatable Flow</h3>
 
-<img src="https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=800&h=500&fit=crop" alt="Golf Rhythm and Tempo Drill" class="wp-image-4352"/>
+<img src="https://images.unsplash.com/photo-1592919505780-303950717480?w=800&h=500&fit=crop" alt="Golf Rhythm and Tempo Drill" class="wp-image-4352"/>
 
 <p>Count “1-2-3” as you swing — one and two on the backswing, three on the downswing. That simple rhythm forces smoother transitions and eliminates the quick, jerky feel that leads to mishits.</p>
 
@@ -99,7 +99,7 @@ export const wpGolfTipArticles: Article[] = [
 
 <h3>4. Pause at the Top Drill – Sync the Sequence</h3>
 
-<img src="https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=800&h=500&fit=crop" alt="Pause at the top drill" class="wp-image-4359"/>
+<img src="/wp-content/uploads/2025/10/image-10-1024x617.png" alt="Pause at the top drill" class="wp-image-4359"/>
 
 <p>Make a full backswing and pause for one second before starting down. That pause allows your lower body to lead naturally and your arms to follow in sync.</p>
 
@@ -109,7 +109,7 @@ export const wpGolfTipArticles: Article[] = [
 
 <h3>5. Hybrid Drill – Control the Bottom of Your Swing</h3>
 
-<img src="https://images.unsplash.com/photo-1592919505780-303950717480?w=800&h=500&fit=crop" alt="Golf Hybrid Drill" class="wp-image-4358"/>
+<img src="https://images.unsplash.com/photo-1600783245777-080fd7ff9253?w=800&h=500&fit=crop" alt="Golf Hybrid Drill" class="wp-image-4358"/>
 
 <p>Use a hybrid or 7-iron and hit small half swings while brushing the turf just after contact. If your club bottoms out too early, you’ll feel it right away.</p>
 
@@ -119,7 +119,7 @@ export const wpGolfTipArticles: Article[] = [
 
 <h3>6. Strike the Match Drill – Add Compression and Feel</h3>
 
-<img src="https://images.unsplash.com/photo-1600783245777-080fd7ff9253?w=800&h=500&fit=crop" alt="Strike The Match Drill" class="wp-image-4357"/>
+<img src="https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?w=800&h=500&fit=crop" alt="Strike The Match Drill" class="wp-image-4357"/>
 
 <p>Imagine striking a match right through the turf as you hit. Keep your hands slightly ahead of the ball and feel the face drive through impact.</p>
 
@@ -127,7 +127,7 @@ export const wpGolfTipArticles: Article[] = [
 
 <h3>7. Hip Turn Drill – Build Power Without Forcing It</h3>
 
-<img src="https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?w=800&h=500&fit=crop" alt="Golf Hip Turn Drill" class="wp-image-4356"/>
+<img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&h=500&fit=crop" alt="Golf Hip Turn Drill" class="wp-image-4356"/>
 
 <p>Hold a club across your hips and rotate back and through while keeping your head steady. You’ll feel your hips turning instead of sliding, building tension you can release for power.</p>
 
@@ -135,7 +135,7 @@ export const wpGolfTipArticles: Article[] = [
 
 <h3>8. Chair Drill – Stop Early Extension and Sway</h3>
 
-<img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&h=500&fit=crop" alt="Golf Chair Drill" class="wp-image-4355"/>
+<img src="https://images.unsplash.com/photo-1621005570352-6418df03796b?w=800&h=500&fit=crop" alt="Golf Chair Drill" class="wp-image-4355"/>
 
 <p>Place a chair behind your trail hip and take your normal backswing without touching it. If your hip bumps into the chair, you’re swaying instead of turning.</p>
 
@@ -143,7 +143,7 @@ export const wpGolfTipArticles: Article[] = [
 
 <h3>9. Towel Under Arm Drill – Keep Everything Connected</h3>
 
-<img src="https://images.unsplash.com/photo-1621005570352-6418df03796b?w=800&h=500&fit=crop" alt="Towel Under Arm Drill" class="wp-image-4354"/>
+<img src="https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=800&h=500&fit=crop" alt="Towel Under Arm Drill" class="wp-image-4354"/>
 
 <p>Tuck a towel under your lead arm and make smooth half swings, keeping it in place until after impact. If it drops early, your arms are separating from your body — a common cause of slices and mis-hits.</p>
 
@@ -153,7 +153,7 @@ export const wpGolfTipArticles: Article[] = [
 
 <h3>10. Gate Drill – Train a Consistent Putting Path</h3>
 
-<img src="https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=800&h=500&fit=crop" alt="Golf Gate Drill" class="wp-image-4353"/>
+<img src="https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=800&h=500&fit=crop" alt="Golf Gate Drill" class="wp-image-4353"/>
 
 <p>Set two tees slightly wider than your putter head and roll putts through the gap. It forces your stroke to stay square and centered.</p>
 
@@ -372,7 +372,7 @@ $
 
 Best For Budget
 
-<img src="https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=800&h=500&fit=crop" alt="Golf equipment" />
+<img src="/wp-content/uploads/2025/01/image-96-1024x1024.png" alt="Golf equipment" />
 
 <h3>5. Garmin Approach R50 SwingBay Golf Simulator</h3>
 
@@ -414,7 +414,7 @@ https://www.youtube.com/watch?v=1nkUvZa54ts
 
 <p>Before investing in a SwingBay golf simulator, it’s crucial to evaluate your space. Most setups require at least 9 feet of ceiling height, 10 feet of width, and 12-15 feet of depth for a full-swing experience. If space is tight, compact enclosures like the SkyTrak+ SwingBay offer a more flexible fit. For garage use, consider a retractable setup that allows for easy storage when not in use.</p>
 
-<img src="https://images.unsplash.com/photo-1592919505780-303950717480?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-3903"/>
+<img src="/wp-content/uploads/2025/02/image-15-1024x576.png" alt="Golf equipment" class="wp-image-3903"/>
 
 <h3><strong>Launch Monitor Technology: Camera vs. Radar</strong></h3>
 
@@ -424,7 +424,7 @@ https://www.youtube.com/watch?v=1nkUvZa54ts
 
 <p>The right software enhances your simulator experience. SwingBay simulators often support GSPro, TGC 2019, E6 CONNECT, and FSX Play, offering access to virtual courses, skill-building challenges, and real-time analytics. Some launch monitors, like the Garmin R50, integrate directly with mobile apps for simplified tracking, while others require premium software subscriptions for full functionality.</p>
 
-<img src="https://images.unsplash.com/photo-1600783245777-080fd7ff9253?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-3866"/>
+<img src="/wp-content/uploads/2025/01/image-240-1024x768.png" alt="Golf equipment" class="wp-image-3866"/>
 
 <h3><strong>Impact Screen vs. Hitting Net</strong></h3>
 
@@ -477,7 +477,7 @@ https://www.youtube.com/watch?v=1nkUvZa54ts
 
 <h2>1. The Grip Check Drill</h2>
 
-<img src="https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?w=800&h=500&fit=crop" alt="grip check golf drill" class="wp-image-4367"/>
+<img src="https://images.unsplash.com/photo-1592919505780-303950717480?w=800&h=500&fit=crop" alt="grip check golf drill" class="wp-image-4367"/>
 
 <p>Everything starts with how you hold the club. A poor grip causes slices, hooks, and weak contact before you even take the club back.</p>
 
@@ -489,7 +489,7 @@ https://www.youtube.com/watch?v=1nkUvZa54ts
 
 <h2>2. The Mirror Posture Drill</h2>
 
-<img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&h=500&fit=crop" alt="mirror posture golf drill" class="wp-image-4374"/>
+<img src="https://images.unsplash.com/photo-1600783245777-080fd7ff9253?w=800&h=500&fit=crop" alt="mirror posture golf drill" class="wp-image-4374"/>
 
 <p>Posture sets the foundation for your swing. Most beginners lose power because they bend their knees too much or hunch their shoulders.</p>
 
@@ -501,7 +501,7 @@ https://www.youtube.com/watch?v=1nkUvZa54ts
 
 <h2>3. The Ball-in-Hands Drill</h2>
 
-<img src="https://images.unsplash.com/photo-1621005570352-6418df03796b?w=800&h=500&fit=crop" alt="ball in hands drill" class="wp-image-4366"/>
+<img src="https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?w=800&h=500&fit=crop" alt="ball in hands drill" class="wp-image-4366"/>
 
 <p>If your arms move faster than your body, you’ll struggle with consistency. This drill fixes that.</p>
 
@@ -513,7 +513,7 @@ https://www.youtube.com/watch?v=1nkUvZa54ts
 
 <h2>4. The Gate Drill</h2>
 
-<img src="https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=800&h=500&fit=crop" alt="golf gate" class="wp-image-4370"/>
+<img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&h=500&fit=crop" alt="golf gate" class="wp-image-4370"/>
 
 <p>Clean contact is all about controlling the low point of your swing.</p>
 
@@ -525,7 +525,7 @@ https://www.youtube.com/watch?v=1nkUvZa54ts
 
 <h2>5. The Wall Drill</h2>
 
-<img src="https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=800&h=500&fit=crop" alt="the golf wall drill" class="wp-image-4372"/>
+<img src="https://images.unsplash.com/photo-1621005570352-6418df03796b?w=800&h=500&fit=crop" alt="the golf wall drill" class="wp-image-4372"/>
 
 <p>Losing posture ruins accuracy. The wall gives instant feedback.</p>
 
@@ -537,7 +537,7 @@ https://www.youtube.com/watch?v=1nkUvZa54ts
 
 <h2>6. The Step-Through Drill</h2>
 
-<img src="https://images.unsplash.com/photo-1592919505780-303950717480?w=800&h=500&fit=crop" alt="the step through drill" class="wp-image-4369"/>
+<img src="https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=800&h=500&fit=crop" alt="the step through drill" class="wp-image-4369"/>
 
 <p>Weight transfer is what gives your shots power and balance.</p>
 
@@ -549,7 +549,7 @@ https://www.youtube.com/watch?v=1nkUvZa54ts
 
 <h2>7. The Pause-at-the-Top Drill</h2>
 
-<img src="https://images.unsplash.com/photo-1600783245777-080fd7ff9253?w=800&h=500&fit=crop" alt="pause at the top drill " class="wp-image-4365"/>
+<img src="https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=800&h=500&fit=crop" alt="pause at the top drill " class="wp-image-4365"/>
 
 <p>Rushing the downswing leads to thin shots and slices.</p>
 
@@ -561,7 +561,7 @@ https://www.youtube.com/watch?v=1nkUvZa54ts
 
 <h2>8. The Alignment Stick Drill</h2>
 
-<img src="https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?w=800&h=500&fit=crop" alt="golf alignment stick drill" class="wp-image-4373"/>
+<img src="https://images.unsplash.com/photo-1592919505780-303950717480?w=800&h=500&fit=crop" alt="golf alignment stick drill" class="wp-image-4373"/>
 
 <p>Alignment problems cause most beginner misses.</p>
 
@@ -575,7 +575,7 @@ https://www.youtube.com/watch?v=1nkUvZa54ts
 
 <h2>9. The Impact Bag Drill</h2>
 
-<img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&h=500&fit=crop" alt="Golf impact bag drill" class="wp-image-4371"/>
+<img src="https://images.unsplash.com/photo-1600783245777-080fd7ff9253?w=800&h=500&fit=crop" alt="Golf impact bag drill" class="wp-image-4371"/>
 
 <p>Impact decides everything—face angle, compression, and distance.</p>
 
@@ -587,7 +587,7 @@ https://www.youtube.com/watch?v=1nkUvZa54ts
 
 <h2>10. The Speed Whoosh Drill</h2>
 
-<img src="https://images.unsplash.com/photo-1621005570352-6418df03796b?w=800&h=500&fit=crop" alt="The Speed Woosh Drill" class="wp-image-4368"/>
+<img src="https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?w=800&h=500&fit=crop" alt="The Speed Woosh Drill" class="wp-image-4368"/>
 
 <p>Speed isn’t about swinging harder—it’s about releasing energy in the right spot.</p>
 
