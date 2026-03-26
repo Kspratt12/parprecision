@@ -229,6 +229,98 @@ html {
   font-weight: inherit;
 }
 
+/* Standalone affiliate links (direct child of article-content, NOT inside p/li/h3) */
+.article-content > a[href*="shopindoorgolf"],
+.article-content > a[href*="rainorshinegolf"],
+.article-content > a[href*="phigolfstore"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0.5rem auto 1.75rem;
+  padding: 1rem 2rem;
+  background: var(--color-primary);
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none !important;
+  border: none !important;
+  border-radius: 0.75rem;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  letter-spacing: 0.01em;
+}
+
+.article-content > a[href*="shopindoorgolf"]:hover,
+.article-content > a[href*="rainorshinegolf"]:hover,
+.article-content > a[href*="phigolfstore"]:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+}
+
+.article-content > a[href*="shopindoorgolf"]::after,
+.article-content > a[href*="rainorshinegolf"]::after,
+.article-content > a[href*="phigolfstore"]::after {
+  content: " →";
+}
+
+/* Brand colors for standalone buttons */
+.article-content > a[href*="falcon"] { background: #4da8da !important; }
+.article-content > a[href*="falcon"]:hover { background: #3a8fbf !important; }
+.article-content > a[href*="foresight"],
+.article-content > a[href*="gcquad"],
+.article-content > a[href*="gchawk"],
+.article-content > a[href*="gc3"],
+.article-content > a[href*="quadmax"] { background: #1a3a5c !important; }
+.article-content > a[href*="foresight"]:hover,
+.article-content > a[href*="gcquad"]:hover,
+.article-content > a[href*="gchawk"]:hover,
+.article-content > a[href*="gc3"]:hover,
+.article-content > a[href*="quadmax"]:hover { background: #0f2640 !important; }
+.article-content > a[href*="bushnell"] { background: #e65100 !important; }
+.article-content > a[href*="bushnell"]:hover { background: #bf4300 !important; }
+.article-content > a[href*="skytrak"] { background: #00acc1 !important; }
+.article-content > a[href*="skytrak"]:hover { background: #00838f !important; }
+.article-content > a[href*="trackman"] { background: #e64a19 !important; }
+.article-content > a[href*="trackman"]:hover { background: #bf360c !important; }
+.article-content > a[href*="garmin"] { background: #003366 !important; }
+.article-content > a[href*="garmin"]:hover { background: #002244 !important; }
+.article-content > a[href*="uneekor"] { background: #7b1fa2 !important; }
+.article-content > a[href*="uneekor"]:hover { background: #5c1580 !important; }
+.article-content > a[href*="flightscope"],
+.article-content > a[href*="mevo"] { background: #1a2744 !important; }
+.article-content > a[href*="flightscope"]:hover,
+.article-content > a[href*="mevo"]:hover { background: #0d162a !important; }
+.article-content > a[href*="protee"] { background: #424242 !important; }
+.article-content > a[href*="protee"]:hover { background: #2a2a2a !important; }
+.article-content > a[href*="trugolf"] { background: #2e7d32 !important; }
+.article-content > a[href*="trugolf"]:hover { background: #1b5e20 !important; }
+.article-content > a[href*="full-swing"] { background: #1a1a1a !important; }
+.article-content > a[href*="full-swing"]:hover { background: #000000 !important; }
+.article-content > a[href*="rapsodo"] { background: #d84315 !important; }
+.article-content > a[href*="rapsodo"]:hover { background: #b53000 !important; }
+.article-content > a[href*="hd-golf"] { background: #1a1a1a !important; }
+.article-content > a[href*="hd-golf"]:hover { background: #000000 !important; }
+.article-content > a[href*="swing-caddie"],
+.article-content > a[href*="ernest"],
+.article-content > a[href*="swingbay"],
+.article-content > a[href*="swingturf"],
+.article-content > a[href*="optoma"],
+.article-content > a[href*="benq"],
+.article-content > a[href*="e6-golf"],
+.article-content > a[href*="gspro"],
+.article-content > a[href*="phigolf"] { background: #546e7a !important; }
+.article-content > a[href*="swing-caddie"]:hover,
+.article-content > a[href*="ernest"]:hover,
+.article-content > a[href*="swingbay"]:hover,
+.article-content > a[href*="swingturf"]:hover,
+.article-content > a[href*="optoma"]:hover,
+.article-content > a[href*="benq"]:hover,
+.article-content > a[href*="e6-golf"]:hover,
+.article-content > a[href*="gspro"]:hover,
+.article-content > a[href*="phigolf"]:hover { background: #37474f !important; }
+
 /* ── Brand-Colored CTA Buttons (figcaption ONLY) ── */
 /* Colors match actual product/brand aesthetics */
 
