@@ -71,19 +71,19 @@ export function ArticlePage({ article }: { article: Article }) {
             author: {
               "@type": "Organization",
               name: "Par Precision",
-              url: "https://parprecision.com",
+              url: "https://parpercision.com",
             },
             publisher: {
               "@type": "Organization",
               name: "Par Precision",
               logo: {
                 "@type": "ImageObject",
-                url: "https://parprecision.com/Logo.png",
+                url: "https://parpercision.com/Logo.png",
               },
             },
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": `https://parprecision.com/${article.slug}`,
+              "@id": `https://parpercision.com/${article.slug}`,
             },
           }),
         }}

@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/admin/"],
       },
     ],
-    sitemap: "https://parprecision.com/sitemap.xml",
+    sitemap: "https://parpercision.com/sitemap.xml",
   };
 }

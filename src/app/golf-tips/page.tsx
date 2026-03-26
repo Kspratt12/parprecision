@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Golf Tips — Improve Your Game with Data-Driven Drills",
   description:
     "Practical golf tips backed by launch monitor data. Fix your slice, increase clubhead speed, improve your short game, and lower your scores with drills you can practice at home.",
-  alternates: { canonical: "https://parprecision.com/golf-tips" },
+  alternates: { canonical: "https://parpercision.com/golf-tips" },
 };
 
 export default function GolfTipsIndexPage() {

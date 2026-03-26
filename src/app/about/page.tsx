@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "About Par Precision",
   description:
     "Par Precision is your trusted source for independent golf simulator and launch monitor reviews. We test every product hands-on so you can make informed decisions.",
-  alternates: { canonical: "https://parprecision.com/about" },
+  alternates: { canonical: "https://parpercision.com/about" },
 };
 
 export default function AboutPage() {
@@ -23,7 +23,7 @@ export default function AboutPage() {
             mainEntity: {
               "@type": "Organization",
               name: "Par Precision",
-              url: "https://parprecision.com",
+              url: "https://parpercision.com",
               description:
                 "Independent golf simulator and launch monitor review site with hands-on testing.",
               foundingDate: "2025",
@@ -116,8 +116,8 @@ export default function AboutPage() {
         <p>
           Have a question, product suggestion, or just want to talk golf? We&apos;d love to hear
           from you. Reach out at{" "}
-          <a href="mailto:hello@parprecision.com" className="text-primary hover:underline font-medium">
-            hello@parprecision.com
+          <a href="mailto:hello@parpercision.com" className="text-primary hover:underline font-medium">
+            hello@parpercision.com
           </a>{" "}
           or visit our{" "}
           <Link href="/contact" className="text-primary hover:underline font-medium">

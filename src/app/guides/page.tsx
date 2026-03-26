@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Golf Simulator Guides — Setup, Cost, Room Dimensions & More",
   description:
     "Complete guides for building your home golf simulator. Room dimensions, cost breakdowns, projector selection, mat guides, and step-by-step setup instructions.",
-  alternates: { canonical: "https://parprecision.com/guides" },
+  alternates: { canonical: "https://parpercision.com/guides" },
 };
 
 export default function GuidesIndexPage() {

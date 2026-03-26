@@ -17,7 +17,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://parprecision.com"),
+  metadataBase: new URL("https://parpercision.com"),
   title: {
     default: "Par Precision — Golf Simulator & Launch Monitor Reviews",
     template: "%s | Par Precision",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://parprecision.com",
+    url: "https://parpercision.com",
     siteName: "Par Precision",
     title: "Par Precision — Golf Simulator & Launch Monitor Reviews",
     description:

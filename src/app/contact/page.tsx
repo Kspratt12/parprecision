@@ -43,8 +43,8 @@ export default function ContactPage() {
           {
             icon: Mail,
             title: "Email",
-            desc: "hello@parprecision.com",
-            href: "mailto:hello@parprecision.com",
+            desc: "hello@parpercision.com",
+            href: "mailto:hello@parpercision.com",
           },
           {
             icon: MessageSquare,

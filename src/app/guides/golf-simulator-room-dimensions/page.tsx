@@ -10,7 +10,7 @@ export const metadata: Metadata = article
       title: article.title,
       description: article.description,
       keywords: article.keywords,
-      alternates: { canonical: `https://parprecision.com/guides/golf-simulator-room-dimensions` },
+      alternates: { canonical: `https://parpercision.com/guides/golf-simulator-room-dimensions` },
       openGraph: {
         title: article.title,
         description: article.description,

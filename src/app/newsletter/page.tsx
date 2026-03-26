@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Free Golf Simulator Buying Guide — Par Precision Newsletter",
   description:
     "Get our free golf simulator buying guide plus weekly deals, new reviews, and expert tips. Join 2,000+ golfers who trust Par Precision.",
-  alternates: { canonical: "https://parprecision.com/newsletter" },
+  alternates: { canonical: "https://parpercision.com/newsletter" },
 };
 
 const benefits = [

@@ -10,7 +10,7 @@ export const metadata: Metadata = article
       title: article.title,
       description: article.description,
       keywords: article.keywords,
-      alternates: { canonical: "https://parprecision.com/best-overhead-launch-monitors" },
+      alternates: { canonical: "https://parpercision.com/best-overhead-launch-monitors" },
       openGraph: {
         title: article.title,
         description: article.description,

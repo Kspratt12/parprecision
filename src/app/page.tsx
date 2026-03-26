@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Find the perfect golf simulator or launch monitor for your home setup. Expert reviews, head-to-head comparisons, setup guides, and exclusive deals. Trusted by 10,000+ golfers.",
   alternates: {
-    canonical: "https://parprecision.com",
+    canonical: "https://parpercision.com",
   },
 };
 
@@ -94,7 +94,7 @@ export default function HomePage() {
             "@context": "https://schema.org",
             "@type": "WebSite",
             name: "Par Precision",
-            url: "https://parprecision.com",
+            url: "https://parpercision.com",
             description:
               "Expert reviews, comparisons, and buying guides for golf simulators and launch monitors.",
             publisher: {
@@ -102,12 +102,12 @@ export default function HomePage() {
               name: "Par Precision",
               logo: {
                 "@type": "ImageObject",
-                url: "https://parprecision.com/logo.png",
+                url: "https://parpercision.com/logo.png",
               },
             },
             potentialAction: {
               "@type": "SearchAction",
-              target: "https://parprecision.com/search?q={search_term_string}",
+              target: "https://parpercision.com/search?q={search_term_string}",
               "query-input": "required name=search_term_string",
             },
           }),

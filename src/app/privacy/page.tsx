@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "Par Precision privacy policy. Learn how we collect, use, and protect your information.",
-  alternates: { canonical: "https://parprecision.com/privacy" },
+  alternates: { canonical: "https://parpercision.com/privacy" },
 };
 
 export default function PrivacyPage() {
@@ -15,7 +15,7 @@ export default function PrivacyPage() {
       <div className="prose prose-gray max-w-none space-y-6 text-gray-700 leading-relaxed">
         <section>
           <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">1. Information We Collect</h2>
-          <p>When you visit Par Precision (&quot;parprecision.com&quot;), we may collect certain information automatically, including:</p>
+          <p>When you visit Par Precision (&quot;parpercision.com&quot;), we may collect certain information automatically, including:</p>
           <ul className="list-disc pl-6 space-y-2 mt-3">
             <li><strong>Usage Data:</strong> Pages viewed, time spent on pages, referring URLs, browser type, device type, and IP address.</li>
             <li><strong>Email Address:</strong> When you voluntarily subscribe to our newsletter or download a guide, we collect the email address you provide.</li>
@@ -109,8 +109,8 @@ export default function PrivacyPage() {
           <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">10. Contact Us</h2>
           <p>
             If you have any questions about this privacy policy, please contact us at{" "}
-            <a href="mailto:hello@parprecision.com" className="text-primary hover:underline">
-              hello@parprecision.com
+            <a href="mailto:hello@parpercision.com" className="text-primary hover:underline">
+              hello@parpercision.com
             </a>
           </p>
         </section>

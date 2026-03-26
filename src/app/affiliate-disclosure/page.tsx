@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Affiliate Disclosure",
   description: "Par Precision affiliate disclosure. Transparency about how we earn commissions from product recommendations.",
-  alternates: { canonical: "https://parprecision.com/affiliate-disclosure" },
+  alternates: { canonical: "https://parpercision.com/affiliate-disclosure" },
 };
 
 export default function AffiliateDisclosurePage() {
@@ -81,8 +81,8 @@ export default function AffiliateDisclosurePage() {
           <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Questions?</h2>
           <p>
             If you have any questions about our affiliate relationships, please contact us at{" "}
-            <a href="mailto:hello@parprecision.com" className="text-primary hover:underline">
-              hello@parprecision.com
+            <a href="mailto:hello@parpercision.com" className="text-primary hover:underline">
+              hello@parpercision.com
             </a>
           </p>
         </section>

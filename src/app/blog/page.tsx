@@ -5,10 +5,10 @@ import { articles } from "@/content/articles";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Golf Simulator Blog — Reviews, Guides & Tips | Par Precision",
+  title: "Golf Simulator Blog — Reviews, Guides & Tips",
   description:
     "Expert golf simulator and launch monitor content. In-depth reviews, buying guides, setup tutorials, comparison articles, and golf improvement tips from real testing data.",
-  alternates: { canonical: "https://parprecision.com/blog" },
+  alternates: { canonical: "https://parpercision.com/blog" },
 };
 
 const categoryConfig: Record<string, { label: string; icon: typeof BookOpen; href: string }> = {

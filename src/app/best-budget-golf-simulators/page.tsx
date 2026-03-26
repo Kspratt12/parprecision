@@ -10,7 +10,7 @@ export const metadata: Metadata = article
       title: article.title,
       description: article.description,
       keywords: article.keywords,
-      alternates: { canonical: "https://parprecision.com/best-budget-golf-simulators" },
+      alternates: { canonical: "https://parpercision.com/best-budget-golf-simulators" },
       openGraph: {
         title: article.title,
         description: article.description,

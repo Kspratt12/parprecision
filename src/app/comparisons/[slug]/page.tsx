@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: article.title,
     description: article.description,
     keywords: article.keywords,
-    alternates: { canonical: `https://parprecision.com/comparisons/${slug}` },
+    alternates: { canonical: `https://parpercision.com/comparisons/${slug}` },
     openGraph: {
       title: article.title,
       description: article.description,

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description: "Par Precision terms of service. Read our terms and conditions for using the website.",
-  alternates: { canonical: "https://parprecision.com/terms" },
+  alternates: { canonical: "https://parpercision.com/terms" },
 };
 
 export default function TermsPage() {
@@ -16,7 +16,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">1. Acceptance of Terms</h2>
           <p>
-            By accessing and using Par Precision (&quot;parprecision.com&quot;), you accept and agree
+            By accessing and using Par Precision (&quot;parpercision.com&quot;), you accept and agree
             to be bound by these Terms of Service. If you do not agree with any part of these terms,
             please do not use our website.
           </p>
@@ -114,8 +114,8 @@ export default function TermsPage() {
           <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">10. Contact</h2>
           <p>
             For questions about these terms, contact us at{" "}
-            <a href="mailto:hello@parprecision.com" className="text-primary hover:underline">
-              hello@parprecision.com
+            <a href="mailto:hello@parpercision.com" className="text-primary hover:underline">
+              hello@parpercision.com
             </a>
           </p>
         </section>

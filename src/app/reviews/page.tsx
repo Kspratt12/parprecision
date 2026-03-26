@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Golf Launch Monitor & Simulator Reviews — Par Precision",
   description:
     "In-depth, hands-on reviews of every major golf launch monitor and simulator. SkyTrak+, Garmin R10, Bushnell Launch Pro, FlightScope Mevo+, and more.",
-  alternates: { canonical: "https://parprecision.com/reviews" },
+  alternates: { canonical: "https://parpercision.com/reviews" },
 };
 
 export default function ReviewsIndexPage() {
