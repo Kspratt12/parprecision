@@ -12,7 +12,7 @@ export const wpComparisonArticles: Article[] = [
     categoryLabel: "Comparison",
     keywords: ["TrackMan iO vs TrackMan 4", "trackman io vs trackman 4"],
     readingTime: "6 min read",
-    coverImage: "https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=1200&h=630&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1472745433479-4556f22e32c2?w=1200&h=630&fit=crop",
     coverImageAlt: "Trackman Io Vs Trackman 4",
     content: `
 <p>If you’re comparing TrackMan iO vs TrackMan 4, you’re not trying to decide which system is more accurate. Both deliver elite, tour-trusted ball data. </p>
@@ -127,7 +127,7 @@ export const wpComparisonArticles: Article[] = [
     categoryLabel: "Comparison",
     keywords: ["foresight sports gc3s", "foresight sports gc3s vs gc3"],
     readingTime: "7 min read",
-    coverImage: "https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=1200&h=630&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1622398925373-3f91b1e275f5?w=1200&h=630&fit=crop",
     coverImageAlt: "Foresight Sports Gc3s Vs Gc3",
     content: `
 <p>Trying to decide between the <strong><p><a href="https://rainorshinegolf.com/products/foresight-gc3s-launch-monitor?sca_ref=8031687.nzZhLVQgAaWc"><strong>Pros:</strong></a></p><a href="https://parpercision.com/foresight-sports-gc3s/" target="_blank" rel="noreferrer noopener">3S</a> maintains the same hardware and performance standards as the <a href="https://parpercision.com/foresight-sports-gc3/">GC</a><a href="https://parpercision.com/foresight-sports-gc3/" target="_blank" rel="noreferrer noopener">3</a>, providing precise ball and club tracking. It delivers accurate data for launch conditions, spin rates, and carry distance, making it one of the most reliable launch monitors available. However, the subscription model changes how users access key features.</p>
@@ -254,14 +254,14 @@ $6,999
     categoryLabel: "Comparison",
     keywords: ["Trackman iO Home vs Complete", "trackman io home vs complete"],
     readingTime: "4 min read",
-    coverImage: "https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=1200&h=630&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1611374243147-44a702c2d44c?w=1200&h=630&fit=crop",
     coverImageAlt: "Trackman Io Home Vs Complete",
     content: `
 <p>The Trackman iO doesn’t change based on the version you buy. The ceiling unit stays the same, the accuracy stays the same, and the tracking system never changes. </p>
 
 <p>The only difference shows up once the software loads and you see the tools each version unlocks. The Home package gives you the essentials. The Complete package opens everything Trackman offers. Once you understand that split, choosing between them becomes a lot easier.</p>
 
-<img src="https://images.unsplash.com/photo-1621005570352-6418df03796b?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-4448"/>
+<img src="/wp-content/uploads/2025/11/image-14-1024x576.png" alt="Golf equipment" class="wp-image-4448"/>
 
 <h2>What Trackman iO Home Actually Gives You</h2>
 
@@ -275,7 +275,7 @@ $6,999
 
 <p>The Home package lists at <strong><a href="https://shopindoorgolf.com/products/trackman-io-launch-monitor?aff=356&amp;utm_source=affiliate&amp;utm_medium=https://fairwayelite.com/" target="_blank" rel="noreferrer noopener">$13,995</a></strong>.</p>
 
-<img src="https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-4449"/>
+<img src="/wp-content/uploads/2025/11/image-15-1024x576.png" alt="Golf equipment" class="wp-image-4449"/>
 
 <h2>What Trackman iO Complete Unlocks</h2>
 
@@ -287,7 +287,7 @@ $6,999
 
 <p>The Complete package lists at <strong><a href="https://shopindoorgolf.com/products/trackman-io-launch-monitor?aff=356&amp;utm_source=affiliate&amp;utm_medium=https://fairwayelite.com/" target="_blank" rel="noreferrer noopener">$23,495</a></strong>.</p>
 
-<img src="https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-4478"/>
+<img src="/wp-content/uploads/2025/11/image-28-1024x768.png" alt="Golf equipment" class="wp-image-4478"/>
 
 <h2>Ball Data vs Club Data (Side-by-Side)</h2>
 
@@ -329,7 +329,7 @@ $6,999
 
 <p>No. The Trackman iO does not require club stickers or marked balls. It tracks ball and club data without any add-ons, which keeps the setup clean and simple.</p>
 
-<img src="https://images.unsplash.com/photo-1592919505780-303950717480?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-4479"/>
+<img src="/wp-content/uploads/2025/11/image-29-768x1024.png" alt="Golf equipment" class="wp-image-4479"/>
 
 <h2>Which One Should You Choose?</h2>
 
@@ -361,7 +361,7 @@ $6,999
     categoryLabel: "Comparison",
     keywords: ["Garmin R50 vs GC3", "garmin r50 vs gc3"],
     readingTime: "8 min read",
-    coverImage: "https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=1200&h=630&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=1200&h=630&fit=crop",
     coverImageAlt: "Garmin R50 Vs Gc3",
     content: `
 <p>Trying to choose between the Garmin R50 and the Foresight GC3 feels like picking between two completely different ways to practice.</p>
@@ -372,7 +372,7 @@ $6,999
 
 <p>If you care about precision and long term simulator growth, the GC3 usually makes more sense. If you want convenient practice and an all in one experience, the R50 fits that lane better.</p>
 
-<img src="https://images.unsplash.com/photo-1600783245777-080fd7ff9253?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-4470"/>
+<img src="/wp-content/uploads/2025/11/image-24-1024x924.png" alt="Golf equipment" class="wp-image-4470"/>
 
 <h2>Garmin R50 vs GC3: Key Differences At A Glance</h2>
 
@@ -392,7 +392,7 @@ $6,999
 
 <p>Both are camera based, but they have very different personalities. One feels like a self contained simulator. The other feels like a measurement tool for golfers who want serious improvement.</p>
 
-<img src="https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-4471"/>
+<img src="/wp-content/uploads/2025/11/image-25-768x1024.png" alt="Golf equipment" class="wp-image-4471"/>
 
 <h2>What You Feel During Setup</h2>
 
@@ -402,7 +402,7 @@ $6,999
 
 <p>Both setups work. They just support different practice styles.</p>
 
-<img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-4482"/>
+<img src="/wp-content/uploads/2025/11/Screenshot-2025-01-17-095055-1024x575.png" alt="Golf equipment" class="wp-image-4482"/>
 
 <h2>Accuracy Differences That Show Up Quickly</h2>
 
@@ -414,7 +414,7 @@ $6,999
 
 <p>Players who want exact numbers and repeatable data usually lean toward the GC3. Players who want dependable ball data with fewer steps tend to feel more comfortable with the R50.</p>
 
-<img src="https://images.unsplash.com/photo-1621005570352-6418df03796b?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-4472"/>
+<img src="/wp-content/uploads/2025/11/image-26.png" alt="Golf equipment" class="wp-image-4472"/>
 
 <h2>How the Software Experience Changes Your Practice</h2>
 
@@ -424,7 +424,7 @@ $6,999
 
 <p>Convenience leans toward the Garmin R50. Premium simulation and deeper practice tools lean toward the Foresight GC3.</p>
 
-<img src="https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-4473"/>
+<img src="/wp-content/uploads/2025/11/image-27-1024x691.png" alt="Golf equipment" class="wp-image-4473"/>
 
 <h2>Indoor Fit and Space Feel</h2>
 
@@ -562,7 +562,7 @@ $</span></span>
     categoryLabel: "Comparison",
     keywords: ["Difference Between SkyTrak and SkyTrak Plus", "skytrak vs skytrak plus differences"],
     readingTime: "5 min read",
-    coverImage: "https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=1200&h=630&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1621005570352-6418df03796b?w=1200&h=630&fit=crop",
     coverImageAlt: "Skytrak Vs Skytrak Plus Differences",
     content: `
 <p>The difference between the SkyTrak and SkyTrak Plus comes down to how each one tracks the ball, how much swing data you get, and how well they perform outside, but the real gap shows up once you test them side by side in an actual hitting bay.</p>
@@ -571,7 +571,7 @@ $</span></span>
 
 <p>The original SkyTrak currently sits around $895, while the SkyTrak Plus comes in at <strong><a href="https://shopindoorgolf.com/products/skytrak-plus-launch-monitor?aff=356&amp;utm_source=affiliate&amp;utm_medium=https://fairwayelite.com/" target="_blank" rel="noreferrer noopener">$1,995</a></strong>, which makes understanding the performance gap even more important before you pick one.</p>
 
-<img src="https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-4435"/>
+<img src="/wp-content/uploads/2025/11/image-8-1024x771.png" alt="Golf equipment" class="wp-image-4435"/>
 
 <h2>Tracking, Accuracy, and Outdoor Performance</h2>
 
@@ -581,7 +581,7 @@ $</span></span>
 
 <p>The increased accuracy outdoors is the next real difference. I noticed the original SkyTrak had a higher miss rate during brighter days. The SkyTrak Plus is designed to handle both indoor and outdoor use, and the radar component holds its tracking quality even when lighting changes. That flexibility alone makes it better for golfers who want to hit in the yard or bring the device to the range without dealing with read errors.</p>
 
-<img src="https://images.unsplash.com/photo-1592919505780-303950717480?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-4436"/>
+<img src="/wp-content/uploads/2025/11/image-9-1024x768.png" alt="Golf equipment" class="wp-image-4436"/>
 
 <h2>Speed, Hitting Zone, and Daily Usability</h2>
 
@@ -593,7 +593,7 @@ $</span></span>
 
 <p>Build and connectivity updates matter too. The SkyTrak Plus switched to USB C for charging and added stronger internal processing along with 5 GHz WiFi compatibility. The original SkyTrak still uses micro USB and runs slower when handling high resolution data. These improvements make daily use smoother, especially if you plan to leave the device plugged in for long sessions.</p>
 
-<img src="https://images.unsplash.com/photo-1600783245777-080fd7ff9253?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-4434"/>
+<img src="/wp-content/uploads/2025/11/Screenshot-2025-01-13-184821-1024x576.png" alt="Golf equipment" class="wp-image-4434"/>
 
 <h2>Software Access, Memberships, and Space Requirements</h2>
 
@@ -772,7 +772,7 @@ https://www.youtube.com/watch?v=vmUWvp12xn0&amp;t=5s
     categoryLabel: "Comparison",
     keywords: ["Bushnell Launch Pro vs SkyTrak+", "bushnell launch pro vs skytrak plus"],
     readingTime: "6 min read",
-    coverImage: "https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=1200&h=630&fit=crop",
+    coverImage: "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=1200&h=630&fit=crop",
     coverImageAlt: "Bushnell Launch Pro Vs Skytrak Plus",
     content: `
 <p>The gap between the Bushnell Launch Pro and the SkyTrak+ becomes clear once you hit on both. The Launch Pro pulls ahead in accuracy, short-game consistency, and how dependable the numbers feel from swing to swing. SkyTrak+ shines with easier setup, a wider hitting zone, and smoother software that feels built for everyday practice.</p>
@@ -795,7 +795,7 @@ https://www.youtube.com/watch?v=94l7BITIa54&amp;t=27s
 
 <p>One feels more exact, while the other still gives enough accuracy to make real progress.</p>
 
-<img src="https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-4461"/>
+<img src="/wp-content/uploads/2025/11/image-22.png" alt="Golf equipment" class="wp-image-4461"/>
 
 <h2>Club Data Differences That Matter During Real Practice</h2>
 
@@ -805,7 +805,7 @@ https://www.youtube.com/watch?v=94l7BITIa54&amp;t=27s
 
 <p>One behaves like a coaching tool. The other keeps practice simple.</p>
 
-<img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-4462"/>
+<img src="/wp-content/uploads/2025/11/image-23-1024x684.png" alt="Golf equipment" class="wp-image-4462"/>
 
 <a href="https://shopindoorgolf.com/products/skytrak-plus-launch-monitor?aff=356&amp;utm_source=affiliate&amp;utm_medium=https://fairwayelite.com/" target="_blank" rel="noreferrer noopener">SkyTrak+</a>
 
@@ -829,7 +829,7 @@ https://www.youtube.com/watch?v=94l7BITIa54&amp;t=27s
 
 <p>One adapts better to both environments. The other excels when conditions stay consistent.</p>
 
-<img src="https://images.unsplash.com/photo-1621005570352-6418df03796b?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-4460"/>
+<img src="/wp-content/uploads/2025/11/image-21-1024x768.png" alt="Golf equipment" class="wp-image-4460"/>
 
 <a href="https://shopindoorgolf.com/products/bushnell-launch-pro?aff=356&amp;utm_source=affiliate&amp;utm_medium=https://fairwayelite.com/" target="_blank" rel="noreferrer noopener">Bushnell Launch Pro</a>
 
@@ -855,7 +855,7 @@ https://www.youtube.com/watch?v=94l7BITIa54&amp;t=27s
 
 <p>One leads in precision. The other stays good enough for casual and simulator play.</p>
 
-<img src="https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=800&h=500&fit=crop" alt="Golf equipment" class="wp-image-4463"/>
+<img src="/wp-content/uploads/2025/11/Screenshot-2025-01-13-165252-1024x574.png" alt="Golf equipment" class="wp-image-4463"/>
 
 <h2>Software Experience and Ease of Use</h2>
 
