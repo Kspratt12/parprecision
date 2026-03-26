@@ -26,7 +26,7 @@ export default function AboutPage() {
               url: "https://parpercision.com",
               description:
                 "Independent golf simulator and launch monitor review site with hands-on testing.",
-              foundingDate: "2025",
+              foundingDate: "2023",
             },
           }),
         }}
@@ -46,16 +46,16 @@ export default function AboutPage() {
 
       <div className="prose max-w-none space-y-6 text-gray-700 leading-relaxed text-lg">
         <p>
-          Par Precision was born out of frustration. When we started building our home golf simulator
-          in 2025, we couldn&apos;t find honest, detailed reviews that actually compared products
-          side-by-side with real data. Most &quot;reviews&quot; were just rewritten spec sheets with
-          affiliate links slapped on.
+          Par Precision started in late 2023 because we couldn&apos;t find honest, detailed reviews
+          that actually compared golf simulators and launch monitors side-by-side with real data.
+          Most &quot;reviews&quot; out there were just rewritten spec sheets with affiliate links
+          slapped on.
         </p>
 
         <p>
-          We decided to do it differently. We built a dedicated testing space, purchased (yes,
-          purchased — not received for free) multiple launch monitors and simulator packages, and
-          started documenting everything.
+          We decided to do it differently. We started researching, comparing, and documenting
+          everything we learned about golf simulators and launch monitors so other golfers
+          wouldn&apos;t have to dig through the same noise we did.
         </p>
 
         <h2 className="text-2xl font-bold text-foreground mt-10 mb-4">Our Testing Philosophy</h2>
@@ -64,23 +64,23 @@ export default function AboutPage() {
           {[
             {
               icon: Target,
-              title: "Real Testing, Not Speculation",
-              desc: "Every product is tested with 500+ shots across driver, irons, and wedges. We measure accuracy against TrackMan benchmarks.",
+              title: "In-Depth Research",
+              desc: "Every product we cover gets thorough research - specs, real user feedback, and accuracy data compared across models.",
             },
             {
               icon: BarChart3,
               title: "Data-Driven Comparisons",
-              desc: "We publish the actual accuracy data, not just subjective opinions. You can see exactly how each product performs.",
+              desc: "We dig into the actual accuracy data and specs, not just subjective opinions. You can see exactly how each product stacks up.",
             },
             {
               icon: Shield,
               title: "Editorially Independent",
-              desc: "We purchase most products ourselves. When a manufacturer sends a unit, we disclose it. Our recommendations are never for sale.",
+              desc: "We call it like we see it. Our recommendations are based on value and performance, never on who pays more commission.",
             },
             {
               icon: Zap,
               title: "Constantly Updated",
-              desc: "We re-test and update our guides quarterly. Golf tech moves fast, and our content stays current.",
+              desc: "Golf tech moves fast. We update our guides regularly so the info you read is current, not outdated.",
             },
           ].map((item) => (
             <div key={item.title} className="bg-surface border border-border rounded-xl p-6">

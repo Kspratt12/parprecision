@@ -44,7 +44,7 @@ export default function PrivacyPage() {
           <p className="mt-3">Third-party services we use include:</p>
           <ul className="list-disc pl-6 space-y-2 mt-3">
             <li><strong>Google Analytics:</strong> For website traffic analysis</li>
-            <li><strong>Amazon Associates:</strong> Affiliate tracking</li>
+            <li><strong>Affiliate Networks:</strong> Commission tracking for product links</li>
             <li><strong>Email Service Provider:</strong> For newsletter delivery</li>
           </ul>
         </section>

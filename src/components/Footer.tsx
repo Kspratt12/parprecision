@@ -42,7 +42,7 @@ export function Footer() {
             Get the Free Golf Simulator Buying Guide
           </h3>
           <p className="text-muted max-w-2xl mx-auto mb-6">
-            Join 2,000+ golfers who use our guide to find the perfect simulator setup.
+            Get our free guide to find the perfect golf simulator setup for your space and budget.
             Plus, get weekly deals and new review alerts.
           </p>
           <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">

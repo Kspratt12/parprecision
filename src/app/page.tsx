@@ -8,7 +8,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Par Precision - Best Golf Simulator & Launch Monitor Reviews 2026",
   description:
-    "Find the perfect golf simulator or launch monitor for your home setup. Expert reviews, head-to-head comparisons, setup guides, and exclusive deals. Trusted by 10,000+ golfers.",
+    "Find the perfect golf simulator or launch monitor for your home setup. Expert reviews, head-to-head comparisons, setup guides, and buying advice.",
   alternates: {
     canonical: "https://parpercision.com",
   },
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const featuredReviews = [
   {
     title: "Best Golf Simulators 2026",
-    description: "Our top picks after testing 15+ simulators side-by-side. From budget to premium.",
+    description: "Our top picks after comparing the best simulators side-by-side. From budget to premium.",
     href: "/best-golf-simulators-for-home",
     image: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=600&h=400&fit=crop",
     tag: "Editor's Choice",
@@ -32,12 +32,12 @@ const featuredReviews = [
     rating: 5,
   },
   {
-    title: "SkyTrak+ In-Depth Review",
-    description: "After 6 months of daily use, here is everything you need to know about the SkyTrak+.",
-    href: "/skytrak-plus-for-beginners",
+    title: "TrackMan iO vs TrackMan 4",
+    description: "Same accuracy, very different ownership. We break down what actually matters between these two.",
+    href: "/trackman-io-vs-trackman-4",
     image: "https://images.unsplash.com/photo-1621005570352-6418df03796b?w=600&h=400&fit=crop",
-    tag: "Deep Dive",
-    rating: 4,
+    tag: "Top Comparison",
+    rating: 5,
   },
 ];
 
@@ -77,8 +77,8 @@ const latestArticles = [
 ];
 
 const trustSignals = [
-  { icon: Trophy, label: "15+ Simulators Tested", description: "Hands-on, unbiased reviews" },
-  { icon: Target, label: "10,000+ Readers", description: "Trust our recommendations" },
+  { icon: Trophy, label: "60+ In-Depth Articles", description: "Reviews, comparisons, and guides" },
+  { icon: Target, label: "Since 2023", description: "Covering golf tech from the start" },
   { icon: BarChart3, label: "Data-Driven", description: "Real accuracy measurements" },
   { icon: Shield, label: "Independent", description: "No manufacturer sponsorships" },
 ];
@@ -262,21 +262,20 @@ export default function HomePage() {
                 Real Testing. Honest Reviews. Better Decisions.
               </h2>
               <p className="text-muted text-lg leading-relaxed mb-8">
-                We don&apos;t just read spec sheets - we set up every simulator and launch monitor
-                in our own testing space. We measure accuracy, compare side-by-side, and give you
-                the real data you need to make the right purchase.
+                We don&apos;t just read spec sheets. We dig into the real data, compare products
+                side-by-side, and give you honest recommendations so you can make the right purchase.
               </p>
               <div className="space-y-4">
                 {[
                   {
                     icon: Zap,
-                    title: "Hands-On Testing",
-                    desc: "Every product reviewed with real balls, real swings, and real data.",
+                    title: "Deep Research",
+                    desc: "Every product covered with real specs, real user data, and honest analysis.",
                   },
                   {
                     icon: BarChart3,
                     title: "Accuracy Comparisons",
-                    desc: "Side-by-side accuracy tests against TrackMan benchmarks.",
+                    desc: "Side-by-side comparisons so you can see exactly how products stack up.",
                   },
                   {
                     icon: BookOpen,

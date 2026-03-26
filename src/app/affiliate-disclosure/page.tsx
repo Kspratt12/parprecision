@@ -30,9 +30,9 @@ export default function AffiliateDisclosurePage() {
           </p>
           <p className="mt-3">We participate in the following affiliate programs:</p>
           <ul className="list-disc pl-6 space-y-2 mt-3">
-            <li><strong>Amazon Associates Program:</strong> As an Amazon Associate, we earn from qualifying purchases.</li>
-            <li><strong>Direct Affiliate Programs:</strong> We have direct partnerships with select golf technology companies including SkyTrak, Foresight Sports, FlightScope, and others.</li>
-            <li><strong>ShareASale & Other Networks:</strong> We work with various affiliate networks to bring you the best deals.</li>
+            <li><strong>Rain or Shine Golf:</strong> We earn commissions on qualifying purchases through our links.</li>
+            <li><strong>Shop Indoor Golf:</strong> We earn commissions on qualifying purchases through our links.</li>
+            <li><strong>Other Affiliate Networks:</strong> We work with select affiliate partners to bring you the best deals on golf tech.</li>
           </ul>
         </section>
 
@@ -65,7 +65,7 @@ export default function AffiliateDisclosurePage() {
           <p>
             On Par Precision, affiliate links are typically found in product reviews, comparison
             articles, and &quot;best of&quot; roundup posts. Buttons like &quot;Check Price,&quot;
-            &quot;Buy on Amazon,&quot; or &quot;View Deal&quot; are affiliate links.
+            &quot;Buy Here,&quot; or &quot;View Deal&quot; are affiliate links.
           </p>
         </section>
 

@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Free Golf Simulator Buying Guide — Par Precision Newsletter",
   description:
-    "Get our free golf simulator buying guide plus weekly deals, new reviews, and expert tips. Join 2,000+ golfers who trust Par Precision.",
+    "Get our free golf simulator buying guide plus weekly deals, new reviews, and expert tips. Get our free golf simulator buying guide plus weekly deals, new reviews, and expert tips.",
   alternates: { canonical: "https://parpercision.com/newsletter" },
 };
 
@@ -39,7 +39,7 @@ export default function NewsletterPage() {
           Get the Free Golf Simulator<br />Buying Guide
         </h1>
         <p className="text-lg text-muted max-w-2xl mx-auto mb-8">
-          Join 2,000+ golfers who use our guide to find the perfect simulator setup.
+          Get our free guide to find the perfect golf simulator setup for your space and budget.
           Plus, get weekly deals and new review alerts straight to your inbox.
         </p>
         <div className="flex justify-center">
