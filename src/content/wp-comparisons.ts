@@ -245,7 +245,7 @@ $6,999
   },
   {
     slug: "trackman-io-home-vs-complete",
-    title: "What Trackman iO Home Actually Gives You",
+    title: "Trackman iO Home vs Complete: The Real Difference Explained",
     description:
       "Trackman iO Home vs Complete explained clearly. Same hardware, but the software, club data, courses, and pricing change the experience.",
     date: "2025-11-15",
@@ -553,7 +553,7 @@ $</span></span>
   },
   {
     slug: "skytrak-vs-skytrak-plus-differences",
-    title: "Tracking, Accuracy, and Outdoor Performance",
+    title: "What’s the Difference Between SkyTrak and SkyTrak Plus? From Someone Who Has Used Both",
     description:
       "The difference between SkyTrak and SkyTrak Plus comes down to tracking, club data, speed, and outdoor performance. Here’s the real comparison.",
     date: "2025-11-14",
@@ -622,7 +622,7 @@ $</span></span>
   },
   {
     slug: "launch-monitor-vs-golf-simulator",
-    title: "What Is a Launch Monitor?",
+    title: "Launch Monitor vs. Golf Simulator: Don’t Buy Until You Read This!",
     description:
       "Launch monitor vs. golf simulator, what’s the difference? Find out which one fits your budget, space, and game improvement needs!",
     date: "2025-01-31",
@@ -763,7 +763,7 @@ https://www.youtube.com/watch?v=vmUWvp12xn0&amp;t=5s
   },
   {
     slug: "bushnell-launch-pro-vs-skytrak-plus",
-    title: "Accuracy Differences That Show Up Fast",
+    title: "Bushnell Launch Pro vs SkyTrak+: The Differences That Actually Matter",
     description:
       "See how the Bushnell Launch Pro and SkyTrak+ stack up in accuracy, performance, software feel, and overall value.",
     date: "2025-11-15",

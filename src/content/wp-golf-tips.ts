@@ -3,7 +3,7 @@ import type { Article } from "./articles";
 export const wpGolfTipArticles: Article[] = [
   {
     slug: "golf-swing-drills",
-    title: "Why Golf Swing Drills Matter",
+    title: "Golf Swing Drills: 10 Proven Drills That Truly Improve Your Swing",
     description:
       "Master your swing with 10 proven golf swing drills for consistency and control. Learn home drills and quick fixes for common swing issues.",
     date: "2025-10-19",
@@ -455,7 +455,7 @@ https://www.youtube.com/watch?v=1nkUvZa54ts
   },
   {
     slug: "golf-swing-drill-for-beginners",
-    title: "1. The Grip Check Drill",
+    title: "10 Best Golf Swing Drills for Beginners (That Build Consistency)",
     description:
       "Learn 10 golf swing drills for beginners to build rhythm, consistency, and solid contact. Improve your swing and balance right from home.",
     date: "2025-10-19",
