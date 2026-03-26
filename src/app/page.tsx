@@ -86,7 +86,34 @@ const trustSignals = [
 export default function HomePage() {
   return (
     <>
-      {/* JSON-LD Structured Data */}
+      {/* JSON-LD: Organization */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "Par Precision",
+            url: "https://parpercision.com",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://parpercision.com/logo.png",
+              width: 300,
+              height: 60,
+            },
+            description:
+              "Independent golf simulator and launch monitor reviews with real accuracy data.",
+            foundingDate: "2023",
+            sameAs: [
+              "https://www.youtube.com/@ParPrecision",
+              "https://x.com/parprecision",
+              "https://www.facebook.com/parprecision",
+            ],
+          }),
+        }}
+      />
+
+      {/* JSON-LD: WebSite with SearchAction */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -100,16 +127,86 @@ export default function HomePage() {
             publisher: {
               "@type": "Organization",
               name: "Par Precision",
-              logo: {
-                "@type": "ImageObject",
-                url: "https://parpercision.com/logo.png",
-              },
             },
             potentialAction: {
               "@type": "SearchAction",
               target: "https://parpercision.com/search?q={search_term_string}",
               "query-input": "required name=search_term_string",
             },
+          }),
+        }}
+      />
+
+      {/* JSON-LD: ItemList for featured reviews */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            name: "Best Golf Simulators & Launch Monitors 2026",
+            description:
+              "Our top-rated golf simulator and launch monitor reviews, updated for 2026.",
+            numberOfItems: featuredReviews.length,
+            itemListElement: featuredReviews.map((review, index) => ({
+              "@type": "ListItem",
+              position: index + 1,
+              name: review.title,
+              url: `https://parpercision.com${review.href}`,
+            })),
+          }),
+        }}
+      />
+
+      {/* JSON-LD: FAQ */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is the best golf simulator for home use in 2026?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The SkyTrak MAX SIG10 ($4,645) is our top overall pick for home golf simulators in 2026. It combines excellent accuracy with a complete package at a competitive price. For premium buyers, the TrackMan iO ($17,690) delivers tour-level data. Budget shoppers should consider the Garmin Approach R50 or FlightScope Mevo+ for solid performance under $3,000.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How much does a golf simulator cost?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Golf simulator costs range from $2,000 for basic launch monitor setups to $50,000+ for full premium builds. A mid-range home simulator with a quality launch monitor, impact screen, enclosure, and projector typically costs $5,000-$10,000. Budget setups using portable launch monitors like the Garmin Approach R50 start around $2,000-$3,000.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "What is the difference between a launch monitor and a golf simulator?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "A launch monitor is the sensor device that tracks your ball and club data (speed, spin, launch angle). A golf simulator is the full setup including the launch monitor, impact screen, projector, enclosure, and software that lets you play virtual golf courses. You can use a launch monitor alone for practice data, but you need the full simulator package for a virtual golf experience.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How much room do I need for a golf simulator?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "The minimum recommended space for a golf simulator is 10 feet wide, 15 feet deep, and 9 feet of ceiling height. Ideally, you want 12+ feet wide, 16-18 feet deep, and 10+ feet of ceiling height for a comfortable experience with a full swing. Overhead launch monitors like the Uneekor EYE MINI require slightly less depth than radar-based systems.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Are golf simulators accurate?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Premium golf simulators like the TrackMan iO, Foresight GCQuad, and Uneekor QED are extremely accurate, matching within 1-2% of outdoor results for most metrics. Mid-range options like the SkyTrak+ and Bushnell Launch Pro also deliver excellent accuracy. Budget launch monitors are less precise but still useful for practice and general game improvement.",
+                },
+              },
+            ],
           }),
         }}
       />
@@ -136,10 +233,10 @@ export default function HomePage() {
               Updated March 2026
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-[1.1] mb-6">
-              The Best <span className="text-primary">Golf Simulators</span>{" "}&amp; Launch Monitors for Your Home
+              Find the Best <span className="text-primary">Golf Simulators</span> &amp; Launch Monitors for Home
             </h1>
             <p className="text-lg md:text-xl text-muted leading-relaxed mb-8">
-              Independent reviews of SkyTrak, TrackMan, Foresight, Garmin, Uneekor, and more. We compare accuracy, pricing, and value so you don&apos;t waste money.
+              Independent, data-driven reviews of the best golf simulators and launch monitors from SkyTrak, TrackMan, Foresight Sports, Garmin, Uneekor, Bushnell, and FlightScope. We compare accuracy, software, pricing, and real-world value so you can build the perfect home golf setup without overspending.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -198,7 +295,7 @@ export default function HomePage() {
       {/* Featured Reviews */}
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-end justify-between mb-12">
+          <div className="flex items-end justify-between mb-4">
             <div>
               <p className="text-primary font-semibold text-sm uppercase tracking-wider mb-2">
                 Featured Reviews
@@ -214,6 +311,9 @@ export default function HomePage() {
               View all reviews <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
+          <p className="text-muted text-lg leading-relaxed mb-12 max-w-3xl">
+            These are the guides our readers come back to most. Whether you are comparing the best golf simulators for home, choosing between radar and camera-based launch monitors, or deciding between TrackMan and the competition, start here.
+          </p>
 
           <div className="grid md:grid-cols-3 gap-8">
             {featuredReviews.map((review) => (
@@ -227,6 +327,7 @@ export default function HomePage() {
                     src={review.image}
                     alt={review.title}
                     fill
+                    loading="lazy"
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 768px) 100vw, 33vw"
                   />
@@ -250,8 +351,47 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Popular Reviews & Brands Section */}
+      <section className="bg-surface py-16 md:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl">
+            <p className="text-primary font-semibold text-sm uppercase tracking-wider mb-2">
+              What We Cover
+            </p>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+              In-Depth Golf Simulator &amp; Launch Monitor Reviews
+            </h2>
+            <p className="text-muted text-lg leading-relaxed mb-6">
+              We publish detailed, hands-on reviews of the most popular golf simulators and launch monitors on the market. Our coverage includes the <strong>SkyTrak+</strong> and <strong>SkyTrak MAX SIG10</strong>, the <strong>TrackMan iO</strong> and <strong>TrackMan 4</strong>, <strong>Foresight Sports GCQuad</strong> and <strong>GCHawk</strong>, <strong>Garmin Approach R50</strong>, <strong>Uneekor EYE MINI</strong> and <strong>EYE XO2</strong>, <strong>Bushnell Launch Pro</strong>, and <strong>FlightScope Mevo+</strong>.
+            </p>
+            <p className="text-muted text-lg leading-relaxed mb-8">
+              Every review includes real accuracy data, software comparisons, setup requirements, and honest value assessments. We also publish head-to-head comparisons like <Link href="/bushnell-launch-pro-vs-skytrak-plus" className="text-primary underline underline-offset-2 hover:text-primary-dark">Bushnell Launch Pro vs SkyTrak+</Link> and <Link href="/trackman-io-vs-trackman-4" className="text-primary underline underline-offset-2 hover:text-primary-dark">TrackMan iO vs TrackMan 4</Link>, plus comprehensive buying guides covering <Link href="/golf-simulator-cost-2026" className="text-primary underline underline-offset-2 hover:text-primary-dark">golf simulator costs</Link>, <Link href="/how-much-space-is-needed-for-a-golf-simulator" className="text-primary underline underline-offset-2 hover:text-primary-dark">room dimensions</Link>, and <Link href="/how-to-build-a-golf-simulator-2" className="text-primary underline underline-offset-2 hover:text-primary-dark">how to build a golf simulator</Link>.
+            </p>
+            <div className="flex flex-wrap gap-3">
+              {[
+                { label: "Best Golf Simulators", href: "/best-golf-simulators-for-home" },
+                { label: "Best Launch Monitors", href: "/best-golf-launch-monitors" },
+                { label: "Best Overhead Monitors", href: "/best-overhead-launch-monitors-review" },
+                { label: "Best Portable Monitors", href: "/best-portable-golf-launch-monitors" },
+                { label: "Best for Small Spaces", href: "/best-golf-simulators-for-small-spaces" },
+                { label: "Best for the Money", href: "/best-golf-simulators-for-the-money" },
+              ].map((link) => (
+                <Link
+                  key={link.label}
+                  href={link.href}
+                  className="inline-flex items-center gap-1.5 px-4 py-2 bg-white rounded-full text-sm font-medium text-foreground border border-border hover:border-primary/30 hover:text-primary transition-all"
+                >
+                  <ArrowRight className="w-3.5 h-3.5" />
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Why Par Precision */}
-      <section className="bg-surface py-16 md:py-24">
+      <section className="bg-white py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -264,23 +404,25 @@ export default function HomePage() {
               <p className="text-muted text-lg leading-relaxed mb-8">
                 We don&apos;t just read spec sheets. We dig into the real data, compare products
                 side-by-side, and give you honest recommendations so you can make the right purchase.
+                Whether you are looking at a $500 Garmin Approach R50 or a $20,000 Foresight GCHawk,
+                we help you understand what you are actually getting for your money.
               </p>
               <div className="space-y-4">
                 {[
                   {
                     icon: Zap,
                     title: "Deep Research",
-                    desc: "Every product covered with real specs, real user data, and honest analysis.",
+                    desc: "Every product covered with real specs, real user data, and honest analysis. We test claims from SkyTrak, TrackMan, Uneekor, and others against real-world results.",
                   },
                   {
                     icon: BarChart3,
                     title: "Accuracy Comparisons",
-                    desc: "Side-by-side comparisons so you can see exactly how products stack up.",
+                    desc: "Side-by-side comparisons so you can see exactly how products stack up. We measure spin rates, ball speed, and launch angle consistency across devices.",
                   },
                   {
                     icon: BookOpen,
                     title: "Complete Setup Guides",
-                    desc: "From room dimensions to projector selection - we cover everything.",
+                    desc: "From room dimensions to projector selection, impact screens to simulator software - we cover everything you need to build a home golf simulator.",
                   },
                 ].map((item) => (
                   <div key={item.title} className="flex gap-4">
@@ -299,8 +441,9 @@ export default function HomePage() {
               <div className="relative aspect-square rounded-2xl overflow-hidden shadow-xl">
                 <Image
                   src="/wp-content/uploads/2025/01/Golf-Simulator-in-Basement.webp"
-                  alt="Home golf simulator setup in a basement"
+                  alt="Home golf simulator setup in a basement with impact screen and projector"
                   fill
+                  loading="lazy"
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
@@ -311,15 +454,15 @@ export default function HomePage() {
       </section>
 
       {/* Latest Articles */}
-      <section className="bg-white py-16 md:py-24">
+      <section className="bg-surface py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-end justify-between mb-12">
+          <div className="flex items-end justify-between mb-4">
             <div>
               <p className="text-primary font-semibold text-sm uppercase tracking-wider mb-2">
                 Latest Articles
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-                Guides, Tips & Deep Dives
+                Guides, Tips &amp; Deep Dives
               </h2>
             </div>
             <Link
@@ -329,6 +472,9 @@ export default function HomePage() {
               View all articles <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
+          <p className="text-muted text-lg leading-relaxed mb-12 max-w-3xl">
+            From understanding golf simulator costs and room requirements to detailed product comparisons between brands like Bushnell, SkyTrak, and Foresight, our latest guides help you make smarter buying decisions.
+          </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {latestArticles.map((article) => (
@@ -342,6 +488,7 @@ export default function HomePage() {
                     src={article.image}
                     alt={article.title}
                     fill
+                    loading="lazy"
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 768px) 100vw, 25vw"
                   />
@@ -360,6 +507,65 @@ export default function HomePage() {
                 </div>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="bg-white py-16 md:py-24">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-primary font-semibold text-sm uppercase tracking-wider mb-2">
+            Common Questions
+          </p>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-10">
+            Golf Simulator FAQ
+          </h2>
+
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-lg font-bold text-foreground mb-2">
+                What is the best golf simulator for home use in 2026?
+              </h3>
+              <p className="text-muted leading-relaxed">
+                The <strong>SkyTrak MAX SIG10</strong> ($4,645) is our top overall pick for home golf simulators in 2026. It combines excellent accuracy with a complete package at a competitive price. For premium buyers, the <strong>TrackMan iO</strong> ($17,690) delivers tour-level data. Budget shoppers should consider the <strong>Garmin Approach R50</strong> or <strong>FlightScope Mevo+</strong> for solid performance under $3,000. See our full <Link href="/best-golf-simulators-for-home" className="text-primary underline underline-offset-2 hover:text-primary-dark">best golf simulators</Link> ranking.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold text-foreground mb-2">
+                How much does a golf simulator cost?
+              </h3>
+              <p className="text-muted leading-relaxed">
+                Golf simulator costs range from $2,000 for basic launch monitor setups to $50,000+ for full premium builds. A mid-range home simulator with a quality launch monitor, impact screen, enclosure, and projector typically costs $5,000-$10,000. Budget setups using portable launch monitors like the <strong>Garmin Approach R50</strong> start around $2,000-$3,000. Read our complete <Link href="/golf-simulator-cost-2026" className="text-primary underline underline-offset-2 hover:text-primary-dark">golf simulator cost breakdown</Link>.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold text-foreground mb-2">
+                What is the difference between a launch monitor and a golf simulator?
+              </h3>
+              <p className="text-muted leading-relaxed">
+                A launch monitor is the sensor device that tracks your ball and club data (speed, spin, launch angle). Brands like <strong>TrackMan</strong>, <strong>Foresight Sports</strong>, <strong>SkyTrak</strong>, and <strong>Uneekor</strong> make launch monitors. A golf simulator is the full setup including the launch monitor, impact screen, projector, enclosure, and software that lets you play virtual golf courses. You can use a launch monitor alone for practice data, but you need the full simulator package for a virtual golf experience. Browse our <Link href="/best-golf-launch-monitors" className="text-primary underline underline-offset-2 hover:text-primary-dark">best launch monitors</Link> guide.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold text-foreground mb-2">
+                How much room do I need for a golf simulator?
+              </h3>
+              <p className="text-muted leading-relaxed">
+                The minimum recommended space is 10 feet wide, 15 feet deep, and 9 feet of ceiling height. Ideally, you want 12+ feet wide, 16-18 feet deep, and 10+ feet of ceiling height for a comfortable full swing. Overhead launch monitors like the <strong>Uneekor EYE MINI</strong> require slightly less depth than radar-based systems like <strong>TrackMan</strong>. Check our detailed <Link href="/how-much-space-is-needed-for-a-golf-simulator" className="text-primary underline underline-offset-2 hover:text-primary-dark">golf simulator room dimensions guide</Link>.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold text-foreground mb-2">
+                Are golf simulators accurate?
+              </h3>
+              <p className="text-muted leading-relaxed">
+                Premium golf simulators like the <strong>TrackMan iO</strong>, <strong>Foresight GCQuad</strong>, and <strong>Uneekor QED</strong> are extremely accurate, matching within 1-2% of outdoor results for most metrics. Mid-range options like the <strong>SkyTrak+</strong> and <strong>Bushnell Launch Pro</strong> also deliver excellent accuracy for home use. Budget launch monitors are less precise but still useful for practice and general game improvement.
+              </p>
+            </div>
           </div>
         </div>
       </section>
