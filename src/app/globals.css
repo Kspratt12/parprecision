@@ -157,74 +157,73 @@ html {
   font-weight: 600;
 }
 
-/* ── Product Cards (affiliate image + caption) ── */
+/* ── Product CTA Buttons (affiliate links) ── */
 
+/* Image + figcaption = product card style */
 .article-content figcaption {
-  margin-top: -0.5rem;
-  margin-bottom: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1.75rem;
+  text-align: center;
 }
 
-.article-content figcaption a {
+.article-content figcaption strong {
+  display: block;
+}
+
+.article-content figcaption a,
+.article-content figcaption strong a {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
-  padding: 0.75rem 1.5rem;
+  width: 100%;
+  max-width: 400px;
+  padding: 1rem 2rem;
   background: var(--color-primary);
   color: #ffffff !important;
   font-weight: 700;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   text-decoration: none !important;
-  border-radius: 9999px;
-  transition: background 0.2s, box-shadow 0.2s;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 0.75rem;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+  box-shadow: 0 2px 8px rgba(126, 200, 50, 0.25);
+  letter-spacing: 0.01em;
 }
 
-.article-content figcaption a:hover {
+.article-content figcaption a:hover,
+.article-content figcaption strong a:hover {
   background: var(--color-primary-dark);
-  box-shadow: 0 4px 12px rgba(126, 200, 50, 0.3);
+  box-shadow: 0 6px 20px rgba(126, 200, 50, 0.35);
+  transform: translateY(-1px);
   color: #ffffff !important;
 }
 
-.article-content figcaption a::after {
+.article-content figcaption a::before,
+.article-content figcaption strong a::before {
+  content: "🛒 ";
+}
+
+.article-content figcaption a::after,
+.article-content figcaption strong a::after {
   content: " →";
 }
 
-/* Inline affiliate links that contain prices - make them stand out */
+/* Inline affiliate links in text - subtle highlight, not overwhelming */
 .article-content a[href*="shopindoorgolf"],
 .article-content a[href*="rainorshinegolf"],
 .article-content a[href*="phigolfstore"] {
   color: var(--color-primary-dark);
   font-weight: 600;
   text-decoration: none;
-  background: var(--color-accent);
-  padding: 0.15rem 0.5rem;
-  border-radius: 0.25rem;
   border-bottom: 2px solid var(--color-primary);
-  transition: background 0.15s, border-color 0.15s;
+  transition: color 0.15s, border-color 0.15s;
 }
 
 .article-content a[href*="shopindoorgolf"]:hover,
 .article-content a[href*="rainorshinegolf"]:hover,
 .article-content a[href*="phigolfstore"]:hover {
-  background: var(--color-primary-light);
+  color: var(--color-foreground);
   border-bottom-color: var(--color-primary-dark);
-}
-
-/* Override: figcaption affiliate links keep the button style */
-.article-content figcaption a[href*="shopindoorgolf"],
-.article-content figcaption a[href*="rainorshinegolf"],
-.article-content figcaption a[href*="phigolfstore"] {
-  background: var(--color-primary);
-  color: #ffffff !important;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  border-radius: 9999px;
-}
-
-.article-content figcaption a[href*="shopindoorgolf"]:hover,
-.article-content figcaption a[href*="rainorshinegolf"]:hover,
-.article-content figcaption a[href*="phigolfstore"]:hover {
-  background: var(--color-primary-dark);
 }
 
 /* Pros/Cons boxes */

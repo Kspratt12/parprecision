@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X, ChevronDown, Search } from "lucide-react";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -101,6 +101,13 @@ export function Navbar() {
 
           {/* Right side */}
           <div className="hidden lg:flex items-center gap-3">
+            <Link
+              href="/blog"
+              className="p-2 text-gray-500 hover:text-primary hover:bg-accent rounded-lg transition-colors"
+              aria-label="Browse all articles"
+            >
+              <Search className="w-5 h-5" />
+            </Link>
             <Link
               href="/newsletter"
               className="px-5 py-2.5 bg-primary text-white text-sm font-semibold rounded-full hover:bg-primary-dark transition-colors shadow-sm"
