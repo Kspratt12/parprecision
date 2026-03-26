@@ -119,8 +119,8 @@ export default function HomePage() {
         {/* Background image */}
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1550707227-6140ec0a5044?w=1920&h=1080&fit=crop"
-            alt="Premium home golf simulator setup with impact screen and projector"
+            src="/hero.png"
+            alt="Golf simulator and launch monitor setup"
             fill
             className="object-cover"
             priority

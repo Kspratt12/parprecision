@@ -48,7 +48,7 @@ export const metadata: Metadata = {
       "Expert reviews, comparisons, and buying guides for golf simulators and launch monitors.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Par Precision - Golf Simulator & Launch Monitor Reviews",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     title: "Par Precision - Golf Simulator & Launch Monitor Reviews",
     description:
       "Expert reviews, comparisons, and buying guides for golf simulators and launch monitors.",
-    images: ["/og-image.jpg"],
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,
