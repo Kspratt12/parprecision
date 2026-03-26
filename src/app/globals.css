@@ -175,32 +175,25 @@ html {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
-  width: 100%;
-  max-width: 400px;
-  padding: 1rem 2rem;
-  background: var(--color-primary);
+  gap: 0.375rem;
+  padding: 0.625rem 1.5rem;
+  background: linear-gradient(180deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
   color: #ffffff !important;
-  font-weight: 700;
-  font-size: 1rem;
+  font-weight: 600;
+  font-size: 0.875rem;
   text-decoration: none !important;
-  border-radius: 0.75rem;
-  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
-  box-shadow: 0 2px 8px rgba(126, 200, 50, 0.25);
-  letter-spacing: 0.01em;
+  border-radius: 0.5rem;
+  transition: box-shadow 0.2s, transform 0.15s;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
 .article-content figcaption a:hover,
 .article-content figcaption strong a:hover {
-  background: var(--color-primary-dark);
-  box-shadow: 0 6px 20px rgba(126, 200, 50, 0.35);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.15);
   transform: translateY(-1px);
   color: #ffffff !important;
-}
-
-.article-content figcaption a::after,
-.article-content figcaption strong a::after {
-  content: " →";
 }
 
 /* Affiliate links in text - just normal styled links, NOT buttons */
@@ -236,90 +229,87 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  max-width: 400px;
+  width: fit-content;
   margin: 0.5rem auto 1.75rem;
-  padding: 1rem 2rem;
-  background: var(--color-primary);
+  padding: 0.625rem 1.5rem;
+  background: linear-gradient(180deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
   color: #ffffff !important;
-  font-weight: 700;
-  font-size: 1rem;
+  font-weight: 600;
+  font-size: 0.875rem;
   text-decoration: none !important;
   border: none !important;
-  border-radius: 0.75rem;
-  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
-  letter-spacing: 0.01em;
+  border-radius: 0.5rem;
+  transition: box-shadow 0.2s, transform 0.15s;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 
 .article-content > a[href*="shopindoorgolf"]:hover,
 .article-content > a[href*="rainorshinegolf"]:hover,
 .article-content > a[href*="phigolfstore"]:hover {
   transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.15);
 }
 
-.article-content > a[href*="shopindoorgolf"]::after,
-.article-content > a[href*="rainorshinegolf"]::after,
-.article-content > a[href*="phigolfstore"]::after {
-  content: " →";
-}
+/* Brand gradient colors for standalone + figcaption buttons */
+.article-content > a[href*="falcon"],
+.article-content figcaption a[href*="falcon"],
+.article-content figcaption strong a[href*="falcon"] { background: linear-gradient(180deg, #5cb8e6 0%, #3a8fbf 100%) !important; }
 
-/* Brand colors for standalone buttons */
-.article-content > a[href*="falcon"] { background: #4da8da !important; }
-.article-content > a[href*="falcon"]:hover { background: #3a8fbf !important; }
-.article-content > a[href*="foresight"],
-.article-content > a[href*="gcquad"],
-.article-content > a[href*="gchawk"],
-.article-content > a[href*="gc3"],
-.article-content > a[href*="quadmax"] { background: #1a3a5c !important; }
-.article-content > a[href*="foresight"]:hover,
-.article-content > a[href*="gcquad"]:hover,
-.article-content > a[href*="gchawk"]:hover,
-.article-content > a[href*="gc3"]:hover,
-.article-content > a[href*="quadmax"]:hover { background: #0f2640 !important; }
-.article-content > a[href*="bushnell"] { background: #e65100 !important; }
-.article-content > a[href*="bushnell"]:hover { background: #bf4300 !important; }
-.article-content > a[href*="skytrak"] { background: #00acc1 !important; }
-.article-content > a[href*="skytrak"]:hover { background: #00838f !important; }
-.article-content > a[href*="trackman"] { background: #e64a19 !important; }
-.article-content > a[href*="trackman"]:hover { background: #bf360c !important; }
-.article-content > a[href*="garmin"] { background: #003366 !important; }
-.article-content > a[href*="garmin"]:hover { background: #002244 !important; }
-.article-content > a[href*="uneekor"] { background: #7b1fa2 !important; }
-.article-content > a[href*="uneekor"]:hover { background: #5c1580 !important; }
-.article-content > a[href*="flightscope"],
-.article-content > a[href*="mevo"] { background: #1a2744 !important; }
-.article-content > a[href*="flightscope"]:hover,
-.article-content > a[href*="mevo"]:hover { background: #0d162a !important; }
-.article-content > a[href*="protee"] { background: #424242 !important; }
-.article-content > a[href*="protee"]:hover { background: #2a2a2a !important; }
-.article-content > a[href*="trugolf"] { background: #2e7d32 !important; }
-.article-content > a[href*="trugolf"]:hover { background: #1b5e20 !important; }
-.article-content > a[href*="full-swing"] { background: #1a1a1a !important; }
-.article-content > a[href*="full-swing"]:hover { background: #000000 !important; }
-.article-content > a[href*="rapsodo"] { background: #d84315 !important; }
-.article-content > a[href*="rapsodo"]:hover { background: #b53000 !important; }
-.article-content > a[href*="hd-golf"] { background: #1a1a1a !important; }
-.article-content > a[href*="hd-golf"]:hover { background: #000000 !important; }
-.article-content > a[href*="swing-caddie"],
-.article-content > a[href*="ernest"],
-.article-content > a[href*="swingbay"],
-.article-content > a[href*="swingturf"],
-.article-content > a[href*="optoma"],
-.article-content > a[href*="benq"],
-.article-content > a[href*="e6-golf"],
-.article-content > a[href*="gspro"],
-.article-content > a[href*="phigolf"] { background: #546e7a !important; }
-.article-content > a[href*="swing-caddie"]:hover,
-.article-content > a[href*="ernest"]:hover,
-.article-content > a[href*="swingbay"]:hover,
-.article-content > a[href*="swingturf"]:hover,
-.article-content > a[href*="optoma"]:hover,
-.article-content > a[href*="benq"]:hover,
-.article-content > a[href*="e6-golf"]:hover,
-.article-content > a[href*="gspro"]:hover,
-.article-content > a[href*="phigolf"]:hover { background: #37474f !important; }
+.article-content > a[href*="foresight"], .article-content > a[href*="gcquad"], .article-content > a[href*="gchawk"], .article-content > a[href*="gc3"], .article-content > a[href*="quadmax"],
+.article-content figcaption a[href*="foresight"], .article-content figcaption strong a[href*="foresight"],
+.article-content figcaption a[href*="gcquad"], .article-content figcaption strong a[href*="gcquad"],
+.article-content figcaption a[href*="gchawk"], .article-content figcaption strong a[href*="gchawk"],
+.article-content figcaption a[href*="gc3"], .article-content figcaption strong a[href*="gc3"],
+.article-content figcaption a[href*="quadmax"], .article-content figcaption strong a[href*="quadmax"] { background: linear-gradient(180deg, #24496e 0%, #0f2640 100%) !important; }
+
+.article-content > a[href*="bushnell"],
+.article-content figcaption a[href*="bushnell"], .article-content figcaption strong a[href*="bushnell"] { background: linear-gradient(180deg, #f06520 0%, #bf4300 100%) !important; }
+
+.article-content > a[href*="skytrak"],
+.article-content figcaption a[href*="skytrak"], .article-content figcaption strong a[href*="skytrak"] { background: linear-gradient(180deg, #1abdd4 0%, #00838f 100%) !important; }
+
+.article-content > a[href*="trackman"],
+.article-content figcaption a[href*="trackman"], .article-content figcaption strong a[href*="trackman"] { background: linear-gradient(180deg, #f4602a 0%, #bf360c 100%) !important; }
+
+.article-content > a[href*="garmin"],
+.article-content figcaption a[href*="garmin"], .article-content figcaption strong a[href*="garmin"] { background: linear-gradient(180deg, #0a4480 0%, #002244 100%) !important; }
+
+.article-content > a[href*="uneekor"],
+.article-content figcaption a[href*="uneekor"], .article-content figcaption strong a[href*="uneekor"] { background: linear-gradient(180deg, #9028bd 0%, #5c1580 100%) !important; }
+
+.article-content > a[href*="flightscope"], .article-content > a[href*="mevo"],
+.article-content figcaption a[href*="flightscope"], .article-content figcaption strong a[href*="flightscope"],
+.article-content figcaption a[href*="mevo"], .article-content figcaption strong a[href*="mevo"] { background: linear-gradient(180deg, #253658 0%, #0d162a 100%) !important; }
+
+.article-content > a[href*="protee"],
+.article-content figcaption a[href*="protee"], .article-content figcaption strong a[href*="protee"] { background: linear-gradient(180deg, #616161 0%, #2a2a2a 100%) !important; }
+
+.article-content > a[href*="trugolf"],
+.article-content figcaption a[href*="trugolf"], .article-content figcaption strong a[href*="trugolf"] { background: linear-gradient(180deg, #388e3c 0%, #1b5e20 100%) !important; }
+
+.article-content > a[href*="full-swing"],
+.article-content figcaption a[href*="full-swing"], .article-content figcaption strong a[href*="full-swing"] { background: linear-gradient(180deg, #333333 0%, #000000 100%) !important; }
+
+.article-content > a[href*="rapsodo"],
+.article-content figcaption a[href*="rapsodo"], .article-content figcaption strong a[href*="rapsodo"] { background: linear-gradient(180deg, #e65530 0%, #b53000 100%) !important; }
+
+.article-content > a[href*="hd-golf"],
+.article-content figcaption a[href*="hd-golf"], .article-content figcaption strong a[href*="hd-golf"] { background: linear-gradient(180deg, #333333 0%, #000000 100%) !important; }
+
+.article-content > a[href*="swing-caddie"], .article-content > a[href*="ernest"], .article-content > a[href*="swingbay"], .article-content > a[href*="swingturf"], .article-content > a[href*="optoma"], .article-content > a[href*="benq"], .article-content > a[href*="e6-golf"], .article-content > a[href*="gspro"], .article-content > a[href*="phigolf"],
+.article-content figcaption a[href*="swingbay"], .article-content figcaption strong a[href*="swingbay"],
+.article-content figcaption a[href*="swingturf"], .article-content figcaption strong a[href*="swingturf"],
+.article-content figcaption a[href*="optoma"], .article-content figcaption strong a[href*="optoma"],
+.article-content figcaption a[href*="benq"], .article-content figcaption strong a[href*="benq"],
+.article-content figcaption a[href*="e6-golf"], .article-content figcaption strong a[href*="e6-golf"],
+.article-content figcaption a[href*="gspro"], .article-content figcaption strong a[href*="gspro"],
+.article-content figcaption a[href*="golf-club-2019"], .article-content figcaption strong a[href*="golf-club-2019"],
+.article-content figcaption a[href*="phigolf"], .article-content figcaption strong a[href*="phigolf"],
+.article-content figcaption a[href*="homecourse"], .article-content figcaption strong a[href*="homecourse"],
+.article-content figcaption a[href*="swing-caddie"], .article-content figcaption strong a[href*="swing-caddie"],
+.article-content figcaption a[href*="ernest"], .article-content figcaption strong a[href*="ernest"] { background: linear-gradient(180deg, #607d8b 0%, #37474f 100%) !important; }
 
 /* ── Brand-Colored CTA Buttons (figcaption ONLY) ── */
 /* Colors match actual product/brand aesthetics */
