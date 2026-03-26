@@ -19,7 +19,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL("https://parpercision.com"),
   title: {
-    default: "Par Precision — Golf Simulator & Launch Monitor Reviews",
+    default: "Par Precision - Golf Simulator & Launch Monitor Reviews",
     template: "%s | Par Precision",
   },
   description:
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://parpercision.com",
     siteName: "Par Precision",
-    title: "Par Precision — Golf Simulator & Launch Monitor Reviews",
+    title: "Par Precision - Golf Simulator & Launch Monitor Reviews",
     description:
       "Expert reviews, comparisons, and buying guides for golf simulators and launch monitors.",
     images: [
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Par Precision — Golf Simulator & Launch Monitor Reviews",
+    title: "Par Precision - Golf Simulator & Launch Monitor Reviews",
     description:
       "Expert reviews, comparisons, and buying guides for golf simulators and launch monitors.",
     images: ["/og-image.jpg"],

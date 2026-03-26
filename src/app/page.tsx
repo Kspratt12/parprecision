@@ -6,7 +6,7 @@ import { StarRating } from "@/components/StarRating";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Par Precision — Best Golf Simulator & Launch Monitor Reviews 2026",
+  title: "Par Precision - Best Golf Simulator & Launch Monitor Reviews 2026",
   description:
     "Find the perfect golf simulator or launch monitor for your home setup. Expert reviews, head-to-head comparisons, setup guides, and exclusive deals. Trusted by 10,000+ golfers.",
   alternates: {
@@ -25,7 +25,7 @@ const featuredReviews = [
   },
   {
     title: "Best Launch Monitors 2026",
-    description: "Radar vs camera-based — we break down accuracy, features, and value for every budget.",
+    description: "Radar vs camera-based - we break down accuracy, features, and value for every budget.",
     href: "/best-launch-monitors",
     image: "https://images.unsplash.com/photo-1693163637018-cec278130a11?w=600&h=400&fit=crop",
     tag: "Most Popular",
@@ -114,7 +114,7 @@ export default function HomePage() {
         }}
       />
 
-      {/* Hero Section — Full-width simulator image */}
+      {/* Hero Section - Full-width simulator image */}
       <section className="relative overflow-hidden">
         {/* Background image */}
         <div className="absolute inset-0">
@@ -139,7 +139,7 @@ export default function HomePage() {
               The Best <span className="text-primary">Golf Simulators</span> &amp; Launch Monitors for Your Home
             </h1>
             <p className="text-lg md:text-xl text-muted leading-relaxed mb-8">
-              Complete simulator packages reviewed and compared. Real accuracy data, real pricing, real recommendations — from $4,600 to $30,000+.
+              Complete simulator packages reviewed and compared. Real accuracy data, real pricing, real recommendations - from $4,600 to $30,000+.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -158,9 +158,9 @@ export default function HomePage() {
             {/* Quick picks */}
             <div className="flex flex-wrap gap-3 mt-8">
               {[
-                { label: "#1 SkyTrak MAX SIG10 — $4,645", href: "/best-golf-simulators" },
-                { label: "Best Premium: TrackMan iO — $17,690", href: "/best-golf-simulators" },
-                { label: "Best Value: Uneekor EYE MINI LITE — $4,800", href: "/best-golf-simulators" },
+                { label: "#1 SkyTrak MAX SIG10 - $4,645", href: "/best-golf-simulators" },
+                { label: "Best Premium: TrackMan iO - $17,690", href: "/best-golf-simulators" },
+                { label: "Best Value: Uneekor EYE MINI LITE - $4,800", href: "/best-golf-simulators" },
               ].map((pick) => (
                 <Link
                   key={pick.label}
@@ -262,7 +262,7 @@ export default function HomePage() {
                 Real Testing. Honest Reviews. Better Decisions.
               </h2>
               <p className="text-muted text-lg leading-relaxed mb-8">
-                We don&apos;t just read spec sheets — we set up every simulator and launch monitor
+                We don&apos;t just read spec sheets - we set up every simulator and launch monitor
                 in our own testing space. We measure accuracy, compare side-by-side, and give you
                 the real data you need to make the right purchase.
               </p>
@@ -281,7 +281,7 @@ export default function HomePage() {
                   {
                     icon: BookOpen,
                     title: "Complete Setup Guides",
-                    desc: "From room dimensions to projector selection — we cover everything.",
+                    desc: "From room dimensions to projector selection - we cover everything.",
                   },
                 ].map((item) => (
                   <div key={item.title} className="flex gap-4">
