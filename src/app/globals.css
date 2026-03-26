@@ -379,6 +379,62 @@ html {
   box-shadow: 0 6px 20px rgba(33, 33, 33, 0.35);
 }
 
+/* Accessories, software, projectors, enclosures - dark gray */
+.article-content figcaption a[href*="swingbay"],
+.article-content figcaption strong a[href*="swingbay"],
+.article-content figcaption a[href*="swingturf"],
+.article-content figcaption strong a[href*="swingturf"],
+.article-content figcaption a[href*="optoma"],
+.article-content figcaption strong a[href*="optoma"],
+.article-content figcaption a[href*="benq"],
+.article-content figcaption strong a[href*="benq"],
+.article-content figcaption a[href*="e6-golf"],
+.article-content figcaption strong a[href*="e6-golf"],
+.article-content figcaption a[href*="gspro"],
+.article-content figcaption strong a[href*="gspro"],
+.article-content figcaption a[href*="golf-club-2019"],
+.article-content figcaption strong a[href*="golf-club-2019"],
+.article-content figcaption a[href*="phigolf"],
+.article-content figcaption strong a[href*="phigolf"],
+.article-content figcaption a[href*="homecourse"],
+.article-content figcaption strong a[href*="homecourse"] {
+  background: #455a64 !important;
+  box-shadow: 0 2px 8px rgba(69, 90, 100, 0.25);
+}
+.article-content figcaption a[href*="swingbay"]:hover,
+.article-content figcaption strong a[href*="swingbay"]:hover,
+.article-content figcaption a[href*="swingturf"]:hover,
+.article-content figcaption strong a[href*="swingturf"]:hover,
+.article-content figcaption a[href*="optoma"]:hover,
+.article-content figcaption strong a[href*="optoma"]:hover,
+.article-content figcaption a[href*="benq"]:hover,
+.article-content figcaption strong a[href*="benq"]:hover,
+.article-content figcaption a[href*="e6-golf"]:hover,
+.article-content figcaption strong a[href*="e6-golf"]:hover,
+.article-content figcaption a[href*="gspro"]:hover,
+.article-content figcaption strong a[href*="gspro"]:hover,
+.article-content figcaption a[href*="golf-club-2019"]:hover,
+.article-content figcaption strong a[href*="golf-club-2019"]:hover,
+.article-content figcaption a[href*="phigolf"]:hover,
+.article-content figcaption strong a[href*="phigolf"]:hover,
+.article-content figcaption a[href*="homecourse"]:hover,
+.article-content figcaption strong a[href*="homecourse"]:hover {
+  background: #37474f !important;
+  box-shadow: 0 6px 20px rgba(69, 90, 100, 0.35);
+}
+
+/* Bushnell SIG packages (not just LPi/Launch Pro) */
+.article-content figcaption a[href*="bushnell"],
+.article-content figcaption strong a[href*="bushnell"] {
+  background: #0055a5 !important;
+  box-shadow: 0 2px 8px rgba(0, 85, 165, 0.25);
+}
+.article-content figcaption a[href*="bushnell"]:hover,
+.article-content figcaption strong a[href*="bushnell"]:hover {
+  background: #003d7a !important;
+  box-shadow: 0 6px 20px rgba(0, 85, 165, 0.35);
+}
+
 /* ── Premium Article Typography ── */
 
 .article-content h2 {
