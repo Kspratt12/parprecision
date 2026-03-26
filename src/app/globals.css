@@ -203,22 +203,155 @@ html {
   content: " →";
 }
 
-/* Inline affiliate links in text - subtle highlight */
+/* ALL affiliate links - styled as buttons */
 .article-content a[href*="shopindoorgolf"],
 .article-content a[href*="rainorshinegolf"],
 .article-content a[href*="phigolfstore"] {
-  color: var(--color-primary-dark);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: #ffffff !important;
   font-weight: 600;
-  text-decoration: none;
-  border-bottom: 2px solid var(--color-primary);
-  transition: color 0.15s, border-color 0.15s;
+  font-size: 0.9375rem;
+  text-decoration: none !important;
+  background: var(--color-primary);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none !important;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 
 .article-content a[href*="shopindoorgolf"]:hover,
 .article-content a[href*="rainorshinegolf"]:hover,
 .article-content a[href*="phigolfstore"]:hover {
-  color: var(--color-foreground);
-  border-bottom-color: var(--color-primary-dark);
+  background: var(--color-primary-dark);
+  box-shadow: 0 4px 12px rgba(126, 200, 50, 0.3);
+}
+
+/* Brand colors for ALL affiliate links (not just figcaption) */
+.article-content a[href*="foresight"],
+.article-content a[href*="falcon"][href*="shopindoorgolf"],
+.article-content a[href*="falcon"][href*="rainorshinegolf"],
+.article-content a[href*="gcquad"],
+.article-content a[href*="gchawk"],
+.article-content a[href*="gc3"][href*="shopindoorgolf"],
+.article-content a[href*="gc3"][href*="rainorshinegolf"],
+.article-content a[href*="quadmax"],
+.article-content a[href*="bushnell"] {
+  background: #0055a5 !important;
+}
+.article-content a[href*="foresight"]:hover,
+.article-content a[href*="falcon"][href*="shopindoorgolf"]:hover,
+.article-content a[href*="falcon"][href*="rainorshinegolf"]:hover,
+.article-content a[href*="gcquad"]:hover,
+.article-content a[href*="gchawk"]:hover,
+.article-content a[href*="gc3"][href*="shopindoorgolf"]:hover,
+.article-content a[href*="gc3"][href*="rainorshinegolf"]:hover,
+.article-content a[href*="quadmax"]:hover,
+.article-content a[href*="bushnell"]:hover {
+  background: #003d7a !important;
+}
+
+.article-content a[href*="skytrak"] { background: #0097a7 !important; }
+.article-content a[href*="skytrak"]:hover { background: #00796b !important; }
+
+.article-content a[href*="trackman"] { background: #c62828 !important; }
+.article-content a[href*="trackman"]:hover { background: #9a1f1f !important; }
+
+.article-content a[href*="garmin"] { background: #1a237e !important; }
+.article-content a[href*="garmin"]:hover { background: #0d1456 !important; }
+
+.article-content a[href*="uneekor"] { background: #6a1b9a !important; }
+.article-content a[href*="uneekor"]:hover { background: #4a148c !important; }
+
+.article-content a[href*="flightscope"],
+.article-content a[href*="mevo"][href*="shopindoorgolf"],
+.article-content a[href*="mevo"][href*="rainorshinegolf"] { background: #1b2a4a !important; }
+.article-content a[href*="flightscope"]:hover,
+.article-content a[href*="mevo"][href*="shopindoorgolf"]:hover,
+.article-content a[href*="mevo"][href*="rainorshinegolf"]:hover { background: #0f1a33 !important; }
+
+.article-content a[href*="protee"],
+.article-content a[href*="trugolf"],
+.article-content a[href*="full-swing"] { background: #2e7d32 !important; }
+.article-content a[href*="protee"]:hover,
+.article-content a[href*="trugolf"]:hover,
+.article-content a[href*="full-swing"]:hover { background: #1b5e20 !important; }
+
+.article-content a[href*="rapsodo"],
+.article-content a[href*="swing-caddie"],
+.article-content a[href*="ernest"] { background: #37474f !important; }
+.article-content a[href*="rapsodo"]:hover,
+.article-content a[href*="swing-caddie"]:hover,
+.article-content a[href*="ernest"]:hover { background: #263238 !important; }
+
+.article-content a[href*="hd-golf"] { background: #212121 !important; }
+.article-content a[href*="hd-golf"]:hover { background: #000000 !important; }
+
+.article-content a[href*="swingbay"],
+.article-content a[href*="swingturf"],
+.article-content a[href*="optoma"],
+.article-content a[href*="benq"],
+.article-content a[href*="e6-golf"],
+.article-content a[href*="gspro"],
+.article-content a[href*="golf-club-2019"],
+.article-content a[href*="phigolf"],
+.article-content a[href*="homecourse"] { background: #455a64 !important; }
+.article-content a[href*="swingbay"]:hover,
+.article-content a[href*="swingturf"]:hover,
+.article-content a[href*="optoma"]:hover,
+.article-content a[href*="benq"]:hover,
+.article-content a[href*="e6-golf"]:hover,
+.article-content a[href*="gspro"]:hover,
+.article-content a[href*="golf-club-2019"]:hover,
+.article-content a[href*="phigolf"]:hover,
+.article-content a[href*="homecourse"]:hover { background: #37474f !important; }
+
+/* H3 links stay as headings - override the button style */
+.article-content h3 a[href*="shopindoorgolf"],
+.article-content h3 a[href*="rainorshinegolf"] {
+  display: inline !important;
+  color: inherit !important;
+  background: none !important;
+  padding: 0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  font-size: inherit !important;
+}
+
+/* Links inside list items stay inline - just bold with underline */
+.article-content li a[href*="shopindoorgolf"],
+.article-content li a[href*="rainorshinegolf"],
+.article-content li a[href*="phigolfstore"] {
+  display: inline !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  font-size: inherit !important;
+  background: none !important;
+  color: var(--color-primary-dark) !important;
+  border-bottom: 2px solid var(--color-primary) !important;
+}
+
+.article-content li a[href*="shopindoorgolf"]:hover,
+.article-content li a[href*="rainorshinegolf"]:hover,
+.article-content li a[href*="phigolfstore"]:hover {
+  color: var(--color-foreground) !important;
+  background: none !important;
+}
+
+/* Links inside paragraphs with other text - stay inline subtle */
+.article-content p a[href*="shopindoorgolf"]:not(:only-child),
+.article-content p a[href*="rainorshinegolf"]:not(:only-child),
+.article-content p strong a[href*="shopindoorgolf"],
+.article-content p strong a[href*="rainorshinegolf"] {
+  display: inline !important;
+  padding: 0.1rem 0.4rem !important;
+  border-radius: 0.25rem !important;
+  box-shadow: none !important;
+  font-size: inherit !important;
 }
 
 /* ── Brand-Colored CTA Buttons (figcaption) ── */
