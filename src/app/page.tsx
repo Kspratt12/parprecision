@@ -6,9 +6,9 @@ import { StarRating } from "@/components/StarRating";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Par Precision - Best Golf Simulator & Launch Monitor Reviews 2026",
+  title: "Par Precision | Best Golf Simulators & Launch Monitors Reviewed (2026)",
   description:
-    "Find the perfect golf simulator or launch monitor for your home setup. Expert reviews, head-to-head comparisons, setup guides, and buying advice.",
+    "Independent golf simulator and launch monitor reviews with real accuracy data. Compare SkyTrak, TrackMan, Foresight, Garmin, Uneekor and more. Find the right setup for your home.",
   alternates: {
     canonical: "https://parpercision.com",
   },
@@ -119,8 +119,8 @@ export default function HomePage() {
         {/* Background image */}
         <div className="absolute inset-0">
           <Image
-            src="/hero.png"
-            alt="Golf simulator and launch monitor setup"
+            src="/wp-content/uploads/2025/02/64b85bc637c2d5bffbb57e8b_4.26.2023-PDC-Ballard-Residence-Golf-Simulator-2-Medium-1536x1024-1.jpg"
+            alt="Premium home golf simulator room with impact screen and bar seating"
             fill
             className="object-cover"
             priority
@@ -136,10 +136,10 @@ export default function HomePage() {
               Updated March 2026
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-[1.1] mb-6">
-              The Best <span className="text-primary">Golf Simulators</span> &amp; Launch Monitors for Your Home
+              The Best <span className="text-primary">Golf Simulators</span>{" "}&amp; Launch Monitors for Your Home
             </h1>
             <p className="text-lg md:text-xl text-muted leading-relaxed mb-8">
-              Complete simulator packages reviewed and compared. Real accuracy data, real pricing, real recommendations - from $4,600 to $30,000+.
+              Independent reviews of SkyTrak, TrackMan, Foresight, Garmin, Uneekor, and more. We compare accuracy, pricing, and value so you don&apos;t waste money.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link

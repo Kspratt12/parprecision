@@ -55,9 +55,9 @@ export function Navbar() {
             <Image
               src="/Logo.png"
               alt="Par Precision"
-              width={40}
-              height={40}
-              className="rounded-lg"
+              width={110}
+              height={36}
+              className="rounded"
               priority
             />
             <span className="text-xl font-bold text-foreground tracking-tight">
