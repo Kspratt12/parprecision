@@ -157,6 +157,76 @@ html {
   font-weight: 600;
 }
 
+/* ── Product Cards (affiliate image + caption) ── */
+
+.article-content figcaption {
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.article-content figcaption a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--color-primary);
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  text-decoration: none !important;
+  border-radius: 9999px;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.article-content figcaption a:hover {
+  background: var(--color-primary-dark);
+  box-shadow: 0 4px 12px rgba(126, 200, 50, 0.3);
+  color: #ffffff !important;
+}
+
+.article-content figcaption a::after {
+  content: " →";
+}
+
+/* Inline affiliate links that contain prices - make them stand out */
+.article-content a[href*="shopindoorgolf"],
+.article-content a[href*="rainorshinegolf"],
+.article-content a[href*="phigolfstore"] {
+  color: var(--color-primary-dark);
+  font-weight: 600;
+  text-decoration: none;
+  background: var(--color-accent);
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.25rem;
+  border-bottom: 2px solid var(--color-primary);
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.article-content a[href*="shopindoorgolf"]:hover,
+.article-content a[href*="rainorshinegolf"]:hover,
+.article-content a[href*="phigolfstore"]:hover {
+  background: var(--color-primary-light);
+  border-bottom-color: var(--color-primary-dark);
+}
+
+/* Override: figcaption affiliate links keep the button style */
+.article-content figcaption a[href*="shopindoorgolf"],
+.article-content figcaption a[href*="rainorshinegolf"],
+.article-content figcaption a[href*="phigolfstore"] {
+  background: var(--color-primary);
+  color: #ffffff !important;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 9999px;
+}
+
+.article-content figcaption a[href*="shopindoorgolf"]:hover,
+.article-content figcaption a[href*="rainorshinegolf"]:hover,
+.article-content figcaption a[href*="phigolfstore"]:hover {
+  background: var(--color-primary-dark);
+}
+
 /* Pros/Cons boxes */
 .pros-box {
   background: #f0fdf4;
