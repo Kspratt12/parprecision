@@ -13,8 +13,8 @@ const footerLinks = {
     { name: "Best Launch Monitors 2026", href: "/best-launch-monitors" },
     { name: "Best Portable Options", href: "/best-portable-launch-monitors" },
     { name: "Best Overhead Monitors", href: "/best-overhead-launch-monitors" },
-    { name: "SkyTrak+ Review", href: "/reviews/skytrak-plus" },
-    { name: "Garmin R10 Review", href: "/reviews/garmin-approach-r10" },
+    { name: "SkyTrak+ Review", href: "/skytrak-plus-for-beginners" },
+    { name: "Garmin R50 Review", href: "/garmin-approach-r50" },
   ],
   "Guides & Tips": [
     { name: "How to Build a Simulator", href: "/guides/how-to-build-golf-simulator" },

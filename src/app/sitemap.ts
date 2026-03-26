@@ -28,16 +28,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/terms`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
   ];
 
-  // Original Next.js review pages (nested under /reviews/)
-  const reviewSlugs = [
-    "skytrak-plus", "garmin-approach-r10", "bushnell-launch-pro", "flightscope-mevo-plus",
-  ];
-  const reviewPages: MetadataRoute.Sitemap = reviewSlugs.map((slug) => ({
-    url: `${baseUrl}/reviews/${slug}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly",
-    priority: 0.85,
-  }));
+  // Original Next.js review pages removed — redirects handle old URLs
+  const reviewPages: MetadataRoute.Sitemap = [];
 
   // Original guides
   const guideSlugs = [
@@ -50,23 +42,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  // Original comparisons
-  const comparisonSlugs = ["garmin-r10-vs-skytrak-plus"];
-  const comparisonPages: MetadataRoute.Sitemap = comparisonSlugs.map((slug) => ({
-    url: `${baseUrl}/comparisons/${slug}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly",
-    priority: 0.85,
-  }));
+  // Original Next.js comparison pages removed — redirects handle old URLs
+  const comparisonPages: MetadataRoute.Sitemap = [];
 
-  // Original golf tips
-  const tipSlugs = ["how-to-fix-a-slice", "how-to-increase-clubhead-speed"];
-  const tipPages: MetadataRoute.Sitemap = tipSlugs.map((slug) => ({
-    url: `${baseUrl}/golf-tips/${slug}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly",
-    priority: 0.8,
-  }));
+  // Original Next.js golf tip pages removed — redirects handle old URLs
+  const tipPages: MetadataRoute.Sitemap = [];
 
   // All migrated WordPress articles (flat URLs at /)
   const allArticles = getAllArticles();

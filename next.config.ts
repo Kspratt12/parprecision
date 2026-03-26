@@ -47,6 +47,24 @@ const nextConfig: NextConfig = {
       { source: "/best-golf-simulators-for-small-spaces-5", destination: "/best-golf-simulators-small-spaces", permanent: true },
       { source: "/best-overhead-launch-monitors-8", destination: "/best-overhead-launch-monitors", permanent: true },
       { source: "/best-overhead-launch-monitors-review", destination: "/best-overhead-launch-monitors", permanent: true },
+
+      // Removed corny Next.js review articles — redirect to WP equivalents
+      { source: "/reviews/skytrak-plus", destination: "/skytrak-plus-for-beginners", permanent: true },
+      { source: "/reviews/bushnell-launch-pro", destination: "/bushnell-lpi", permanent: true },
+      { source: "/reviews/garmin-approach-r10", destination: "/garmin-approach-r50", permanent: true },
+      { source: "/reviews/flightscope-mevo-plus", destination: "/best-golf-launch-monitors", permanent: true },
+
+      // Removed corny Next.js comparison articles — redirect to WP equivalents
+      { source: "/comparisons/garmin-r10-vs-skytrak-plus", destination: "/bushnell-launch-pro-vs-skytrak-plus", permanent: true },
+
+      // Removed corny Next.js golf tip articles — redirect to WP equivalents
+      { source: "/golf-tips/how-to-fix-a-slice", destination: "/golf-swing-drills", permanent: true },
+      { source: "/golf-tips/how-to-increase-clubhead-speed", destination: "/golf-swing-drills", permanent: true },
+
+      // Next.js list pages → WP equivalents
+      { source: "/reviews/best-launch-monitors", destination: "/best-golf-launch-monitors", permanent: true },
+      { source: "/reviews/best-overhead-launch-monitors", destination: "/best-overhead-launch-monitors-review", permanent: true },
+      { source: "/reviews/best-portable-launch-monitors", destination: "/best-portable-golf-launch-monitors", permanent: true },
     ];
   },
   async headers() {

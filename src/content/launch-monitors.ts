@@ -149,7 +149,7 @@ export const launchMonitorArticles: Article[] = [
 
 <p><strong>Bottom line:</strong> If you're buying one launch monitor for home simulator use and occasional range sessions, this is the one. The combination of accuracy, software options, and reliability is unmatched at the price.</p>
 
-<p><a href="/reviews/skytrak-plus">Read our full SkyTrak review →</a></p>
+<p><a href="/skytrak-plus-for-beginners">Read our full SkyTrak review →</a></p>
 
 <h2>2. Garmin Approach R10 — Best Launch Monitor Under $1,000</h2>
 
@@ -194,7 +194,7 @@ export const launchMonitorArticles: Article[] = [
 
 <p><strong>Bottom line:</strong> If your budget is under $1,000, stop reading — buy the R10. It's the best value in golf technology, period. Yes, the spin accuracy has limitations, but for swing improvement and fun sim sessions, it's more than enough.</p>
 
-<p><a href="/reviews/garmin-approach-r10">Read our full Garmin R10 review →</a></p>
+<p><a href="/garmin-approach-r50">Read our full Garmin R10 review →</a></p>
 
 <h2>3. Foresight GC3 — Best Accuracy (Tour-Level)</h2>
 
@@ -239,7 +239,7 @@ export const launchMonitorArticles: Article[] = [
 
 <p><strong>Bottom line:</strong> If accuracy is your absolute top priority and budget is secondary, the GC3 is the best launch monitor you can buy short of a $25,000 TrackMan. Also available in the <a href="https://rainorshinegolf.com/products/foresight-gc3-swingbay-golf-simulator-package" target="_blank" rel="nofollow noopener">GC3 SwingBay simulator package ($10,049)</a>.</p>
 
-<p><a href="/reviews/bushnell-launch-pro">Read our Bushnell Launch Pro review (same GC3 technology) →</a></p>
+<p><a href="/bushnell-lpi">Read our Bushnell Launch Pro review (same GC3 technology) →</a></p>
 
 <h2>4. FlightScope Mevo Gen2 — Best Portable Launch Monitor</h2>
 
@@ -269,7 +269,7 @@ export const launchMonitorArticles: Article[] = [
 
 <p><strong>Bottom line:</strong> The jack-of-all-trades. If you need one device that works everywhere — range, course, and simulator — the Mevo Gen2 is the answer. Also available in the <a href="https://rainorshinegolf.com/products/flightscope-mevo-2-swingbay-golf-simulator-package" target="_blank" rel="nofollow noopener">Mevo Gen2 SwingBay simulator package ($5,099)</a>.</p>
 
-<p><a href="/reviews/flightscope-mevo-plus">Read our full Mevo+ review →</a></p>
+<p><a href="/best-golf-launch-monitors">Read our full Mevo+ review →</a></p>
 
 <h2>5. Bushnell Launch Pro — Best Foresight Alternative</h2>
 
@@ -299,7 +299,7 @@ export const launchMonitorArticles: Article[] = [
 
 <p><strong>Bottom line:</strong> If you want Foresight accuracy but can't stomach the $7,500 GC3 price upfront, the Launch Pro gets you there for $3,000 + subscriptions. Do the 3-year math before deciding.</p>
 
-<p><a href="/reviews/bushnell-launch-pro">Read our full Bushnell Launch Pro review →</a></p>
+<p><a href="/bushnell-lpi">Read our full Bushnell Launch Pro review →</a></p>
 
 <h2>6. Garmin Approach R50 — Best Mid-Range</h2>
 
@@ -410,7 +410,7 @@ export const launchMonitorArticles: Article[] = [
 <p>Yes — the launch monitor is the brain of any golf simulator. It tracks your ball and club data, then feeds it to the simulation software which projects the ball flight on screen. Without a launch monitor, you just have a screen and a mat. See our <a href="/best-golf-simulators">best golf simulator packages</a> for complete setups that include everything.</p>
 
 <h3>SkyTrak MAX vs Garmin R10 — which should I buy?</h3>
-<p>If you primarily want an indoor simulator and can spend $3,000, the SkyTrak MAX is significantly more accurate (especially spin) and doesn't need space behind the ball. If you want a portable device for the range and occasional sim use at the lowest price, the R10 at $599 is the better value. <a href="/comparisons/garmin-r10-vs-skytrak-plus">Read our full comparison</a>.</p>
+<p>If you primarily want an indoor simulator and can spend $3,000, the SkyTrak MAX is significantly more accurate (especially spin) and doesn't need space behind the ball. If you want a portable device for the range and occasional sim use at the lowest price, the R10 at $599 is the better value. <a href="/bushnell-launch-pro-vs-skytrak-plus">Read our full comparison</a>.</p>
 
 <h2>The Bottom Line</h2>
 
