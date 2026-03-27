@@ -59,8 +59,31 @@ function addHeadingIds(content: string): string {
   });
 }
 
+function styleFAQSection(content: string): string {
+  // Find the FAQ section and wrap each H3+P pair in a styled card
+  const faqSplit = content.split(/(<h2[^>]*>[\s\S]*?Frequently Asked Questions[\s\S]*?<\/h2>)/i);
+  if (faqSplit.length < 2) return content;
+
+  const beforeFaq = faqSplit[0];
+  const faqHeading = faqSplit[1];
+  const afterFaqHeading = faqSplit.slice(2).join("");
+
+  // Find Related Articles section to know where FAQ ends
+  const relatedIdx = afterFaqHeading.indexOf("<h2");
+  const faqContent = relatedIdx > 0 ? afterFaqHeading.substring(0, relatedIdx) : afterFaqHeading;
+  const afterFaq = relatedIdx > 0 ? afterFaqHeading.substring(relatedIdx) : "";
+
+  // Wrap each H3+P pair in a card div
+  const styledFaq = faqContent.replace(
+    /<h3>([\s\S]*?)<\/h3>\s*<p>([\s\S]*?)<\/p>/gi,
+    '<div class="faq-card"><h3>$1</h3><p>$2</p></div>'
+  );
+
+  return beforeFaq + faqHeading + styledFaq + afterFaq;
+}
+
 export function ArticlePage({ article }: { article: Article }) {
-  const processedContent = addHeadingIds(article.content);
+  const processedContent = styleFAQSection(addHeadingIds(article.content));
   const formattedDate = new Date(article.date).toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",
