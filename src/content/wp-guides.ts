@@ -1005,7 +1005,7 @@ https://www.youtube.com/watch?v=2A80NoFg-Fw&amp;t=2s
     slug: "what-is-the-best-golf-simulator",
     title: "What Is The Best Golf Simulator? Top Picks for Every Golfer",
     description:
-      "Find the best golf simulator in 2025. Compare Trackman iO, Uneekor EYE MINI, SkyTrak+, and more to pick the perfect fit for your game.",
+      "Find the best golf simulator in 2026. Compare TrackMan iO, Uneekor EYE MINI, SkyTrak+, and more to pick the perfect fit for your game.",
     date: "2025-01-31",
     author: "Par Percision",
     category: "guides",
@@ -1336,7 +1336,7 @@ https://www.youtube.com/watch?v=2A80NoFg-Fw&amp;t=2s
     slug: "golf-simulator-cost-2026",
     title: "What Drives the Cost of a Golf Simulator",
     description:
-      "A clear 2025 guide on what a golf simulator really costs, with price ranges for low, mid, and high-end builds plus real package examples.",
+      "A clear 2026 guide on what a golf simulator really costs, with price ranges for low, mid, and high-end builds plus real package examples.",
     date: "2025-11-22",
     author: "Par Percision",
     category: "guides",

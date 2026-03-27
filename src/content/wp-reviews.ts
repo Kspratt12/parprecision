@@ -1874,7 +1874,7 @@ $
     slug: "best-golf-launch-monitors-under-1000",
     title: "Best Budget Golf Launch Monitors Under $1,000 - Quick Picks",
     description:
-      "Best budget golf launch monitors under $1,000 in 2025. Compare features and find the right one for your game.",
+      "Best budget golf launch monitors under $1,000 in 2026. Compare features and find the right one for your game.",
     date: "2025-02-01",
     author: "Par Percision",
     category: "launch-monitors",
@@ -5772,9 +5772,9 @@ https://www.youtube.com/watch?v=I_vrYm5phq4
   },
   {
     slug: "what-launch-monitor-does-tiger-woods-use",
-    title: "Tiger Woods' Launch Monitor in 2025: Why He Trusts the Full Swing KIT",
+    title: "Tiger Woods' Launch Monitor in 2026: Why He Trusts the Full Swing KIT",
     description:
-      "Learn why Tiger Woods trusts the Full Swing KIT Launch Monitor in 2025. Discover its accuracy, comparisons, and performance.",
+      "Learn why Tiger Woods trusts the Full Swing KIT Launch Monitor in 2026. Discover its accuracy, comparisons, and performance.",
     date: "2025-02-01",
     author: "Par Percision",
     category: "launch-monitors",
@@ -6209,9 +6209,9 @@ $
   },
   {
     slug: "best-overhead-launch-monitors-review",
-    title: "4 Best Overhead Launch Monitors in 2025 (Tested & Reviewed)",
+    title: "4 Best Overhead Launch Monitors in 2026 (Tested & Reviewed)",
     description:
-      "See the best overhead launch monitors in 2025. Compare GCHawk, Eye XO2, QED, and Apogee with prices, setup requirements, and key features.",
+      "See the best overhead launch monitors in 2026. Compare GCHawk, Eye XO2, QED, and Apogee with prices, setup requirements, and key features.",
     date: "2025-01-25",
     author: "Par Percision",
     category: "launch-monitors",

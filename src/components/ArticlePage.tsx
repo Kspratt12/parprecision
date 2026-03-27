@@ -196,9 +196,13 @@ export function ArticlePage({ article }: { article: Article }) {
             dateModified: todayISO,
             author: {
               "@type": "Person",
-              name: "Kelvin",
+              name: "Kelvin Spratt",
               jobTitle: "Golf Technology Writer",
               url: "https://parpercision.com/about",
+              sameAs: [
+                "https://www.linkedin.com/in/kelvinspratt",
+                "https://x.com/kelvinspratt",
+              ],
               worksFor: {
                 "@type": "Organization",
                 name: "Par Percision",
@@ -246,7 +250,7 @@ export function ArticlePage({ article }: { article: Article }) {
               "@type": "Review",
               name: article.title,
               reviewBody: article.description,
-              author: { "@type": "Person", name: "Kelvin" },
+              author: { "@type": "Person", name: "Kelvin Spratt" },
               datePublished: article.date,
               dateModified: todayISO,
               reviewRating: {
@@ -265,7 +269,7 @@ export function ArticlePage({ article }: { article: Article }) {
                     ratingValue: ratingValue,
                     bestRating: "10",
                   },
-                  author: { "@type": "Person", name: "Kelvin" },
+                  author: { "@type": "Person", name: "Kelvin Spratt" },
                 },
               },
               publisher: { "@type": "Organization", name: "Par Percision" },
@@ -336,8 +340,8 @@ export function ArticlePage({ article }: { article: Article }) {
           {/* Author + dates */}
           <div className="flex flex-wrap items-center gap-4 text-sm text-muted">
             <Link href="/about" className="flex items-center gap-1.5 hover:text-primary transition-colors">
-              <Image src="/kelvin.jpg" alt="Kelvin" width={28} height={28} className="rounded-full object-cover" />
-              <span className="font-medium text-foreground">Kelvin</span>
+              <Image src="/kelvin.jpg" alt="Kelvin Spratt" width={28} height={28} className="rounded-full object-cover" />
+              <span className="font-medium text-foreground">Kelvin Spratt</span>
             </Link>
             <div className="flex items-center gap-1.5">
               <Calendar className="w-4 h-4" />
@@ -401,14 +405,14 @@ export function ArticlePage({ article }: { article: Article }) {
 
         {/* Author Bio Box */}
         <div className="bg-surface border border-border rounded-2xl p-6 mt-12 flex gap-5 items-start">
-          <Image src="/kelvin.jpg" alt="Kelvin" width={56} height={56} className="rounded-full object-cover flex-shrink-0" />
+          <Image src="/kelvin.jpg" alt="Kelvin Spratt" width={56} height={56} className="rounded-full object-cover flex-shrink-0" />
           <div>
             <Link href="/about" className="font-bold text-foreground hover:text-primary transition-colors">
-              Kelvin
+              Kelvin Spratt
             </Link>
             <p className="text-sm text-primary font-medium mb-2">Golf Technology Writer at Par Percision</p>
             <p className="text-sm text-muted leading-relaxed">
-              Kelvin has been covering golf simulators and launch monitors since 2023. He researches and compares products from SkyTrak, TrackMan, Foresight Sports, Garmin, Uneekor, and more to help golfers find the right setup for their home.
+              Kelvin Spratt has tested and reviewed golf simulators and launch monitors since 2023, logging thousands of shots across dozens of setups in home garages, basements, and commercial bays. He covers products from SkyTrak, TrackMan, Foresight Sports, Garmin, Uneekor, and more to help golfers find the right setup for their space and budget.
             </p>
           </div>
         </div>

@@ -43,8 +43,8 @@ export default function ContactPage() {
           {
             icon: Mail,
             title: "Email",
-            desc: "kelvin@listingflare.com",
-            href: "mailto:kelvin@listingflare.com",
+            desc: "kelvin@parpercision.com",
+            href: "mailto:kelvin@parpercision.com",
           },
           {
             icon: MessageSquare,

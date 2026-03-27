@@ -432,7 +432,7 @@ $6,999
     slug: "garmin-r50-vs-gc3",
     title: "Garmin R50 vs Foresight GC3: What Golfers Should Know",
     description:
-      "A clear 2025 breakdown of the Garmin R50 vs GC3. Compare accuracy, software, indoor use, and pricing to see which one fits your game.",
+      "A clear 2026 breakdown of the Garmin R50 vs GC3. Compare accuracy, software, indoor use, and pricing to see which one fits your game.",
     date: "2025-11-15",
     author: "Par Percision",
     category: "comparisons",
