@@ -2,8 +2,9 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { Menu, X, ChevronDown, Search } from "lucide-react";
+import { articles } from "@/content/articles";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -49,10 +50,26 @@ export function Navbar() {
   const [searchQuery, setSearchQuery] = useState("");
   const searchRef = useRef<HTMLInputElement>(null);
 
+  const searchResults = searchQuery.trim().length > 1
+    ? articles.filter((a) => {
+        const q = searchQuery.toLowerCase();
+        return (
+          a.title.toLowerCase().includes(q) ||
+          a.description.toLowerCase().includes(q) ||
+          a.slug.toLowerCase().includes(q) ||
+          a.keywords.some((k) => k.toLowerCase().includes(q))
+        );
+      }).slice(0, 6)
+    : [];
+
+  useEffect(() => {
+    if (searchOpen && searchRef.current) searchRef.current.focus();
+  }, [searchOpen]);
+
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    if (searchQuery.trim()) {
-      window.location.href = `/blog?q=${encodeURIComponent(searchQuery.trim())}`;
+    if (searchResults.length > 0) {
+      window.location.href = `/${searchResults[0].slug}`;
       setSearchOpen(false);
       setSearchQuery("");
     }
@@ -182,26 +199,45 @@ export function Navbar() {
         )}
       </nav>
 
-      {/* Search Bar */}
+      {/* Search Bar with Live Results */}
       {searchOpen && (
-        <div className="border-b border-border bg-white">
+        <div className="border-b border-border bg-white shadow-lg">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <form onSubmit={handleSearch} className="flex gap-2">
-              <input
-                ref={searchRef}
-                type="text"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="Search articles, reviews, guides..."
-                className="flex-1 px-4 py-3 border border-border rounded-lg text-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary"
-                autoFocus
-              />
-              <button
-                type="submit"
-                className="px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-dark transition-colors text-sm"
-              >
-                Search
-              </button>
+              <div className="flex-1 relative">
+                <input
+                  ref={searchRef}
+                  type="text"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  placeholder="Search reviews, comparisons, guides..."
+                  className="w-full px-4 py-3 border border-border rounded-lg text-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary"
+                  autoFocus
+                />
+                {searchResults.length > 0 && (
+                  <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-border rounded-lg shadow-xl z-50 overflow-hidden">
+                    {searchResults.map((result) => (
+                      <Link
+                        key={result.slug}
+                        href={`/${result.slug}`}
+                        onClick={() => { setSearchOpen(false); setSearchQuery(""); }}
+                        className="flex items-center gap-3 px-4 py-3 hover:bg-surface transition-colors border-b border-border last:border-0"
+                      >
+                        <div className="flex-1 min-w-0">
+                          <p className="text-sm font-medium text-foreground truncate">{result.title}</p>
+                          <p className="text-xs text-muted truncate">{result.categoryLabel} - {result.readingTime}</p>
+                        </div>
+                        <span className="text-xs text-primary font-medium flex-shrink-0">Read</span>
+                      </Link>
+                    ))}
+                  </div>
+                )}
+                {searchQuery.trim().length > 1 && searchResults.length === 0 && (
+                  <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-border rounded-lg shadow-xl z-50 p-4">
+                    <p className="text-sm text-muted text-center">No articles found for &quot;{searchQuery}&quot;</p>
+                  </div>
+                )}
+              </div>
               <button
                 type="button"
                 onClick={() => { setSearchOpen(false); setSearchQuery(""); }}
