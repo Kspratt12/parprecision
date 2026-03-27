@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Calendar, Clock, ArrowLeft, RefreshCw, User } from "lucide-react";
+import { Calendar, Clock, ArrowLeft, RefreshCw } from "lucide-react";
 import type { Article } from "@/content/articles";
 
 function stripHtmlTags(html: string): string {
@@ -154,7 +154,7 @@ export function ArticlePage({ article }: { article: Article }) {
             dateModified: todayISO,
             author: {
               "@type": "Person",
-              name: "Kelvin Spratt",
+              name: "Kelvin",
               jobTitle: "Golf Technology Writer",
               url: "https://parpercision.com/about",
               worksFor: {
@@ -238,10 +238,8 @@ export function ArticlePage({ article }: { article: Article }) {
           {/* Author + dates */}
           <div className="flex flex-wrap items-center gap-4 text-sm text-muted">
             <Link href="/about" className="flex items-center gap-1.5 hover:text-primary transition-colors">
-              <div className="w-7 h-7 bg-primary/10 rounded-full flex items-center justify-center">
-                <User className="w-3.5 h-3.5 text-primary" />
-              </div>
-              <span className="font-medium text-foreground">Kelvin Spratt</span>
+              <Image src="/kelvin.jpg" alt="Kelvin" width={28} height={28} className="rounded-full object-cover" />
+              <span className="font-medium text-foreground">Kelvin</span>
             </Link>
             <div className="flex items-center gap-1.5">
               <Calendar className="w-4 h-4" />
@@ -290,12 +288,10 @@ export function ArticlePage({ article }: { article: Article }) {
 
         {/* Author Bio Box */}
         <div className="bg-surface border border-border rounded-2xl p-6 mt-12 flex gap-5 items-start">
-          <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
-            <User className="w-7 h-7 text-primary" />
-          </div>
+          <Image src="/kelvin.jpg" alt="Kelvin" width={56} height={56} className="rounded-full object-cover flex-shrink-0" />
           <div>
             <Link href="/about" className="font-bold text-foreground hover:text-primary transition-colors">
-              Kelvin Spratt
+              Kelvin
             </Link>
             <p className="text-sm text-primary font-medium mb-2">Golf Technology Writer at Par Percision</p>
             <p className="text-sm text-muted leading-relaxed">

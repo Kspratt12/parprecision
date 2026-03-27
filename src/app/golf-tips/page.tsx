@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { getArticlesByCategory } from "@/content/articles";
-import { NewsletterForm } from "@/components/NewsletterForm";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -22,30 +21,37 @@ export default function GolfTipsIndexPage() {
           Golf Tips
         </p>
         <h1 className="text-4xl font-bold text-foreground mb-4">
-          Improve Your Game with Data-Driven Tips
+          Improve Your Game with Practice Drills
         </h1>
         <p className="text-lg text-muted max-w-3xl leading-relaxed">
           Practical golf drills and tips you can practice at home with or without a simulator. From <Link href="/golf-swing-drills" className="text-primary underline underline-offset-2">proven swing drills</Link> to <Link href="/golf-swing-drill-for-beginners" className="text-primary underline underline-offset-2">beginner fundamentals</Link>, these guides help you build consistency and lower your scores.
         </p>
       </div>
 
-      {/* Lead Magnet Banner */}
+      {/* Beginner Golf Swing Blueprint */}
       <div className="bg-accent border border-primary/20 rounded-2xl p-8 mb-12">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
+            <p className="text-primary font-semibold text-sm uppercase tracking-wider mb-2">Guide</p>
             <h2 className="text-2xl font-bold text-foreground mb-3">
-              Free: 30-Day Home Practice Plan (PDF)
+              The Beginner Golf Swing Blueprint
             </h2>
-            <p className="text-muted mb-4">
-              A structured 30-day practice plan designed for home simulator and net practice.
-              Covers driving, iron play, short game, and putting.
+            <p className="text-muted mb-6">
+              A complete guide to building a consistent, powerful golf swing from scratch. Covers grip, stance, backswing, downswing, and follow-through with step-by-step instructions.
             </p>
-            <NewsletterForm />
+            <a
+              href="https://sprattler3.gumroad.com/l/beginner-golf-swing-blueprint"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-full hover:bg-primary-dark transition-all shadow-sm"
+            >
+              Get the Blueprint
+            </a>
           </div>
           <div className="hidden md:block relative aspect-[4/3] rounded-xl overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=600&h=450&fit=crop"
-              alt="Golfer practicing at home simulator"
+              src="/wp-content/uploads/2025/10/womens-golf-blog.webp"
+              alt="Golfer practicing swing fundamentals"
               fill
               className="object-cover"
               sizes="400px"

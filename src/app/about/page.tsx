@@ -29,7 +29,7 @@ export default function AboutPage() {
               foundingDate: "2023",
               founder: {
                 "@type": "Person",
-                name: "Kelvin Spratt",
+                name: "Kelvin",
                 jobTitle: "Golf Technology Writer",
                 url: "https://parpercision.com/about",
               },
