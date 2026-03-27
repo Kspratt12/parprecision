@@ -6,7 +6,7 @@ import { NewsletterForm } from "@/components/NewsletterForm";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Golf Tips — Improve Your Game with Data-Driven Drills",
+  title: "Golf Tips - Improve Your Game with Practice Drills",
   description:
     "Practical golf tips backed by launch monitor data. Fix your slice, increase clubhead speed, improve your short game, and lower your scores with drills you can practice at home.",
   alternates: { canonical: "https://parpercision.com/golf-tips" },
@@ -24,9 +24,8 @@ export default function GolfTipsIndexPage() {
         <h1 className="text-4xl font-bold text-foreground mb-4">
           Improve Your Game with Data-Driven Tips
         </h1>
-        <p className="text-lg text-muted max-w-2xl">
-          Practical golf tips backed by launch monitor data. Every drill is designed for at-home
-          practice — perfect for your simulator or backyard net setup.
+        <p className="text-lg text-muted max-w-3xl leading-relaxed">
+          Practical golf drills and tips you can practice at home with or without a simulator. From <Link href="/golf-swing-drills" className="text-primary underline underline-offset-2">proven swing drills</Link> to <Link href="/golf-swing-drill-for-beginners" className="text-primary underline underline-offset-2">beginner fundamentals</Link>, these guides help you build consistency and lower your scores.
         </p>
       </div>
 

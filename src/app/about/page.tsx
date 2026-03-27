@@ -25,8 +25,14 @@ export default function AboutPage() {
               name: "Par Precision",
               url: "https://parpercision.com",
               description:
-                "Independent golf simulator and launch monitor review site with hands-on testing.",
+                "Independent golf simulator and launch monitor review site.",
               foundingDate: "2023",
+              founder: {
+                "@type": "Person",
+                name: "Kelvin Spratt",
+                jobTitle: "Golf Technology Writer",
+                url: "https://parpercision.com/about",
+              },
             },
           }),
         }}

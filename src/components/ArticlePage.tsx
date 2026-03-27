@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Calendar, Clock, ArrowLeft, Share2 } from "lucide-react";
+import { Calendar, Clock, ArrowLeft, RefreshCw, User } from "lucide-react";
 import { NewsletterForm } from "@/components/NewsletterForm";
 import type { Article } from "@/content/articles";
 
@@ -16,7 +16,6 @@ function makeId(text: string): string {
 }
 
 function TableOfContents({ content }: { content: string }) {
-  // Match h2 tags with any attributes or nested HTML (like <strong>)
   const headingRegex = /<h2[^>]*>([\s\S]*?)<\/h2>/gi;
   const headings: { text: string; id: string }[] = [];
   let match;
@@ -60,7 +59,6 @@ function addHeadingIds(content: string): string {
 }
 
 function styleFAQSection(content: string): string {
-  // Match any FAQ heading variation
   const faqPattern = /(<h2[^>]*>[\s\S]*?(?:Frequently Asked Questions|FAQ|FAQs)[\s\S]*?<\/h2>)/i;
   const faqSplit = content.split(faqPattern);
   if (faqSplit.length < 2) return content;
@@ -69,32 +67,59 @@ function styleFAQSection(content: string): string {
   const faqHeading = faqSplit[1];
   const afterFaqHeading = faqSplit.slice(2).join("");
 
-  // Find next H2 (Related Articles or other section) to know where FAQ ends
   const relatedIdx = afterFaqHeading.indexOf("<h2");
   const faqContent = relatedIdx > 0 ? afterFaqHeading.substring(0, relatedIdx) : afterFaqHeading;
   const afterFaq = relatedIdx > 0 ? afterFaqHeading.substring(relatedIdx) : "";
 
-  // Wrap each Q+A pair in a card div - handle ALL patterns
-
-  // Pattern 1: <h3>Q</h3><p>A</p>
   let styledFaq = faqContent.replace(
     /<h3>([\s\S]*?)<\/h3>\s*<p>([\s\S]*?)<\/p>/gi,
     '<div class="faq-card"><h3>$1</h3><p>$2</p></div>'
   );
-
-  // Pattern 2: <h4>Q</h4><p>A</p> (WordPress originals)
   styledFaq = styledFaq.replace(
     /<h4>([\s\S]*?)<\/h4>\s*<p>([\s\S]*?)<\/p>/gi,
     '<div class="faq-card"><h3>$1</h3><p>$2</p></div>'
   );
-
-  // Pattern 3: <p><strong>Q?</strong></p><p>A</p>
   styledFaq = styledFaq.replace(
     /<p><strong>([\s\S]*?\?)<\/strong><\/p>\s*<p>([\s\S]*?)<\/p>/gi,
     '<div class="faq-card"><h3>$1</h3><p>$2</p></div>'
   );
 
   return beforeFaq + faqHeading + styledFaq + afterFaq;
+}
+
+function extractFAQs(content: string) {
+  // Split on any FAQ heading variation
+  const faqParts = content.split(/<h2[^>]*>[\s\S]*?(?:Frequently Asked Questions|FAQ|FAQs)[\s\S]*?<\/h2>/i);
+  if (faqParts.length < 2) return [];
+
+  const faqSection = faqParts[1];
+  const nextH2 = faqSection.indexOf("<h2");
+  const faqOnly = nextH2 > 0 ? faqSection.substring(0, nextH2) : faqSection;
+
+  const faqs: { "@type": string; name: string; acceptedAnswer: { "@type": string; text: string } }[] = [];
+
+  // Match h3, h4, and bold patterns
+  const patterns = [
+    /<h3>([\s\S]*?)<\/h3>\s*<p>([\s\S]*?)<\/p>/gi,
+    /<h4>([\s\S]*?)<\/h4>\s*<p>([\s\S]*?)<\/p>/gi,
+    /<p><strong>([\s\S]*?\?)<\/strong><\/p>\s*<p>([\s\S]*?)<\/p>/gi,
+  ];
+
+  for (const regex of patterns) {
+    let match;
+    while ((match = regex.exec(faqOnly)) !== null) {
+      faqs.push({
+        "@type": "Question",
+        name: stripHtmlTags(match[1]),
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: stripHtmlTags(match[2]),
+        },
+      });
+    }
+  }
+
+  return faqs;
 }
 
 export function ArticlePage({ article }: { article: Article }) {
@@ -104,10 +129,19 @@ export function ArticlePage({ article }: { article: Article }) {
     month: "long",
     day: "numeric",
   });
+  const today = new Date().toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+  const todayISO = new Date().toISOString().split("T")[0];
+
+  // Check if article has any FAQ section
+  const hasFAQ = /Frequently Asked Questions|FAQ|FAQs/i.test(article.content);
 
   return (
     <>
-      {/* Article JSON-LD */}
+      {/* Article JSON-LD with author */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -118,11 +152,16 @@ export function ArticlePage({ article }: { article: Article }) {
             description: article.description,
             image: article.coverImage,
             datePublished: article.date,
-            dateModified: article.date,
+            dateModified: todayISO,
             author: {
-              "@type": "Organization",
-              name: "Par Precision",
-              url: "https://parpercision.com",
+              "@type": "Person",
+              name: "Kelvin Spratt",
+              jobTitle: "Golf Technology Writer",
+              url: "https://parpercision.com/about",
+              worksFor: {
+                "@type": "Organization",
+                name: "Par Precision",
+              },
             },
             publisher: {
               "@type": "Organization",
@@ -140,8 +179,24 @@ export function ArticlePage({ article }: { article: Article }) {
         }}
       />
 
-      {/* FAQ Schema if FAQ section exists */}
-      {article.content.includes("Frequently Asked Questions") && (
+      {/* Breadcrumb Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://parpercision.com" },
+              { "@type": "ListItem", position: 2, name: article.categoryLabel, item: `https://parpercision.com/${article.category === "guides" ? "guides" : article.category === "golf-tips" ? "golf-tips" : "reviews"}` },
+              { "@type": "ListItem", position: 3, name: article.title },
+            ],
+          }),
+        }}
+      />
+
+      {/* FAQ Schema */}
+      {hasFAQ && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -156,7 +211,7 @@ export function ArticlePage({ article }: { article: Article }) {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Breadcrumb */}
-        <nav className="flex items-center gap-2 text-sm text-muted mb-8">
+        <nav className="flex items-center gap-2 text-sm text-muted mb-8" aria-label="Breadcrumb">
           <Link href="/" className="hover:text-primary transition-colors">
             Home
           </Link>
@@ -180,14 +235,22 @@ export function ArticlePage({ article }: { article: Article }) {
             {article.title}
           </h1>
           <p className="text-lg text-muted leading-relaxed mb-6">{article.description}</p>
+
+          {/* Author + dates */}
           <div className="flex flex-wrap items-center gap-4 text-sm text-muted">
-            <div className="flex items-center gap-1.5">
-              <Image src="/Logo.png" alt="Par Precision" width={24} height={24} className="rounded" />
-              <span className="font-medium text-foreground">{article.author}</span>
-            </div>
+            <Link href="/about" className="flex items-center gap-1.5 hover:text-primary transition-colors">
+              <div className="w-7 h-7 bg-primary/10 rounded-full flex items-center justify-center">
+                <User className="w-3.5 h-3.5 text-primary" />
+              </div>
+              <span className="font-medium text-foreground">Kelvin Spratt</span>
+            </Link>
             <div className="flex items-center gap-1.5">
               <Calendar className="w-4 h-4" />
-              <time dateTime={article.date}>{formattedDate}</time>
+              <time dateTime={article.date}>Published {formattedDate}</time>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <RefreshCw className="w-4 h-4 text-primary" />
+              <span className="text-primary font-medium">Updated {today}</span>
             </div>
             <div className="flex items-center gap-1.5">
               <Clock className="w-4 h-4" />
@@ -226,8 +289,24 @@ export function ArticlePage({ article }: { article: Article }) {
           dangerouslySetInnerHTML={{ __html: processedContent }}
         />
 
+        {/* Author Bio Box */}
+        <div className="bg-surface border border-border rounded-2xl p-6 mt-12 flex gap-5 items-start">
+          <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+            <User className="w-7 h-7 text-primary" />
+          </div>
+          <div>
+            <Link href="/about" className="font-bold text-foreground hover:text-primary transition-colors">
+              Kelvin Spratt
+            </Link>
+            <p className="text-sm text-primary font-medium mb-2">Golf Technology Writer at Par Precision</p>
+            <p className="text-sm text-muted leading-relaxed">
+              Kelvin has been covering golf simulators and launch monitors since 2023. He researches and compares products from SkyTrak, TrackMan, Foresight Sports, Garmin, Uneekor, and more to help golfers find the right setup for their home.
+            </p>
+          </div>
+        </div>
+
         {/* Newsletter CTA */}
-        <div className="bg-surface border border-border rounded-2xl p-8 mt-12 text-center">
+        <div className="bg-surface border border-border rounded-2xl p-8 mt-8 text-center">
           <h3 className="text-2xl font-bold text-foreground mb-2">
             Get Our Free Golf Simulator Buying Guide
           </h3>
@@ -252,26 +331,4 @@ export function ArticlePage({ article }: { article: Article }) {
       </article>
     </>
   );
-}
-
-function extractFAQs(content: string) {
-  const faqSection = content.split("Frequently Asked Questions")[1];
-  if (!faqSection) return [];
-
-  const faqs: { "@type": string; name: string; acceptedAnswer: { "@type": string; text: string } }[] = [];
-  const h3Regex = /<h3>(.*?)<\/h3>\s*<p>(.*?)<\/p>/g;
-  let match;
-
-  while ((match = h3Regex.exec(faqSection)) !== null) {
-    faqs.push({
-      "@type": "Question",
-      name: match[1],
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: match[2].replace(/<[^>]*>/g, ""),
-      },
-    });
-  }
-
-  return faqs;
 }
