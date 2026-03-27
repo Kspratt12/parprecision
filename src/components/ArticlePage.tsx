@@ -60,22 +60,30 @@ function addHeadingIds(content: string): string {
 }
 
 function styleFAQSection(content: string): string {
-  // Find the FAQ section and wrap each H3+P pair in a styled card
-  const faqSplit = content.split(/(<h2[^>]*>[\s\S]*?Frequently Asked Questions[\s\S]*?<\/h2>)/i);
+  // Match any FAQ heading variation
+  const faqPattern = /(<h2[^>]*>[\s\S]*?(?:Frequently Asked Questions|FAQ|FAQs)[\s\S]*?<\/h2>)/i;
+  const faqSplit = content.split(faqPattern);
   if (faqSplit.length < 2) return content;
 
   const beforeFaq = faqSplit[0];
   const faqHeading = faqSplit[1];
   const afterFaqHeading = faqSplit.slice(2).join("");
 
-  // Find Related Articles section to know where FAQ ends
+  // Find next H2 (Related Articles or other section) to know where FAQ ends
   const relatedIdx = afterFaqHeading.indexOf("<h2");
   const faqContent = relatedIdx > 0 ? afterFaqHeading.substring(0, relatedIdx) : afterFaqHeading;
   const afterFaq = relatedIdx > 0 ? afterFaqHeading.substring(relatedIdx) : "";
 
   // Wrap each H3+P pair in a card div
-  const styledFaq = faqContent.replace(
+  // Also handle cases where the question is just bold text in a paragraph
+  let styledFaq = faqContent.replace(
     /<h3>([\s\S]*?)<\/h3>\s*<p>([\s\S]*?)<\/p>/gi,
+    '<div class="faq-card"><h3>$1</h3><p>$2</p></div>'
+  );
+
+  // Also catch pattern: <p><strong>Question?</strong></p><p>Answer</p> (WordPress FAQ style)
+  styledFaq = styledFaq.replace(
+    /<p><strong>([\s\S]*?\?)<\/strong><\/p>\s*<p>([\s\S]*?)<\/p>/gi,
     '<div class="faq-card"><h3>$1</h3><p>$2</p></div>'
   );
 
