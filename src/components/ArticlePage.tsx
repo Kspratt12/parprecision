@@ -384,6 +384,21 @@ export function ArticlePage({ article }: { article: Article }) {
           dangerouslySetInnerHTML={{ __html: processedContent }}
         />
 
+        {/* Clickable table row scroll behavior */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              document.querySelectorAll('tr[data-scroll-to]').forEach(function(row) {
+                row.style.cursor = 'pointer';
+                row.addEventListener('click', function() {
+                  var target = document.getElementById(this.getAttribute('data-scroll-to'));
+                  if (target) target.scrollIntoView({ behavior: 'smooth' });
+                });
+              });
+            `,
+          }}
+        />
+
         {/* Author Bio Box */}
         <div className="bg-surface border border-border rounded-2xl p-6 mt-12 flex gap-5 items-start">
           <Image src="/kelvin.jpg" alt="Kelvin" width={56} height={56} className="rounded-full object-cover flex-shrink-0" />

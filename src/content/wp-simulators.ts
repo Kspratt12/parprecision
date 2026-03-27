@@ -1516,13 +1516,13 @@ $
 <tr><th>Rank</th><th>Simulator</th><th>Best For</th><th>Price</th><th>Technology</th><th>Min. Space</th><th>Software</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td><strong><a href="#foresight-falcon-sig12">Foresight Falcon SIG12</a></strong></td><td>Best Overall</td><td>$12,999+</td><td>Overhead Camera</td><td>12W x 16D x 9H ft</td><td>FSX Play, FSX 2020, FSX Pro</td></tr>
-<tr><td>2</td><td><strong><a href="#skytrak-sig10">SkyTrak+ SIG10</a></strong></td><td>Best Budget</td><td>$4,645</td><td>Radar + Camera</td><td>10W x 14D x 9H ft</td><td>GSPro, E6 Connect, TGC 2019</td></tr>
-<tr><td>3</td><td><strong><a href="#uneekor-eye-xo2">Uneekor EYE XO2 SwingBay</a></strong></td><td>Best Data Depth</td><td>$11,000+</td><td>Dual Camera</td><td>12W x 16D x 9H ft</td><td>Refine, GSPro, E6 Connect</td></tr>
-<tr><td>4</td><td><strong><a href="#garmin-r50-sig10">Garmin R50 SIG10</a></strong></td><td>Best Small Spaces</td><td>$4,999</td><td>Radar</td><td>10W x 14D x 9H ft</td><td>Garmin Golf, E6 Connect, Awesome Golf</td></tr>
-<tr><td>5</td><td><strong><a href="#trackman-io-sig10">TrackMan iO SIG10</a></strong></td><td>Best Accuracy</td><td>$17,690+</td><td>Overhead Radar</td><td>10W x 15D x 9H ft</td><td>TrackMan (proprietary only)</td></tr>
-<tr><td>6</td><td><strong><a href="#bushnell-launch-pro">Bushnell Launch Pro SIG10</a></strong></td><td>Best Flexibility</td><td>$5,499+</td><td>Camera (Foresight)</td><td>10W x 14D x 9H ft</td><td>FSX 2020, FSX Play, FSX Pro</td></tr>
-<tr><td>7</td><td><strong><a href="#protee-vx-swingbay">ProTee VX SwingBay</a></strong></td><td>Best Overhead System</td><td>$8,500+</td><td>Overhead Camera</td><td>10W x 14D x 9H ft</td><td>GSPro, TGC 2019, E6 Connect</td></tr>
+<tr data-scroll-to="foresight-falcon-sig12"><td>1</td><td><strong>Foresight Falcon SIG12</strong></td><td>Best Overall</td><td>$12,999+</td><td>Overhead Camera</td><td>12W x 16D x 9H ft</td><td>FSX Play, FSX 2020, FSX Pro</td></tr>
+<tr data-scroll-to="skytrak-sig10"><td>2</td><td><strong>SkyTrak+ SIG10</strong></td><td>Best Budget</td><td>$4,645</td><td>Radar + Camera</td><td>10W x 14D x 9H ft</td><td>GSPro, E6 Connect, TGC 2019</td></tr>
+<tr data-scroll-to="uneekor-eye-xo2"><td>3</td><td><strong>Uneekor EYE XO2 SwingBay</strong></td><td>Best Data Depth</td><td>$11,000+</td><td>Dual Camera</td><td>12W x 16D x 9H ft</td><td>Refine, GSPro, E6 Connect</td></tr>
+<tr data-scroll-to="garmin-r50-sig10"><td>4</td><td><strong>Garmin R50 SIG10</strong></td><td>Best Small Spaces</td><td>$4,999</td><td>Radar</td><td>10W x 14D x 9H ft</td><td>Garmin Golf, E6 Connect, Awesome Golf</td></tr>
+<tr data-scroll-to="trackman-io-sig10"><td>5</td><td><strong>TrackMan iO SIG10</strong></td><td>Best Accuracy</td><td>$17,690+</td><td>Overhead Radar</td><td>10W x 15D x 9H ft</td><td>TrackMan (proprietary only)</td></tr>
+<tr data-scroll-to="bushnell-launch-pro"><td>6</td><td><strong>Bushnell Launch Pro SIG10</strong></td><td>Best Flexibility</td><td>$5,499+</td><td>Camera (Foresight)</td><td>10W x 14D x 9H ft</td><td>FSX 2020, FSX Play, FSX Pro</td></tr>
+<tr data-scroll-to="protee-vx-swingbay"><td>7</td><td><strong>ProTee VX SwingBay</strong></td><td>Best Overhead System</td><td>$8,500+</td><td>Overhead Camera</td><td>10W x 14D x 9H ft</td><td>GSPro, TGC 2019, E6 Connect</td></tr>
 </tbody>
 </table>
 

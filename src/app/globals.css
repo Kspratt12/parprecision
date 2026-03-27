@@ -142,6 +142,10 @@ html {
   border-bottom: none;
 }
 
+.article-content tr[data-scroll-to] {
+  cursor: pointer;
+}
+
 .article-content tr:hover td {
   background: var(--color-accent);
 }
