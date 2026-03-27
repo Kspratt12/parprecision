@@ -36,31 +36,6 @@ export function Footer() {
   return (
     <footer className="bg-gray-50 border-t border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        {/* Newsletter CTA */}
-        <div className="bg-primary/5 border border-primary/20 rounded-2xl p-8 md:p-12 mb-16 text-center">
-          <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-3">
-            Golf Simulator Buying Guide
-          </h3>
-          <p className="text-muted max-w-2xl mx-auto mb-6">
-            The complete guide to choosing the right golf simulator for your space and budget.
-            Plus, get weekly deals and new review alerts.
-          </p>
-          <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-full border border-border bg-white text-foreground placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary"
-            />
-            <button
-              type="submit"
-              className="px-6 py-3 bg-primary text-white font-semibold rounded-full hover:bg-primary-dark transition-colors shadow-sm whitespace-nowrap"
-            >
-              Get the Guide
-            </button>
-          </form>
-          <p className="text-xs text-muted mt-3">No spam, ever. Unsubscribe anytime.</p>
-        </div>
-
         {/* Link Columns */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           {Object.entries(footerLinks).map(([category, links]) => (
