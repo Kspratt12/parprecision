@@ -74,14 +74,21 @@ function styleFAQSection(content: string): string {
   const faqContent = relatedIdx > 0 ? afterFaqHeading.substring(0, relatedIdx) : afterFaqHeading;
   const afterFaq = relatedIdx > 0 ? afterFaqHeading.substring(relatedIdx) : "";
 
-  // Wrap each H3+P pair in a card div
-  // Also handle cases where the question is just bold text in a paragraph
+  // Wrap each Q+A pair in a card div - handle ALL patterns
+
+  // Pattern 1: <h3>Q</h3><p>A</p>
   let styledFaq = faqContent.replace(
     /<h3>([\s\S]*?)<\/h3>\s*<p>([\s\S]*?)<\/p>/gi,
     '<div class="faq-card"><h3>$1</h3><p>$2</p></div>'
   );
 
-  // Also catch pattern: <p><strong>Question?</strong></p><p>Answer</p> (WordPress FAQ style)
+  // Pattern 2: <h4>Q</h4><p>A</p> (WordPress originals)
+  styledFaq = styledFaq.replace(
+    /<h4>([\s\S]*?)<\/h4>\s*<p>([\s\S]*?)<\/p>/gi,
+    '<div class="faq-card"><h3>$1</h3><p>$2</p></div>'
+  );
+
+  // Pattern 3: <p><strong>Q?</strong></p><p>A</p>
   styledFaq = styledFaq.replace(
     /<p><strong>([\s\S]*?\?)<\/strong><\/p>\s*<p>([\s\S]*?)<\/p>/gi,
     '<div class="faq-card"><h3>$1</h3><p>$2</p></div>'
