@@ -4,7 +4,7 @@ import { Calendar, Clock, ArrowLeft, RefreshCw } from "lucide-react";
 import type { Article } from "@/content/articles";
 
 function stripHtmlTags(html: string): string {
-  return html.replace(/<[^>]*>/g, "").trim();
+  return html.replace(/<[^>]*>/g, "").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#039;/g, "'").trim();
 }
 
 function makeId(text: string): string {
@@ -119,6 +119,43 @@ function extractFAQs(content: string) {
   }
 
   return faqs;
+}
+
+function extractProducts(content: string) {
+  const products: {
+    "@type": string;
+    name: string;
+    description: string;
+    offers?: { "@type": string; priceCurrency: string; price: string; availability: string };
+  }[] = [];
+
+  const productRegex = /<h3[^>]*>\d+\.\s*(?:<a[^>]*>)?(.*?)(?:<\/a>)?\s*-\s*(.*?)<\/h3>\s*(?:<img[^>]*\/>)?\s*<p>([\s\S]*?)<\/p>/gi;
+  let match;
+  while ((match = productRegex.exec(content)) !== null) {
+    const name = stripHtmlTags(match[1]);
+    const description = stripHtmlTags(match[3]).substring(0, 200);
+    const priceMatch = content.substring(match.index, match.index + 2000).match(/\$(\d[\d,]*)\+?/);
+    const product: {
+      "@type": string;
+      name: string;
+      description: string;
+      offers?: { "@type": string; priceCurrency: string; price: string; availability: string };
+    } = {
+      "@type": "Product",
+      name,
+      description,
+    };
+    if (priceMatch) {
+      product.offers = {
+        "@type": "Offer",
+        priceCurrency: "USD",
+        price: priceMatch[1].replace(",", ""),
+        availability: "https://schema.org/InStock",
+      };
+    }
+    products.push(product);
+  }
+  return products;
 }
 
 export function ArticlePage({ article }: { article: Article }) {
@@ -246,6 +283,24 @@ export function ArticlePage({ article }: { article: Article }) {
               "@context": "https://schema.org",
               "@type": "FAQPage",
               mainEntity: extractFAQs(article.content),
+            }),
+          }}
+        />
+      )}
+
+      {/* Product Schema for listicle articles */}
+      {extractProducts(article.content).length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ItemList",
+              itemListElement: extractProducts(article.content).map((product, index) => ({
+                "@type": "ListItem",
+                position: index + 1,
+                item: product,
+              })),
             }),
           }}
         />
