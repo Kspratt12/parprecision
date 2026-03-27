@@ -373,11 +373,16 @@ export default function HomePage() {
       {/* ── CTA ── */}
       <section className="bg-gradient-to-br from-primary to-primary-dark py-16 md:py-20">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-white mb-3">Get the Buying Guide</h2>
-          <p className="text-white/80 mb-8">The complete golf simulator buying guide. Top picks, room requirements, and money-saving tips.</p>
-          <div className="flex justify-center">
-            <NewsletterForm variant="hero" />
-          </div>
+          <h2 className="text-3xl font-bold text-white mb-3">Ready to Build Your Setup?</h2>
+          <p className="text-white/80 mb-8">Get the complete golf simulator buying guide with our top picks, room requirements, and money-saving tips.</p>
+          <a
+            href="https://sprattler3.gumroad.com/l/best-golf-simulator-for-home-pdf-guide"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-bold rounded-full hover:bg-gray-100 transition-all shadow-lg text-base"
+          >
+            Get the Buying Guide - $19.95
+          </a>
         </div>
       </section>
     </>
