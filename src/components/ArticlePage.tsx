@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Calendar, Clock, ArrowLeft, RefreshCw, User } from "lucide-react";
-import { NewsletterForm } from "@/components/NewsletterForm";
 import type { Article } from "@/content/articles";
 
 function stripHtmlTags(html: string): string {
@@ -305,17 +304,22 @@ export function ArticlePage({ article }: { article: Article }) {
           </div>
         </div>
 
-        {/* Newsletter CTA */}
+        {/* Buying Guide CTA */}
         <div className="bg-surface border border-border rounded-2xl p-8 mt-8 text-center">
           <h3 className="text-2xl font-bold text-foreground mb-2">
-            Get Our Free Golf Simulator Buying Guide
+            Golf Simulator Buying Guide
           </h3>
           <p className="text-muted mb-6 max-w-md mx-auto">
-            Our complete guide helps you choose the right simulator for your space and budget.
+            The complete guide to choosing the right simulator for your space and budget. Top picks, room requirements, and money-saving tips.
           </p>
-          <div className="max-w-md mx-auto">
-            <NewsletterForm />
-          </div>
+          <a
+            href="https://sprattler3.gumroad.com/l/best-golf-simulator-for-home-pdf-guide"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded-full hover:bg-primary-dark transition-all shadow-sm"
+          >
+            Get the Buying Guide - $19.95
+          </a>
         </div>
 
         {/* Back link */}
