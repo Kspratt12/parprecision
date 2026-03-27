@@ -62,13 +62,13 @@ export function Footer() {
         {/* Bottom */}
         <div className="border-t border-border pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <Image src="/Logo.png" alt="Par Precision" width={32} height={32} className="rounded-lg" />
+            <Image src="/Logo.png" alt="Par Percision" width={32} height={32} className="rounded-lg" />
             <span className="font-bold text-foreground">
-              Par <span className="text-primary">Precision</span>
+              Par <span className="text-primary">Percision</span>
             </span>
           </div>
           <p className="text-sm text-muted text-center">
-            © {new Date().getFullYear()} Par Precision. All rights reserved. We may earn commissions from qualifying purchases.
+            © {new Date().getFullYear()} Par Percision. All rights reserved. We may earn commissions from qualifying purchases.
           </p>
           <div className="flex items-center gap-4">
             <Link href="/privacy" className="text-sm text-muted hover:text-primary">

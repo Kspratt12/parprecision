@@ -7,7 +7,7 @@ export const wpGuideArticles: Article[] = [
     description:
       "Looking for the best golf simulator turf? Get the right mix of durability, ball roll, and impact absorption for any setup.",
     date: "2025-02-23",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "guides",
     categoryLabel: "Guide",
     keywords: ["golf simulator turf", "best golf simulator mat", "golf hitting mat for simulator", "golf simulator turf guide", "fiberbuilt vs swingturf"],
@@ -202,7 +202,7 @@ $
 <p>Quality turf ensures consistent ball contact which improves data accuracy. Worn or inconsistent mats can cause mis-reads, especially for spin data. Invest in a quality mat for the best experience.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/how-to-build-a-golf-simulator-2">How to Build a Simulator</a></li>
 <li><a href="/golf-simulator-cost-2026">Golf Simulator Cost Guide</a></li>
@@ -218,7 +218,7 @@ $
     description:
       "How profitable are indoor golf simulators? Discover revenue potential, costs, and strategies to maximize success.",
     date: "2025-02-28",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "guides",
     categoryLabel: "Guide",
     keywords: ["how profitable are indoor golf simulators", "golf simulator profitability", "how profitable are golf simulators", "how profitable are golf simulators?"],
@@ -399,7 +399,7 @@ https://www.youtube.com/watch?v=DIAbgqyhrAI
 <p>Most successful indoor golf businesses reach profitability within 12-18 months. Location, marketing effectiveness, and operational efficiency are the key variables.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/best-golf-simulators-for-business">Best Simulators for Business</a></li>
 <li><a href="/golf-simulator-cost-2026">Golf Simulator Cost Guide</a></li>
@@ -415,7 +415,7 @@ https://www.youtube.com/watch?v=DIAbgqyhrAI
     description:
       "Looking for the best golf simulator software? Compare E6 Connect, GSPro, and FSX Play for the most realistic gameplay, online matches, and skill-building modes.",
     date: "2025-02-01",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "guides",
     categoryLabel: "Guide",
     keywords: ["Best Golf Simulator Software", "best simulator software", "best golf simulator software", "best golf simulator software 2026"],
@@ -663,7 +663,7 @@ https://www.youtube.com/watch?v=YXv2xklh2A8
 
 <p>Before purchasing, check launch monitor compatibility and decide whether you prefer a one-time purchase or a subscription model. With the right software, you can turn any space into a realistic, high-quality golf simulator for year-round practice and competition.</p>
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/best-golf-simulators-for-home">Best Golf Simulators for Home</a></li>
 <li><a href="/how-to-build-a-golf-simulator-2">How to Build a Simulator</a></li>
@@ -679,7 +679,7 @@ https://www.youtube.com/watch?v=YXv2xklh2A8
     description:
       "Want a basement golf simulator? Find out the space requirements and best setups for a realistic indoor golf experience.",
     date: "2025-02-27",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "guides",
     categoryLabel: "Guide",
     keywords: ["basement golf simulator", "golf simulator in basement", "basement simulator setup", "how to build basement golf simulator", "golf sim basement ideas"],
@@ -802,7 +802,7 @@ $
 <p>It's recommended. Impact noise from hitting balls can be loud. Adding foam panels to walls, using a quality hitting mat, and ensuring the screen absorbs impact properly will significantly reduce noise.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/how-much-space-is-needed-for-a-golf-simulator">Room Dimensions Guide</a></li>
 <li><a href="/how-to-build-a-golf-simulator-2">How to Build a Simulator</a></li>
@@ -818,7 +818,7 @@ $
     description:
       "Wondering how much space is needed for a golf simulator? Get the ideal dimensions for home, small spaces, and businesses.",
     date: "2025-02-22",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "guides",
     categoryLabel: "Guide",
     keywords: ["How Much Space Is Needed for a Golf Simulator", "room dimensions guide", "how much space is needed for a golf simulator", "how much space is needed for a golf simulator?"],
@@ -991,7 +991,7 @@ https://www.youtube.com/watch?v=2A80NoFg-Fw&amp;t=2s
 <p>Yes, but overhead monitors need additional clearance for installation. Portable monitors on the floor/ground don't add ceiling height requirements. Account for the launch monitor placement in your measurements.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/best-golf-simulators-for-small-spaces">Best Simulators for Small Spaces</a></li>
 <li><a href="/basement-golf-simulator">Basement Simulator Guide</a></li>
@@ -1007,7 +1007,7 @@ https://www.youtube.com/watch?v=2A80NoFg-Fw&amp;t=2s
     description:
       "Find the best golf simulator in 2025. Compare Trackman iO, Uneekor EYE MINI, SkyTrak+, and more to pick the perfect fit for your game.",
     date: "2025-01-31",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "guides",
     categoryLabel: "Guide",
     keywords: ["what is the best golf simulator", "best golf simulator guide", "what is the best golf simulator 2026", "what is the best golf simulator?"],
@@ -1322,7 +1322,7 @@ https://www.youtube.com/watch?v=2A80NoFg-Fw&amp;t=2s
 <p>SkyTrak, Foresight Sports, TrackMan, Garmin, and Uneekor are the top simulator brands. Each excels in different areas: SkyTrak for value, Foresight for accuracy, TrackMan for premium, Garmin for versatility, and Uneekor for overhead systems.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/best-golf-simulators-for-home">Best Golf Simulators for Home</a></li>
 <li><a href="/best-golf-simulators-for-the-money">Best Simulators for the Money</a></li>
@@ -1338,7 +1338,7 @@ https://www.youtube.com/watch?v=2A80NoFg-Fw&amp;t=2s
     description:
       "A clear 2025 guide on what a golf simulator really costs, with price ranges for low, mid, and high-end builds plus real package examples.",
     date: "2025-11-22",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "guides",
     categoryLabel: "Guide",
     keywords: ["golf simulator cost", "golf simulator cost guide", "golf simulator cost 2026"],
@@ -1483,7 +1483,7 @@ https://www.youtube.com/watch?v=2A80NoFg-Fw&amp;t=2s
 <p>Ongoing costs include software subscriptions ($0-$300/year), replacement mats and screens (every 2-3 years), electricity, and potential software upgrades. Budget $200-$500/year for maintenance.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/best-golf-simulators-for-home">Best Golf Simulators for Home</a></li>
 <li><a href="/best-golf-simulators-for-the-money">Best Simulators for the Money</a></li>
@@ -1499,7 +1499,7 @@ https://www.youtube.com/watch?v=2A80NoFg-Fw&amp;t=2s
     description:
       "Why are golf simulators so expensive? Advanced tracking and premium materials drive up costs. Learn why and explore budget-friendly options.",
     date: "2025-02-26",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "guides",
     categoryLabel: "Guide",
     keywords: ["why are golf simulators so expensive", "golf simulator cost breakdown", "are golf simulators worth it", "golf simulator pricing explained", "cheap vs expensive golf simulator"],
@@ -1642,7 +1642,7 @@ $
 <p>Prices have been trending down as technology improves and competition increases. Entry-level simulator setups are now available under $3,000, compared to $10,000+ just a few years ago.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/golf-simulator-cost-2026">Golf Simulator Cost Guide</a></li>
 <li><a href="/best-golf-simulators-for-the-money">Best Simulators for the Money</a></li>
@@ -1658,7 +1658,7 @@ $
     description:
       "Find the most accurate golf launch monitor. Compare GCQuad, QuadMax, Full Swing KIT, and more with pricing and features.",
     date: "2025-02-21",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "guides",
     categoryLabel: "Guide",
     keywords: ["What Is the Most Accurate Golf Launch Monitor", "most accurate launch monitors", "what is the most accurate launch monitor", "what is the most accurate launch monitor?"],
@@ -1930,7 +1930,7 @@ https://www.youtube.com/watch?v=D_nDst3hw1g
 
 <p>By matching a launch monitor to your practice environment and performance goals, you can get the most out of your training and game improvement.</p>
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/foresight-sports-gcquad">GCQuad Review</a></li>
 <li><a href="/trackman-io-review">TrackMan iO Review</a></li>
@@ -1946,7 +1946,7 @@ https://www.youtube.com/watch?v=D_nDst3hw1g
     description:
       "The SkyTrak+ is highly accurate for a $1,995 launch monitor, typically staying within about 5 percent of GCQuad-level ball and launch data.",
     date: "2025-11-15",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "guides",
     categoryLabel: "Guide",
     keywords: ["how accurate is the SkyTrak Plus", "skytrak+ accuracy", "how accurate is the skytrak plus", "how accurate is the skytrak plus golf simulator", "how accurate is the skytrak plus?"],
@@ -2059,7 +2059,7 @@ https://www.youtube.com/watch?v=D_nDst3hw1g
 <p>The SkyTrak+ can be less consistent outdoors in bright sunlight since it uses photometric cameras. For the best accuracy, use it in controlled indoor lighting.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/skytrak-plus-for-beginners">SkyTrak+ for Beginners</a></li>
 <li><a href="/skytrak-vs-skytrak-plus-differences">SkyTrak vs SkyTrak Plus</a></li>
@@ -2075,7 +2075,7 @@ https://www.youtube.com/watch?v=D_nDst3hw1g
     description:
       "Wondering if a golf launch monitor is worth it? Find out how it improves your game and whether it’s the right investment for you.",
     date: "2025-02-19",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "guides",
     categoryLabel: "Guide",
     keywords: ["Is It Worth Buying a Golf Launch Monitor?", "worth buying a launch monitor?", "is it worth buying a golf launch monitor", "is it worth buying a golf launch monitor?"],
@@ -2223,7 +2223,7 @@ https://www.youtube.com/watch?v=W_CIAaUShD0&amp;t=11s
 
 <p>If your goal is to become more consistent, eliminate guesswork, and get real data on every shot, a launch monitor is one of the smartest investments you can make.</p>
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/best-golf-launch-monitors">Best Golf Launch Monitors</a></li>
 <li><a href="/best-golf-launch-monitors-under-1000">Best Launch Monitors Under $1000</a></li>
@@ -2239,7 +2239,7 @@ https://www.youtube.com/watch?v=W_CIAaUShD0&amp;t=11s
     description:
       "Wondering how much does a golf launch monitor cost? Prices range from $279 to $20,000+. Compare features and find the right fit.",
     date: "2025-02-20",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "guides",
     categoryLabel: "Guide",
     keywords: ["How Much Does a Golf Launch Monitor Cost", "launch monitor cost guide", "how much does a golf launch monitor cost find out here", "how much does a golf launch monitor cost find out here?"],
@@ -2423,7 +2423,7 @@ https://www.youtube.com/watch?v=hEw57--nf70
 
 <p>Choosing the right launch monitor is about balancing features with budget. Whether you're looking for basic shot feedback or a complete performance analysis tool, there's a model that fits your needs.</p>
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/golf-simulator-cost-2026">Golf Simulator Cost Guide</a></li>
 <li><a href="/best-golf-launch-monitors-under-1000">Best Launch Monitors Under $1000</a></li>
@@ -2439,7 +2439,7 @@ https://www.youtube.com/watch?v=hEw57--nf70
     description:
       "Build a golf simulator under $8,000 with the best launch monitor, screen, and projector for a pro-level setup.",
     date: "2025-02-24",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "guides",
     categoryLabel: "Guide",
     keywords: ["how to build a golf simulator", "how to build a simulator", "how to build a golf simulator 2", "how to build a golf simulator 2?"],
@@ -2560,7 +2560,7 @@ https://www.youtube.com/watch?v=_pJBQmVArII&amp;t=2s
 <p>Basic tools include a drill, level, stud finder, measuring tape, and ladder. For enclosure assembly, you may need a saw for cutting frame pieces and basic hardware for mounting.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/golf-simulator-cost-2026">Golf Simulator Cost Guide</a></li>
 <li><a href="/how-much-space-is-needed-for-a-golf-simulator">Room Dimensions Guide</a></li>
@@ -2576,7 +2576,7 @@ https://www.youtube.com/watch?v=_pJBQmVArII&amp;t=2s
     description:
       "Do golf simulators improve your game? Explore expert insights, real data, and how they can help lower scores and refine your swing.",
     date: "2025-02-01",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "guides",
     categoryLabel: "Guide",
     keywords: ["Do golf simulators improve your game", "do simulators improve your game?", "do golf simulators improve your game", "do golf simulators improve your game?"],
@@ -2683,7 +2683,7 @@ https://www.youtube.com/watch?v=_pJBQmVArII&amp;t=2s
 <p>A simulator complements outdoor practice but shouldn't replace it entirely. Simulators are excellent for swing mechanics and data analysis but can't replicate course management, wind conditions, and putting on real greens.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/golf-swing-drills">Golf Swing Drills</a></li>
 <li><a href="/golf-swing-drill-for-beginners">Golf Drills for Beginners</a></li>
@@ -2699,7 +2699,7 @@ https://www.youtube.com/watch?v=_pJBQmVArII&amp;t=2s
     description:
       "Discover the space requirements, best launch monitors, and key equipment for building the perfect home golf simulator.",
     date: "2025-02-01",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "guides",
     categoryLabel: "Guide",
     keywords: ["Golf Simulator Room Setup", "simulator setup guide", "golf simulator setup"],
@@ -2790,7 +2790,7 @@ https://www.youtube.com/watch?v=_pJBQmVArII&amp;t=2s
 <p>A short-throw projector with at least 3,000 lumens brightness and 1080p resolution is recommended. Popular options include the Optoma ZH400ST and BenQ TK710STi. Budget $800-$2,000 for a quality projector.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/how-to-build-a-golf-simulator-2">How to Build a Simulator</a></li>
 <li><a href="/how-much-space-is-needed-for-a-golf-simulator">Room Dimensions Guide</a></li>
@@ -2806,7 +2806,7 @@ https://www.youtube.com/watch?v=_pJBQmVArII&amp;t=2s
     description:
       "Looking to build a golf simulator for your mancave? Don\'t worry, because I have you covered with these 5 easy steps to golfers paradise.",
     date: "2025-01-31",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "guides",
     categoryLabel: "Guide",
     keywords: ["How to Build a Golf Simulator", "mancave simulator guide", "how to build a golf simulator mancave", "how to build a golf simulator mancave?"],
@@ -2919,7 +2919,7 @@ https://www.youtube.com/watch?v=_pJBQmVArII&amp;t=2s
 <p>Yes. As long as you have the minimum space requirements (10ft wide, 15ft deep, 9ft ceiling), you can integrate a simulator into an existing space.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/how-to-build-a-golf-simulator-2">How to Build a Simulator</a></li>
 <li><a href="/basement-golf-simulator">Basement Simulator Guide</a></li>
@@ -2935,7 +2935,7 @@ https://www.youtube.com/watch?v=_pJBQmVArII&amp;t=2s
     description:
       "Set up a golf simulator in a small room with the best launch monitors, screens, and space-saving tips for a realistic experience.",
     date: "2025-01-31",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "guides",
     categoryLabel: "Guide",
     keywords: ["How to Set Up a Golf Simulator in a Small Room", "small room setup guide", "how to set up a golf simulator in a small room", "how to set up a golf simulator in a small room?"],
@@ -3056,7 +3056,7 @@ https://www.youtube.com/watch?v=_pJBQmVArII
 <p>It depends on the bedroom size and ceiling height. Most spare bedrooms (10x12 feet) are wide enough but may lack depth. Verify ceiling height and consider only using irons and wedges if height is limited.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/best-golf-simulators-for-small-spaces">Best Simulators for Small Spaces</a></li>
 <li><a href="/how-much-space-is-needed-for-a-golf-simulator">Room Dimensions Guide</a></li>

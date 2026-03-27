@@ -7,7 +7,7 @@ export const wpSimulatorArticles: Article[] = [
     description:
       "Discover the best retractable golf simulators, featuring advanced technology, seamless design, and space-saving setups.",
     date: "2025-01-25",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "simulators",
     categoryLabel: "Golf Simulators",
     keywords: ["best retractable golf simulators", "best retractable simulators", "best retractable golf simulators 2026"],
@@ -224,7 +224,7 @@ https://www.youtube.com/watch?v=zvctmmd00bo
 <p>Yes during play. The trade-off is 5-10 minutes of setup/takedown time. Accuracy and screen quality are the same.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/best-golf-simulators-for-small-spaces">Best Simulators for Small Spaces</a></li>
 <li><a href="/best-golf-simulators-for-garage-use">Best Simulators for Garage</a></li>
@@ -240,7 +240,7 @@ https://www.youtube.com/watch?v=zvctmmd00bo
     description:
       "Discover the 9 best golf simulators for small spaces, featuring compact and portable setups perfect for your home or garage.",
     date: "2025-01-18",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "simulators",
     categoryLabel: "Golf Simulators",
     keywords: ["best golf simulators for small spaces", "best simulators for small spaces", "best golf simulators for small spaces 2026"],
@@ -634,7 +634,7 @@ https://www.youtube.com/watch?v=zvctmmd00bo
 
 <p>A golf simulator can transform any small space into a personal practice area, letting you sharpen your skills year-round. Whether you opt for a portable setup or a permanent installation, there’s an option on this list to suit your space and budget. Focus on what matters most to you-accuracy, portability, or software features-and build the simulator setup that fits your needs. With careful planning, even the tightest spaces can deliver a professional-grade golf experience.</p>
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/how-much-space-is-needed-for-a-golf-simulator">Room Dimensions Guide</a></li>
 <li><a href="/best-golf-simulators-for-home">Best Golf Simulators for Home</a></li>
@@ -650,7 +650,7 @@ https://www.youtube.com/watch?v=zvctmmd00bo
     description:
       "Discover the best golf simulators for business in 2025. Tested picks for ROI, durability, and customer retention.",
     date: "2025-01-21",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "simulators",
     categoryLabel: "Golf Simulators",
     keywords: ["best golf simulators for business", "best simulators for business", "best golf simulators for business 2026"],
@@ -797,7 +797,7 @@ https://www.youtube.com/watch?v=zvctmmd00bo
 <p>Yes when managed well. A 4-bay venue charging $50/hour can generate $2,000+ daily. Location and marketing are key factors.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/how-profitable-are-golf-simulators">Golf Simulator Profitability</a></li>
 <li><a href="/best-golf-simulators-for-home">Best Golf Simulators for Home</a></li>
@@ -813,7 +813,7 @@ https://www.youtube.com/watch?v=zvctmmd00bo
     description:
       "See the best golf simulators for garage use with top options for accuracy, space efficiency, and realistic gameplay.",
     date: "2025-01-21",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "simulators",
     categoryLabel: "Golf Simulators",
     keywords: ["best golf simulators for garage use", "best simulators for garage", "best golf simulators for garage use 2026"],
@@ -1113,7 +1113,7 @@ https://www.youtube.com/watch?v=UlMyLYiwQZs
 
 <p>No matter which system you choose, making sure your garage is properly set up-considering ceiling height, lighting, and climate control-will ensure you get the best performance from your simulator. With the right setup, you can enjoy year-round practice, improve your game, and turn your garage into the ultimate personal golf studio.</p>
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/how-much-space-is-needed-for-a-golf-simulator">Room Dimensions Guide</a></li>
 <li><a href="/best-golf-simulators-for-home">Best Golf Simulators for Home</a></li>
@@ -1129,7 +1129,7 @@ https://www.youtube.com/watch?v=UlMyLYiwQZs
     description:
       "Best golf simulators for the money-top options that deliver accuracy, performance, and value without overspending.",
     date: "2025-02-07",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "simulators",
     categoryLabel: "Golf Simulators",
     keywords: ["best golf simulators for the money", "best simulators for the money", "best golf simulators for the money 2026"],
@@ -1479,7 +1479,7 @@ $
 
 <p>By considering tracking technology, space requirements, and software compatibility, you can make a smart investment that enhances your game and provides years of use. No matter your budget, there’s a great golf simulator that offers the best value for your money.</p>
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/best-golf-simulators-for-home">Best Golf Simulators for Home</a></li>
 <li><a href="/golf-simulator-cost-2026">Golf Simulator Cost Guide</a></li>
@@ -1495,7 +1495,7 @@ $
     description:
       "Discover the best golf simulators for home in 2025, offering top accuracy, space efficiency, and value for every golfer.",
     date: "2025-02-07",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "simulators",
     categoryLabel: "Golf Simulators",
     keywords: ["best golf simulators for home", "best golf simulators 2025", "home golf simulator reviews", "best golf simulator packages", "golf simulator for house"],
@@ -1699,7 +1699,7 @@ $
 
 <p>Every simulator on this list has been tested, trusted, and built into real home setups. The key is finding the one that matches your budget, space, and goals. Then using it consistently. That’s how a simulator stops being a luxury and turns into the best practice tool you’ll ever own.</p>
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/golf-simulator-cost-2026">Golf Simulator Cost Guide</a></li>
 <li><a href="/how-much-space-is-needed-for-a-golf-simulator">Room Dimensions Guide</a></li>
@@ -1715,7 +1715,7 @@ $
     description:
       "Looking for the best golf simulators for left and right handed use? Foresight GCHawk SIG12, and Trackman iO SwingBay make it easy.",
     date: "2025-01-21",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "simulators",
     categoryLabel: "Golf Simulators",
     keywords: ["best golf simulators for left and right handed use", "best for left & right handed", "best golf simulators for left and right handed use 2026"],
@@ -1935,7 +1935,7 @@ https://www.youtube.com/watch?v=W_CIAaUShD0&amp;t=7s
 
 <p>No matter your space or budget, these top-rated simulators ensure a smooth experience for all players.</p>
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/best-golf-simulators-for-home">Best Golf Simulators for Home</a></li>
 <li><a href="/best-overhead-launch-monitors-review">Best Overhead Launch Monitors</a></li>
@@ -1951,7 +1951,7 @@ https://www.youtube.com/watch?v=W_CIAaUShD0&amp;t=7s
     description:
       "Find the best golf simulators under $10,000, including SkyTrak+ SIG8 and Foresight GC3 SIG8. Compare features and choose the right setup.",
     date: "2025-02-01",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "simulators",
     categoryLabel: "Golf Simulators",
     keywords: ["best golf simulators under 10000", "best simulators under $10k", "best golf simulators under 10000 2026"],
@@ -2122,7 +2122,7 @@ https://www.youtube.com/watch?v=W_CIAaUShD0&amp;t=7s
 <p>Yes. Simulators in the $5,000-$10,000 range deliver accuracy that satisfies most home golfers. The main differences between this range and $20,000+ systems are software features and premium materials.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/best-golf-simulators-for-the-money">Best Simulators for the Money</a></li>
 <li><a href="/best-golf-simulators-for-home">Best Golf Simulators for Home</a></li>

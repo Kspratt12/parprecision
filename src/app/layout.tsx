@@ -20,8 +20,8 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL("https://parpercision.com"),
   title: {
-    default: "Par Precision | Golf Simulator & Launch Monitor Reviews",
-    template: "%s | Par Precision",
+    default: "Par Percision | Golf Simulator & Launch Monitor Reviews",
+    template: "%s | Par Percision",
   },
   description:
     "Independent golf simulator and launch monitor reviews. Compare SkyTrak, TrackMan, Foresight, Garmin, Uneekor and more. Honest buying guides since 2023.",
@@ -44,14 +44,14 @@ export const metadata: Metadata = {
     "best overhead launch monitor",
     "best portable launch monitor",
   ],
-  authors: [{ name: "Par Precision" }],
-  creator: "Par Precision",
+  authors: [{ name: "Par Percision" }],
+  creator: "Par Percision",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://parpercision.com",
-    siteName: "Par Precision",
-    title: "Par Precision - Golf Simulator & Launch Monitor Reviews",
+    siteName: "Par Percision",
+    title: "Par Percision - Golf Simulator & Launch Monitor Reviews",
     description:
       "Expert reviews, comparisons, and buying guides for golf simulators and launch monitors.",
     images: [
@@ -59,13 +59,13 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Par Precision - Golf Simulator & Launch Monitor Reviews",
+        alt: "Par Percision - Golf Simulator & Launch Monitor Reviews",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Par Precision - Golf Simulator & Launch Monitor Reviews",
+    title: "Par Percision - Golf Simulator & Launch Monitor Reviews",
     description:
       "Expert reviews, comparisons, and buying guides for golf simulators and launch monitors.",
     images: ["/og-image.png"],

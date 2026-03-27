@@ -7,7 +7,7 @@ export const wpGolfTipArticles: Article[] = [
     description:
       "Master your swing with 10 proven golf swing drills for consistency and control. Learn home drills and quick fixes for common swing issues.",
     date: "2025-10-19",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "golf-tips",
     categoryLabel: "Golf Tips",
     keywords: ["golf swing drills", "best golf drills to improve swing", "golf practice drills at home", "golf swing improvement exercises", "golf drills for consistency"],
@@ -223,7 +223,7 @@ export const wpGolfTipArticles: Article[] = [
 
 <p>Small, consistent work is how golfers build confidence that lasts. That’s how you turn “good swings” into your normal.</p>
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/golf-swing-drill-for-beginners">Golf Drills for Beginners</a></li>
 <li><a href="/do-golf-simulators-improve-your-game">Do Simulators Improve Your Game?</a></li>
@@ -239,7 +239,7 @@ export const wpGolfTipArticles: Article[] = [
     description:
       "Explore the best 5 SwingBay golf simulators from Rain or Shine Golf. Precision, performance, and the ultimate indoor golf experience await!",
     date: "2025-01-25",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "golf-tips",
     categoryLabel: "Golf Tips",
     keywords: ["best swingbay golf simulators", "best swingbay simulators", "best swingbay golf simulators 2026"],
@@ -461,7 +461,7 @@ https://www.youtube.com/watch?v=1nkUvZa54ts
 
 <p>No matter which option you choose, the key is ensuring it fits comfortably within your space while providing an engaging, data-driven experience. A well-chosen SwingBay simulator can transform any indoor area into a professional-grade golf environment, allowing year-round practice and game improvement.</p>
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/best-golf-simulators-for-home">Best Golf Simulators for Home</a></li>
 <li><a href="/best-golf-simulators-for-the-money">Best Simulators for the Money</a></li>
@@ -477,7 +477,7 @@ https://www.youtube.com/watch?v=1nkUvZa54ts
     description:
       "Learn 10 golf swing drills for beginners to build rhythm, consistency, and solid contact. Improve your swing and balance right from home.",
     date: "2025-10-19",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "golf-tips",
     categoryLabel: "Golf Tips",
     keywords: ["golf swing drills for beginners", "golf drills for beginners", "golf swing drill for beginners"],
@@ -656,7 +656,7 @@ https://www.youtube.com/watch?v=1nkUvZa54ts
 <p>3-4 times per week for 15-20 minutes each. Consistency matters more than duration. Focus on one or two drills per session.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/golf-swing-drills">Golf Swing Drills</a></li>
 <li><a href="/do-golf-simulators-improve-your-game">Do Simulators Improve Your Game?</a></li>

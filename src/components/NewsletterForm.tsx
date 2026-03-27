@@ -16,7 +16,7 @@ export function NewsletterForm({ variant = "inline" }: { variant?: "inline" | "h
       const res = await fetch("https://formspree.io/f/xpwrawvy", {
         method: "POST",
         headers: { Accept: "application/json", "Content-Type": "application/json" },
-        body: JSON.stringify({ email, _subject: "New Newsletter Subscriber — Par Precision" }),
+        body: JSON.stringify({ email, _subject: "New Newsletter Subscriber — Par Percision" }),
       });
 
       if (res.ok) {

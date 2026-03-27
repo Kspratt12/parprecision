@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "Par Precision terms of service. Read our terms and conditions for using the website.",
+  description: "Par Percision terms of service. Read our terms and conditions for using the website.",
   alternates: { canonical: "https://parpercision.com/terms" },
 };
 
@@ -16,7 +16,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">1. Acceptance of Terms</h2>
           <p>
-            By accessing and using Par Precision (&quot;parpercision.com&quot;), you accept and agree
+            By accessing and using Par Percision (&quot;parpercision.com&quot;), you accept and agree
             to be bound by these Terms of Service. If you do not agree with any part of these terms,
             please do not use our website.
           </p>
@@ -25,7 +25,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">2. Use of Content</h2>
           <p>
-            All content on Par Precision, including text, images, graphics, and reviews, is for
+            All content on Par Percision, including text, images, graphics, and reviews, is for
             informational purposes only. Our reviews and recommendations represent our honest opinions
             based on our testing and research.
           </p>
@@ -40,7 +40,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">3. Affiliate Relationships</h2>
           <p>
-            Par Precision is a participant in various affiliate marketing programs. This means we may
+            Par Percision is a participant in various affiliate marketing programs. This means we may
             earn commissions on qualifying purchases made through links on our website. This does not
             affect the price you pay or our editorial independence.
           </p>
@@ -63,7 +63,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">5. Disclaimer of Warranties</h2>
           <p>
-            Par Precision is provided &quot;as is&quot; and &quot;as available&quot; without any
+            Par Percision is provided &quot;as is&quot; and &quot;as available&quot; without any
             warranties of any kind, either express or implied. We do not warrant that:
           </p>
           <ul className="list-disc pl-6 space-y-2 mt-3">
@@ -76,7 +76,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">6. Limitation of Liability</h2>
           <p>
-            Par Precision and its owners shall not be liable for any direct, indirect, incidental,
+            Par Percision and its owners shall not be liable for any direct, indirect, incidental,
             consequential, or punitive damages arising from your use of the website or reliance on
             any information provided on the website. This includes, but is not limited to, damages
             from purchasing products based on our reviews or recommendations.
@@ -95,7 +95,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">8. Intellectual Property</h2>
           <p>
-            All content, trademarks, logos, and intellectual property displayed on Par Precision are
+            All content, trademarks, logos, and intellectual property displayed on Par Percision are
             the property of their respective owners. Product names and brands mentioned in our reviews
             are trademarks of their respective companies.
           </p>

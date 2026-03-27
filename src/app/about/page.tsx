@@ -4,9 +4,9 @@ import { Target, BarChart3, Shield, Zap } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Par Precision",
+  title: "About Par Percision",
   description:
-    "Par Precision is your trusted source for independent golf simulator and launch monitor reviews. We test every product hands-on so you can make informed decisions.",
+    "Par Percision is your trusted source for independent golf simulator and launch monitor reviews. We test every product hands-on so you can make informed decisions.",
   alternates: { canonical: "https://parpercision.com/about" },
 };
 
@@ -22,7 +22,7 @@ export default function AboutPage() {
             "@type": "AboutPage",
             mainEntity: {
               "@type": "Organization",
-              name: "Par Precision",
+              name: "Par Percision",
               url: "https://parpercision.com",
               description:
                 "Independent golf simulator and launch monitor review site.",
@@ -38,7 +38,7 @@ export default function AboutPage() {
         }}
       />
 
-      <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">About Par Precision</h1>
+      <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">About Par Percision</h1>
 
       <div className="relative aspect-[3/1] rounded-2xl overflow-hidden mb-10 shadow-lg">
         <Image
@@ -52,7 +52,7 @@ export default function AboutPage() {
 
       <div className="prose max-w-none space-y-6 text-gray-700 leading-relaxed text-lg">
         <p>
-          Par Precision started in late 2023 because we couldn&apos;t find honest, detailed reviews
+          Par Percision started in late 2023 because we couldn&apos;t find honest, detailed reviews
           that actually compared golf simulators and launch monitors side-by-side with real data.
           Most &quot;reviews&quot; out there were just rewritten spec sheets with affiliate links
           slapped on.
@@ -101,7 +101,7 @@ export default function AboutPage() {
 
         <h2 className="text-2xl font-bold text-foreground mt-10 mb-4">How We Make Money</h2>
         <p>
-          Par Precision earns revenue through affiliate commissions. When you click a product link
+          Par Percision earns revenue through affiliate commissions. When you click a product link
           and make a purchase, we may earn a small commission at no extra cost to you. This is how we
           fund our testing and keep the site free.
         </p>

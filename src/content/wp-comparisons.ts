@@ -7,7 +7,7 @@ export const wpComparisonArticles: Article[] = [
     description:
       "If you’re comparing TrackMan iO vs TrackMan 4, you’re not trying to decide which system is more accurate. Both deliver elite, tour-trusted ball data.",
     date: "2026-02-02",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "comparisons",
     categoryLabel: "Comparison",
     keywords: ["TrackMan iO vs TrackMan 4", "trackman io vs trackman 4", "trackman 4 vs trackman io", "trackman io vs trackman 4 golf simulator"],
@@ -124,7 +124,7 @@ export const wpComparisonArticles: Article[] = [
 <p>The TrackMan iO Home starts around $13,995 while the TrackMan 4 starts around $23,495. The iO is significantly cheaper but limited to indoor use only.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/trackman-io-review">TrackMan iO Review</a></li>
 <li><a href="/best-golf-launch-monitors">Best Golf Launch Monitors</a></li>
@@ -140,7 +140,7 @@ export const wpComparisonArticles: Article[] = [
     description:
       "Foresight Sports GC3S or GC3? We break down price, accuracy, and software access so you can make the right choice.",
     date: "2025-01-30",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "comparisons",
     categoryLabel: "Comparison",
     keywords: ["foresight sports gc3s", "gc3s vs gc3", "foresight sports gc3s vs gc3", "gc3 vs foresight sports gc3s", "foresight sports gc3s vs gc3 golf simulator"],
@@ -269,7 +269,7 @@ $6,999
 <p>No. They are separate products. You would need to purchase the GC3 separately if you want to switch.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/foresight-sports-gc3">Foresight GC3 Review</a></li>
 <li><a href="/foresight-sports-gc3s">Foresight GC3S Review</a></li>
@@ -285,7 +285,7 @@ $6,999
     description:
       "Trackman iO Home vs Complete explained clearly. Same hardware, but the software, club data, courses, and pricing change the experience.",
     date: "2025-11-15",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "comparisons",
     categoryLabel: "Comparison",
     keywords: ["Trackman iO Home vs Complete", "trackman home vs complete", "trackman io home vs complete", "complete vs trackman io home", "trackman io home vs complete golf simulator"],
@@ -418,7 +418,7 @@ $6,999
 <p>Yes. TrackMan allows upgrading between packages, though the upgrade cost varies. Contact TrackMan directly for current upgrade pricing.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/trackman-io-review">TrackMan iO Review</a></li>
 <li><a href="/trackman-io-vs-trackman-4">TrackMan iO vs TrackMan 4</a></li>
@@ -434,7 +434,7 @@ $6,999
     description:
       "A clear 2025 breakdown of the Garmin R50 vs GC3. Compare accuracy, software, indoor use, and pricing to see which one fits your game.",
     date: "2025-11-15",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "comparisons",
     categoryLabel: "Comparison",
     keywords: ["Garmin R50 vs GC3", "garmin r50 vs gc3", "gc3 vs garmin r50", "garmin r50 vs gc3 golf simulator"],
@@ -637,7 +637,7 @@ $</span></span>
 <p>The Garmin R50 is approximately $2,499 while the Foresight GC3 is approximately $7,500.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/garmin-approach-r50">Garmin Approach R50 Review</a></li>
 <li><a href="/foresight-sports-gc3">Foresight GC3 Review</a></li>
@@ -653,7 +653,7 @@ $</span></span>
     description:
       "The difference between SkyTrak and SkyTrak Plus comes down to tracking, club data, speed, and outdoor performance. Here’s the real comparison.",
     date: "2025-11-14",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "comparisons",
     categoryLabel: "Comparison",
     keywords: ["Difference Between SkyTrak and SkyTrak Plus", "skytrak vs skytrak plus", "skytrak vs skytrak plus differences", "skytrak plus differences vs skytrak", "skytrak vs skytrak plus differences golf simulator"],
@@ -724,7 +724,7 @@ $</span></span>
 <p>Yes. The SkyTrak+ is noticeably more accurate than the original, particularly for spin rate measurements and in outdoor conditions.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/skytrak-plus-for-beginners">SkyTrak+ for Beginners</a></li>
 <li><a href="/how-accurate-is-the-skytrak-plus">SkyTrak+ Accuracy</a></li>
@@ -740,7 +740,7 @@ $</span></span>
     description:
       "Launch monitor vs. golf simulator, what’s the difference? Find out which one fits your budget, space, and game improvement needs!",
     date: "2025-01-31",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "comparisons",
     categoryLabel: "Comparison",
     keywords: ["launch monitor vs golf simulator", "launch monitor vs simulator", "golf simulator vs launch monitor"],
@@ -883,7 +883,7 @@ https://www.youtube.com/watch?v=vmUWvp12xn0&amp;t=5s
 <p>A launch monitor alone ranges from $300-$20,000. A complete simulator setup (launch monitor + screen + projector + enclosure + mat) typically costs $3,000-$50,000+ depending on quality.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/best-golf-launch-monitors">Best Golf Launch Monitors</a></li>
 <li><a href="/best-golf-simulators-for-home">Best Golf Simulators for Home</a></li>
@@ -899,7 +899,7 @@ https://www.youtube.com/watch?v=vmUWvp12xn0&amp;t=5s
     description:
       "See how the Bushnell Launch Pro and SkyTrak+ stack up in accuracy, performance, software feel, and overall value.",
     date: "2025-11-15",
-    author: "Par Precision",
+    author: "Par Percision",
     category: "comparisons",
     categoryLabel: "Comparison",
     keywords: ["Bushnell Launch Pro vs SkyTrak+", "bushnell vs skytrak+", "bushnell launch pro vs skytrak plus", "skytrak plus vs bushnell launch pro", "bushnell launch pro vs skytrak plus golf simulator"],
@@ -1028,7 +1028,7 @@ https://www.youtube.com/watch?v=94l7BITIa54&amp;t=27s
 <p>The SkyTrak+ works outdoors but can struggle in bright sunlight. The Bushnell Launch Pro also works outdoors. Neither is as good outdoors as radar-based systems like the Garmin R50.</p>
 
 <h2>Related Articles</h2>
-<p>Check out these related guides and reviews from Par Precision:</p>
+<p>Check out these related guides and reviews from Par Percision:</p>
 <ul>
 <li><a href="/bushnell-lpi">Bushnell LPi Review</a></li>
 <li><a href="/skytrak-plus-for-beginners">SkyTrak+ for Beginners</a></li>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Par Precision privacy policy. Learn how we collect, use, and protect your information.",
+  description: "Par Percision privacy policy. Learn how we collect, use, and protect your information.",
   alternates: { canonical: "https://parpercision.com/privacy" },
 };
 
@@ -15,7 +15,7 @@ export default function PrivacyPage() {
       <div className="prose prose-gray max-w-none space-y-6 text-gray-700 leading-relaxed">
         <section>
           <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">1. Information We Collect</h2>
-          <p>When you visit Par Precision (&quot;parpercision.com&quot;), we may collect certain information automatically, including:</p>
+          <p>When you visit Par Percision (&quot;parpercision.com&quot;), we may collect certain information automatically, including:</p>
           <ul className="list-disc pl-6 space-y-2 mt-3">
             <li><strong>Usage Data:</strong> Pages viewed, time spent on pages, referring URLs, browser type, device type, and IP address.</li>
             <li><strong>Email Address:</strong> When you voluntarily subscribe to our newsletter or download a guide, we collect the email address you provide.</li>
@@ -37,7 +37,7 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">3. Affiliate Links & Third-Party Services</h2>
           <p>
-            Par Precision participates in affiliate marketing programs. When you click on affiliate links
+            Par Percision participates in affiliate marketing programs. When you click on affiliate links
             on our site and make a purchase, we may earn a commission at no additional cost to you.
             These affiliate partners may use cookies to track your purchases.
           </p>

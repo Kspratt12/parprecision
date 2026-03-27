@@ -66,14 +66,14 @@ export function Navbar() {
           <Link href="/" className="flex items-center gap-2 group">
             <Image
               src="/Logo.png"
-              alt="Par Precision"
+              alt="Par Percision"
               width={36}
               height={36}
               className="rounded-lg"
               priority
             />
             <span className="text-xl font-bold text-foreground tracking-tight">
-              Par <span className="text-primary">Precision</span>
+              Par <span className="text-primary">Percision</span>
             </span>
           </Link>
 

@@ -159,12 +159,12 @@ export function ArticlePage({ article }: { article: Article }) {
               url: "https://parpercision.com/about",
               worksFor: {
                 "@type": "Organization",
-                name: "Par Precision",
+                name: "Par Percision",
               },
             },
             publisher: {
               "@type": "Organization",
-              name: "Par Precision",
+              name: "Par Percision",
               logo: {
                 "@type": "ImageObject",
                 url: "https://parpercision.com/Logo.png",
@@ -297,7 +297,7 @@ export function ArticlePage({ article }: { article: Article }) {
             <Link href="/about" className="font-bold text-foreground hover:text-primary transition-colors">
               Kelvin Spratt
             </Link>
-            <p className="text-sm text-primary font-medium mb-2">Golf Technology Writer at Par Precision</p>
+            <p className="text-sm text-primary font-medium mb-2">Golf Technology Writer at Par Percision</p>
             <p className="text-sm text-muted leading-relaxed">
               Kelvin has been covering golf simulators and launch monitors since 2023. He researches and compares products from SkyTrak, TrackMan, Foresight Sports, Garmin, Uneekor, and more to help golfers find the right setup for their home.
             </p>

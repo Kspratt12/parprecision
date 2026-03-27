@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Affiliate Disclosure",
-  description: "Par Precision affiliate disclosure. Transparency about how we earn commissions from product recommendations.",
+  description: "Par Percision affiliate disclosure. Transparency about how we earn commissions from product recommendations.",
   alternates: { canonical: "https://parpercision.com/affiliate-disclosure" },
 };
 
@@ -15,7 +15,7 @@ export default function AffiliateDisclosurePage() {
       <div className="prose prose-gray max-w-none space-y-6 text-gray-700 leading-relaxed">
         <div className="bg-accent border border-primary/20 rounded-xl p-6 mb-8">
           <p className="text-foreground font-medium">
-            <strong>In short:</strong> Some links on Par Precision are affiliate links. If you click
+            <strong>In short:</strong> Some links on Par Percision are affiliate links. If you click
             one and buy something, we may earn a small commission — at no extra cost to you. This
             helps us keep the site running and free for everyone.
           </p>
@@ -24,7 +24,7 @@ export default function AffiliateDisclosurePage() {
         <section>
           <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">How We Make Money</h2>
           <p>
-            Par Precision is an independently operated review website. We earn revenue through
+            Par Percision is an independently operated review website. We earn revenue through
             affiliate marketing programs, which means we may receive a commission when you purchase
             a product through one of our links.
           </p>
@@ -63,7 +63,7 @@ export default function AffiliateDisclosurePage() {
         <section>
           <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">Identifying Affiliate Links</h2>
           <p>
-            On Par Precision, affiliate links are typically found in product reviews, comparison
+            On Par Percision, affiliate links are typically found in product reviews, comparison
             articles, and &quot;best of&quot; roundup posts. Buttons like &quot;Check Price,&quot;
             &quot;Buy Here,&quot; or &quot;View Deal&quot; are affiliate links.
           </p>

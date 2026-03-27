@@ -6,7 +6,7 @@ import { StarRating } from "@/components/StarRating";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Par Precision | Best Golf Simulators & Launch Monitors Reviewed (2026)",
+  title: "Par Percision | Best Golf Simulators & Launch Monitors Reviewed (2026)",
   description:
     "Independent golf simulator and launch monitor reviews with real accuracy data. Compare SkyTrak, TrackMan, Foresight, Garmin, Uneekor and more. Find the right setup for your home.",
   alternates: {
@@ -83,7 +83,7 @@ export default function HomePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            name: "Par Precision",
+            name: "Par Percision",
             url: "https://parpercision.com",
             logo: { "@type": "ImageObject", url: "https://parpercision.com/Logo.png", width: 300, height: 300 },
             description: "Independent golf simulator and launch monitor reviews with real accuracy data.",
@@ -98,7 +98,7 @@ export default function HomePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebSite",
-            name: "Par Precision",
+            name: "Par Percision",
             url: "https://parpercision.com",
             description: "Expert reviews, comparisons, and buying guides for golf simulators and launch monitors.",
             potentialAction: { "@type": "SearchAction", target: "https://parpercision.com/search?q={search_term_string}", "query-input": "required name=search_term_string" },
@@ -282,7 +282,7 @@ export default function HomePage() {
 
             {/* Right: Why us */}
             <div className="bg-white rounded-2xl border border-border p-8">
-              <h3 className="text-xl font-bold text-foreground mb-6">Why Par Precision?</h3>
+              <h3 className="text-xl font-bold text-foreground mb-6">Why Par Percision?</h3>
               <div className="space-y-5">
                 {[
                   { icon: Search, title: "Deep Research", desc: "Real specs, real user data, and honest analysis on every product we cover." },
