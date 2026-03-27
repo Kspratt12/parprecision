@@ -138,6 +138,11 @@ export function ArticlePage({ article }: { article: Article }) {
   // Check if article has any FAQ section
   const hasFAQ = /Frequently Asked Questions|FAQ|FAQs/i.test(article.content);
 
+  // Extract rating from review-verdict box if present
+  const ratingMatch = article.content.match(/rating-badge">(\d+\.?\d*)</);
+  const hasRating = !!ratingMatch;
+  const ratingValue = ratingMatch ? ratingMatch[1] : null;
+
   return (
     <>
       {/* Article JSON-LD with author */}
@@ -193,6 +198,44 @@ export function ArticlePage({ article }: { article: Article }) {
           }),
         }}
       />
+
+      {/* Review Schema with Rating */}
+      {hasRating && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Review",
+              name: article.title,
+              reviewBody: article.description,
+              author: { "@type": "Person", name: "Kelvin" },
+              datePublished: article.date,
+              dateModified: todayISO,
+              reviewRating: {
+                "@type": "Rating",
+                ratingValue: ratingValue,
+                bestRating: "10",
+                worstRating: "1",
+              },
+              itemReviewed: {
+                "@type": "Product",
+                name: article.title.split(":")[0].replace("Review", "").trim(),
+                review: {
+                  "@type": "Review",
+                  reviewRating: {
+                    "@type": "Rating",
+                    ratingValue: ratingValue,
+                    bestRating: "10",
+                  },
+                  author: { "@type": "Person", name: "Kelvin" },
+                },
+              },
+              publisher: { "@type": "Organization", name: "Par Percision" },
+            }),
+          }}
+        />
+      )}
 
       {/* FAQ Schema */}
       {hasFAQ && (

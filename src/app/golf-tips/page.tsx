@@ -50,8 +50,8 @@ export default function GolfTipsIndexPage() {
           </div>
           <div className="hidden md:block relative aspect-[4/3] rounded-xl overflow-hidden">
             <Image
-              src="/wp-content/uploads/2025/10/womens-golf-blog.webp"
-              alt="Golfer practicing swing fundamentals"
+              src="/wp-content/uploads/2025/10/ratio3x2_1920.jpg"
+              alt="Golfer practicing swing drills on the course"
               fill
               className="object-cover"
               sizes="400px"
