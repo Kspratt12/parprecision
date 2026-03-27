@@ -119,7 +119,7 @@ export const wpGolfTipArticles: Article[] = [
 
 <h3>6. Strike the Match Drill - Add Compression and Feel</h3>
 
-<img src="/wp-content/uploads/2025/10/image-8-1024x576.png" alt="Strike The Match Drill" class="wp-image-4357"/>
+<img src="/wp-content/uploads/2025/10/image-8-1024x576.webp" alt="Strike The Match Drill" class="wp-image-4357"/>
 
 <p>Imagine striking a match right through the turf as you hit. Keep your hands slightly ahead of the ball and feel the face drive through impact.</p>
 
@@ -375,7 +375,7 @@ $
 
 <p>Closing in on the top of my list is the Foresight GCQuad SwingBay Golf Simulator Package, a system designed for those who demand professional-level accuracy. Powered by Foresight Sports’ industry-leading quadrascopic camera technology, this launch monitor provides highly detailed club and ball data, making it one of the most trusted tools in professional golf.</p>
 
-<p>What makes the <a href="https://parpercision.com/foresight-sports-gcquad/" target="_blank" rel="noreferrer noopener">G</a><a href="https://parpercision.com/foresight-sports-gcquad/">CQuad</a> stand out is its ability to capture incredibly precise shot metrics, including ball speed, launch angle, spin rate, and clubface alignment. The SwingBay enclosure and impact screen provide a crystal-clear display, while the included short-throw projector enhances realism, ensuring an immersive playing experience. With FSX Play, FSX 2020, and E6 CONNECT compatibility, it offers a vast selection of world-class courses, skill-building challenges, and in-depth analytics.</p>
+<p>What makes the <a href="https://parpercision.com/foresight-sports-gcquad/" target="_blank" rel="noreferrer noopener">GCQuad</a> stand out is its ability to capture incredibly precise shot metrics, including ball speed, launch angle, spin rate, and clubface alignment. The SwingBay enclosure and impact screen provide a crystal-clear display, while the included short-throw projector enhances realism, ensuring an immersive playing experience. With FSX Play, FSX 2020, and E6 CONNECT compatibility, it offers a vast selection of world-class courses, skill-building challenges, and in-depth analytics.</p>
 
 <p>While this simulator setup does require a more significant investment, its pinpoint accuracy and seamless software integration make it a favorite among serious golfers and instructors. If you're looking for a high-performance system that delivers pro-level insights, the GCQuad SwingBay is one of the best choices available.</p>
 
@@ -507,7 +507,7 @@ https://www.youtube.com/watch?v=1nkUvZa54ts
 
 <h3>2. The Mirror Posture Drill</h3>
 
-<img src="/wp-content/uploads/2025/10/image.png.3b2c51a0deb7adc4f191d6bb057d3b70.png" alt="mirror posture golf drill" class="wp-image-4374"/>
+<img src="/wp-content/uploads/2025/10/image.png.3b2c51a0deb7adc4f191d6bb057d3b70.webp" alt="mirror posture golf drill" class="wp-image-4374"/>
 
 <p>Posture sets the foundation for your swing. Most beginners lose power because they bend their knees too much or hunch their shoulders.</p>
 
@@ -579,7 +579,7 @@ https://www.youtube.com/watch?v=1nkUvZa54ts
 
 <h3>8. The Alignment Stick Drill</h3>
 
-<img src="/wp-content/uploads/2025/10/image.png.e78263060ebeaa9f9d57ad7b68690461.png" alt="golf alignment stick drill" class="wp-image-4373"/>
+<img src="/wp-content/uploads/2025/10/image.png.e78263060ebeaa9f9d57ad7b68690461.webp" alt="golf alignment stick drill" class="wp-image-4373"/>
 
 <p>Alignment problems cause most beginner misses.</p>
 
@@ -593,7 +593,7 @@ https://www.youtube.com/watch?v=1nkUvZa54ts
 
 <h3>9. The Impact Bag Drill</h3>
 
-<img src="/wp-content/uploads/2025/10/image.png.168d74e2a46cb40de0cffd8a02116fa1.png" alt="Golf impact bag drill" class="wp-image-4371"/>
+<img src="/wp-content/uploads/2025/10/image.png.168d74e2a46cb40de0cffd8a02116fa1.webp" alt="Golf impact bag drill" class="wp-image-4371"/>
 
 <p>Impact decides everything-face angle, compression, and distance.</p>
 

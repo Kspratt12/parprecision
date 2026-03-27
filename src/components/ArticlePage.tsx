@@ -57,6 +57,25 @@ function addHeadingIds(content: string): string {
   });
 }
 
+function addImageLazyLoading(content: string): string {
+  let imageCount = 0;
+  return content.replace(/<img /gi, (match) => {
+    imageCount++;
+    if (imageCount === 1) {
+      // First image is likely LCP - load eagerly
+      return '<img loading="eager" ';
+    }
+    return '<img loading="lazy" ';
+  });
+}
+
+function makeImagesResponsive(content: string): string {
+  return content.replace(
+    /(<img\s[^>]*?)style="[^"]*?width:\s*\d+px[^"]*?"([^>]*?>)/gi,
+    '$1style="max-width:100%;height:auto"$2'
+  );
+}
+
 function styleFAQSection(content: string): string {
   const faqPattern = /(<h2[^>]*>[\s\S]*?(?:Frequently Asked Questions|FAQ|FAQs)[\s\S]*?<\/h2>)/i;
   const faqSplit = content.split(faqPattern);
@@ -159,7 +178,7 @@ function extractProducts(content: string) {
 }
 
 export function ArticlePage({ article }: { article: Article }) {
-  const processedContent = styleFAQSection(addHeadingIds(article.content));
+  const processedContent = addImageLazyLoading(makeImagesResponsive(styleFAQSection(addHeadingIds(article.content))));
   const formattedDate = new Date(article.date).toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",

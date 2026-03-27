@@ -48,6 +48,14 @@ const nextConfig: NextConfig = {
       { source: "/best-golf-simulators-for-small-spaces-5", destination: "/best-golf-simulators-for-small-spaces", permanent: true },
       { source: "/best-overhead-launch-monitors-8", destination: "/best-overhead-launch-monitors-review", permanent: true },
 
+      // Product shortcut slugs — redirect to full review pages
+      { source: "/bushnell-launch-pro", destination: "/bushnell-lpi", permanent: true },
+      { source: "/skytrak-plus", destination: "/skytrak-plus-for-beginners", permanent: true },
+      { source: "/trackman-io", destination: "/trackman-io-review", permanent: true },
+      { source: "/full-swing-kit", destination: "/full-swing-kit-review", permanent: true },
+      { source: "/trugolf-apogee", destination: "/trugolf-apogee-review", permanent: true },
+      { source: "/foresight-falcon", destination: "/foresight-falcon-review", permanent: true },
+
       // Removed corny Next.js review articles — redirect to WP equivalents
       { source: "/reviews/skytrak-plus", destination: "/skytrak-plus-for-beginners", permanent: true },
       { source: "/reviews/bushnell-launch-pro", destination: "/bushnell-lpi", permanent: true },
