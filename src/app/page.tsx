@@ -88,7 +88,6 @@ export default function HomePage() {
             logo: { "@type": "ImageObject", url: "https://parpercision.com/Logo.png", width: 300, height: 300 },
             description: "Independent golf simulator and launch monitor reviews with real accuracy data.",
             foundingDate: "2023",
-            sameAs: ["https://www.youtube.com/@ParPrecision", "https://x.com/parprecision", "https://www.facebook.com/parprecision"],
           }),
         }}
       />
@@ -200,6 +199,14 @@ export default function HomePage() {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="mt-6 pt-6 border-t border-border">
+            <p className="text-xs text-muted mb-3 uppercase tracking-wider font-medium">Brands We Cover</p>
+            <div className="flex flex-wrap gap-x-6 gap-y-2">
+              {["SkyTrak", "TrackMan", "Foresight Sports", "Garmin", "Uneekor", "Bushnell", "FlightScope", "Full Swing", "ProTee", "TruGolf", "Rapsodo", "HD Golf"].map((brand) => (
+                <span key={brand} className="text-sm text-muted font-medium">{brand}</span>
+              ))}
+            </div>
           </div>
         </div>
       </section>

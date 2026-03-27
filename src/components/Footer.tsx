@@ -26,7 +26,7 @@ const footerLinks = {
   Company: [
     { name: "About Us", href: "/about" },
     { name: "Contact", href: "/contact" },
-    { name: "Newsletter", href: "/newsletter" },
+    { name: "Buying Guide", href: "https://sprattler3.gumroad.com/l/best-golf-simulator-for-home-pdf-guide" },
     { name: "Affiliate Disclosure", href: "/affiliate-disclosure" },
     { name: "Privacy Policy", href: "/privacy" },
   ],
