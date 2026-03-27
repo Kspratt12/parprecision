@@ -69,6 +69,9 @@ const nextConfig: NextConfig = {
       { source: "/golf-tips/how-to-fix-a-slice", destination: "/golf-swing-drills", permanent: true },
       { source: "/golf-tips/how-to-increase-clubhead-speed", destination: "/golf-swing-drills", permanent: true },
 
+      // Merged content redirects
+      { source: "/launch-monitor-pros-use", destination: "/what-launch-monitor-do-pros-use", permanent: true },
+
       // Next.js list pages → WP equivalents
       { source: "/reviews/best-launch-monitors", destination: "/best-golf-launch-monitors", permanent: true },
       { source: "/reviews/best-overhead-launch-monitors", destination: "/best-overhead-launch-monitors-review", permanent: true },

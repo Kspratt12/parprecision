@@ -199,19 +199,19 @@ export const wpGolfTipArticles: Article[] = [
 
 <h2>Frequently Asked Questions</h2>
 
-<h4>What are the best golf swing drills for beginners?</h4>
+<h3>What are the best golf swing drills for beginners?</h3>
 
 <p>Start with the towel drill and tee peg drill. Both teach connection and contact - two fundamentals every beginner needs before chasing speed.</p>
 
-<h4>Can I do golf swing drills at home without a net?</h4>
+<h3>Can I do golf swing drills at home without a net?</h3>
 
 <p>Yes. Mirror, chair, and alignment stick drills all work indoors with limited space. Focus on tempo and body movement rather than hitting balls.</p>
 
-<h4>Which golf swing drill improves consistency the fastest?</h4>
+<h3>Which golf swing drill improves consistency the fastest?</h3>
 
 <p>The chair drill. It fixes posture, sway, and rotation all at once - three things that affect contact and balance on every swing.</p>
 
-<h4>How many drills should I practice per week?</h4>
+<h3>How many drills should I practice per week?</h3>
 
 <p>Stick with one or two until you can perform them naturally. Switching too often resets progress.</p>
 
@@ -263,9 +263,7 @@ export const wpGolfTipArticles: Article[] = [
 
 <h3>1. SkyTrak+ SwingBay Golf Simulator Package</h3>
 
-$
-
-6,795
+<p class="product-price">$6,795</p>
 
 <p>Golfers needing a balance of performance and space efficiency will appreciate the SkyTrak+ SwingBay. Its dual Doppler radar and high-speed cameras deliver reliable ball and club data, all within a compact and immersive setup.</p>
 
@@ -295,9 +293,7 @@ $
 
 <h3>2. TrackMan iO SwingBay Golf Simulator</h3>
 
-$
-
-18,295
+<p class="product-price">$18,295</p>
 
 <p>For those prioritizing elite accuracy, the TrackMan iO SwingBay is an excellent choice. Its ceiling-mounted radar and infrared tracking system ensure precise shot data while seamlessly integrating with premium simulation software.</p>
 
@@ -325,9 +321,7 @@ $
 
 <h3>3. ProTee VX SwingBay Golf Simulator</h3>
 
-$
-
-10,800
+<p class="product-price">$10,800</p>
 
 <p>If versatility is key, the ProTee VX SwingBay stands out. Its dual high-speed cameras and AI-powered tracking system provide real-time shot feedback, making it a strong option for multi-user environments.</p>
 
@@ -355,9 +349,7 @@ $
 
 <h3>4. Foresight Sports GCQuad SwingBay Golf Simulator</h3>
 
-$
-
-19,999
+<p class="product-price">$19,999</p>
 
 <p>Those looking for tour-level performance should consider the Foresight GCQuad SwingBay. With quadrascopic camera technology, it captures highly detailed ball and club metrics for the most accurate simulation experience.</p>
 
@@ -385,9 +377,7 @@ $
 
 <h3>5. Garmin Approach R50 SwingBay Golf Simulator</h3>
 
-$
-
-9,299
+<p class="product-price">$9,299</p>
 
 <p>A great budget-friendly option, the Garmin Approach R50 SwingBay delivers dependable shot tracking through Doppler radar technology. Its easy setup and mobile integration make it ideal for casual golfers and small spaces.</p>
 

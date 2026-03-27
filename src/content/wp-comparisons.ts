@@ -216,15 +216,11 @@ https://www.youtube.com/watch?v=vmUWvp12xn0&amp;t=90s
 
 <p>Imagine setting up a winter training space using GSPro and FSX Play, only to have access revoked when the GC3S subscription expires. Suddenly, the courses, analytics, and gameplay you relied on for indoor training become unavailable. The GC3 guarantees software access for life, making it the better option for golfers who depend on simulator play for long-term improvement.</p>
 
-<span><mark>Best For Simulator Setups</mark>
+<span class="product-badge">Best For Simulator Setups</span>
 
 <h2>Foresight Sports GC3</h2>
 
-$
-
-$6,999
-
-</span>
+<p class="product-price">$6,999</p>
 
 <p>The <a href="/foresight-sports-gc3s">Foresight Sports GC3</a> offers pro-level ball and club tracking, reliable indoor performance, and lifetime access to FSX Play, FSX Pro, and GSPro.</p>
 
@@ -520,13 +516,11 @@ $6,999
 
 <p>Daily habit usually decides which one feels more natural to live with.</p>
 
-<span><mark><strong>Best for Accuracy</strong></mark>
+<span class="product-badge">Best for Accuracy</span>
 
 <h2>Foresight GC3</h2>
 
-$
-
-6,999
+<p class="product-price">$6,999</p>
 
 <p>Precision is where the GC3 shines. It gives stable numbers and a hitting zone that feels built for serious practice and long term simulator use.</p>
 
@@ -564,15 +558,11 @@ $
 
 <p>If you want to control total spend and still enjoy accurate ball data with a modern screen, the Garmin R50 lines up with that goal. If you are planning a long term simulator build that needs trusted numbers and deep software, the GC3 starts to look more like an investment.</p>
 
-<span><mark><strong>Best All-In One Experience</strong></mark></span>
+<span class="product-badge">Best All-In One Experience</span>
 
 <h2>Garmin Approach R50</h2>
 
-$</span></span>
-
-4,999</span></span>
-
-</span></span>
+<p class="product-price">$4,999</p>
 
 <p>Touchscreen convenience defines the R50. It gives golfers an easy way to practice and play basic simulation without extra gear cluttering the bay.</p>
 

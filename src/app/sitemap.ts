@@ -46,7 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "what-launch-monitor-do-pros-use", "how-accurate-is-the-skytrak-plus",
     "best-golf-simulators-under-10000", "best-portable-golf-launch-monitors",
     "what-launch-monitor-does-tiger-woods-use", "skytrak-plus-for-beginners",
-    "is-it-worth-buying-a-golf-launch-monitor", "launch-monitor-pros-use",
+    "is-it-worth-buying-a-golf-launch-monitor",
     "best-overhead-launch-monitors-review", "how-much-does-a-golf-launch-monitor-cost-find-out-here",
     "how-to-build-a-golf-simulator-2", "do-golf-simulators-improve-your-game",
     "golf-simulator-setup", "how-to-build-a-golf-simulator-mancave",
