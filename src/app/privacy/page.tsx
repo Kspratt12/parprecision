@@ -109,8 +109,8 @@ export default function PrivacyPage() {
           <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">10. Contact Us</h2>
           <p>
             If you have any questions about this privacy policy, please contact us at{" "}
-            <a href="mailto:hello@parpercision.com" className="text-primary hover:underline">
-              hello@parpercision.com
+            <a href="mailto:kelvin@listingflare.com" className="text-primary hover:underline">
+              kelvin@listingflare.com
             </a>
           </p>
         </section>

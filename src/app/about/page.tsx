@@ -122,8 +122,8 @@ export default function AboutPage() {
         <p>
           Have a question, product suggestion, or just want to talk golf? We&apos;d love to hear
           from you. Reach out at{" "}
-          <a href="mailto:hello@parpercision.com" className="text-primary hover:underline font-medium">
-            hello@parpercision.com
+          <a href="mailto:kelvin@listingflare.com" className="text-primary hover:underline font-medium">
+            kelvin@listingflare.com
           </a>{" "}
           or visit our{" "}
           <Link href="/contact" className="text-primary hover:underline font-medium">

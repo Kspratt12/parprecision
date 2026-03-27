@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const benefits = [
   {
     icon: BookOpen,
-    title: "Free Buying Guide",
+    title: "Golf Simulator Buying Guide",
     description: "Our complete golf simulator buying guide with comparison charts, cost breakdowns, and room setup checklists.",
   },
   {
@@ -36,10 +36,10 @@ export default function NewsletterPage() {
           Newsletter
         </p>
         <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-5 leading-tight">
-          Get the Free Golf Simulator<br />Buying Guide
+          Get the Golf Simulator<br />Buying Guide
         </h1>
         <p className="text-lg text-muted max-w-2xl mx-auto mb-8">
-          Get our free guide to find the perfect golf simulator setup for your space and budget.
+          Get the guide to find the perfect golf simulator setup for your space and budget.
           Plus, get weekly deals and new review alerts straight to your inbox.
         </p>
         <div className="flex justify-center">

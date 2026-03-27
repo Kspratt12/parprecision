@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Menu, X, ChevronDown, Search } from "lucide-react";
 
 const navigation = [
@@ -45,6 +45,18 @@ const navigation = [
 export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const searchRef = useRef<HTMLInputElement>(null);
+
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      window.location.href = `/blog?q=${encodeURIComponent(searchQuery.trim())}`;
+      setSearchOpen(false);
+      setSearchQuery("");
+    }
+  };
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-border">
@@ -101,19 +113,21 @@ export function Navbar() {
 
           {/* Right side */}
           <div className="hidden lg:flex items-center gap-3">
-            <Link
-              href="/blog"
+            <button
+              onClick={() => setSearchOpen(!searchOpen)}
               className="p-2 text-gray-500 hover:text-primary hover:bg-accent rounded-lg transition-colors"
-              aria-label="Browse all articles"
+              aria-label="Search articles"
             >
               <Search className="w-5 h-5" />
-            </Link>
-            <Link
-              href="/newsletter"
+            </button>
+            <a
+              href="https://sprattler3.gumroad.com/l/best-golf-simulator-for-home-pdf-guide"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-5 py-2.5 bg-primary text-white text-sm font-semibold rounded-full hover:bg-primary-dark transition-colors shadow-sm"
             >
-              Free Guide →
-            </Link>
+              Buying Guide $19.95
+            </a>
           </div>
 
           {/* Mobile toggle */}
@@ -154,17 +168,51 @@ export function Navbar() {
               </div>
             ))}
             <div className="mt-4 px-4">
-              <Link
-                href="/newsletter"
+              <a
+                href="https://sprattler3.gumroad.com/l/best-golf-simulator-for-home-pdf-guide"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block w-full text-center px-5 py-3 bg-primary text-white text-sm font-semibold rounded-full hover:bg-primary-dark transition-colors"
                 onClick={() => setMobileOpen(false)}
               >
-                Get Free Simulator Guide →
-              </Link>
+                Buying Guide $19.95
+              </a>
             </div>
           </div>
         )}
       </nav>
+
+      {/* Search Bar */}
+      {searchOpen && (
+        <div className="border-b border-border bg-white">
+          <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <form onSubmit={handleSearch} className="flex gap-2">
+              <input
+                ref={searchRef}
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Search articles, reviews, guides..."
+                className="flex-1 px-4 py-3 border border-border rounded-lg text-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary"
+                autoFocus
+              />
+              <button
+                type="submit"
+                className="px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-dark transition-colors text-sm"
+              >
+                Search
+              </button>
+              <button
+                type="button"
+                onClick={() => { setSearchOpen(false); setSearchQuery(""); }}
+                className="px-3 py-3 text-muted hover:text-foreground transition-colors"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </form>
+          </div>
+        </div>
+      )}
     </header>
   );
 }

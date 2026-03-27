@@ -39,10 +39,10 @@ export function Footer() {
         {/* Newsletter CTA */}
         <div className="bg-primary/5 border border-primary/20 rounded-2xl p-8 md:p-12 mb-16 text-center">
           <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-3">
-            Get the Free Golf Simulator Buying Guide
+            Golf Simulator Buying Guide
           </h3>
           <p className="text-muted max-w-2xl mx-auto mb-6">
-            Get our free guide to find the perfect golf simulator setup for your space and budget.
+            The complete guide to choosing the right golf simulator for your space and budget.
             Plus, get weekly deals and new review alerts.
           </p>
           <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
@@ -55,7 +55,7 @@ export function Footer() {
               type="submit"
               className="px-6 py-3 bg-primary text-white font-semibold rounded-full hover:bg-primary-dark transition-colors shadow-sm whitespace-nowrap"
             >
-              Send Me the Guide
+              Get the Guide
             </button>
           </form>
           <p className="text-xs text-muted mt-3">No spam, ever. Unsubscribe anytime.</p>

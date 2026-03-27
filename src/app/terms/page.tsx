@@ -114,8 +114,8 @@ export default function TermsPage() {
           <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">10. Contact</h2>
           <p>
             For questions about these terms, contact us at{" "}
-            <a href="mailto:hello@parpercision.com" className="text-primary hover:underline">
-              hello@parpercision.com
+            <a href="mailto:kelvin@listingflare.com" className="text-primary hover:underline">
+              kelvin@listingflare.com
             </a>
           </p>
         </section>

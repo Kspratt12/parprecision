@@ -33,7 +33,7 @@ export function NewsletterForm({ variant = "inline" }: { variant?: "inline" | "h
     return (
       <div className="flex items-center gap-2 text-primary font-medium">
         <CheckCircle className="w-5 h-5" />
-        <span>Check your inbox! Your free guide is on the way.</span>
+        <span>Check your inbox! Thanks for signing up!.</span>
       </div>
     );
   }
@@ -60,7 +60,7 @@ export function NewsletterForm({ variant = "inline" }: { variant?: "inline" | "h
           {status === "loading" ? (
             <Loader2 className="w-5 h-5 animate-spin mx-auto" />
           ) : (
-            "Get Free Guide →"
+            "Get the Guide →"
           )}
         </button>
       </form>
@@ -85,7 +85,7 @@ export function NewsletterForm({ variant = "inline" }: { variant?: "inline" | "h
         {status === "loading" ? (
           <Loader2 className="w-5 h-5 animate-spin mx-auto" />
         ) : (
-          "Get Free Guide"
+          "Get the Guide"
         )}
       </button>
     </form>
